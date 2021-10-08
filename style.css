@@ -65,6 +65,7 @@ body{
 .costado{
   width: 5%;
   background: white;
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -79,4 +80,7 @@ body{
   background-color: rgb(255, 78, 78);
   margin-left: 5%;
   bottom: 0;
+  color: white;
+  font-family: monospace; /*me odias*/
 }
+
