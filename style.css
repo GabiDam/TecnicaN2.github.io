@@ -12,7 +12,7 @@ main{
     margin-top: 4vw;
     
 }
-  .contenedorImg{                      
+.contenedorImg{                      
     width: 100%;
     max-width: 850px;
     margin: 0 auto;
@@ -26,9 +26,9 @@ header{
     right: 0;
 }
 .barra{
-  width: 100%;
-  position: fixed;
-  top: 85px;
+    width: 100%;
+    position: fixed;
+    top: 105px;
 }
 .navigation{
     background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
