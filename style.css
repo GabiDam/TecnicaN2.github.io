@@ -73,9 +73,10 @@ body{
 
 
 #carlos{
+  
   width: 100%;
   height: 200px;
   background-color: rgb(255, 78, 78);
-
+  margin-left: 5%;
   bottom: 0;
 }
