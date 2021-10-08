@@ -11,11 +11,8 @@ main{
     margin: auto;
 }
 
-.contenedorImg{                      
-    width: 100%;
-    max-width: 850px;
-    margin: 0 auto;
-}
+
+
 header{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -24,11 +21,29 @@ header{
     top: 0;
     right: 0;
 }
+.contenedorLogo{                      
+    margin-left: 5%;
+    padding: 10px;
+  }
+  .logotitulo{
+    font-family: calibri;
+    font-size: 65px;
+    vertical-align: top;
+    margin-left: 1%;
+  }
+.logosubtitulo{
+    font-family: calibri;
+    font-size: 20px;
+    vertical-align: bottom;
+    left: -50px;
+  }
+
 .barra{
     width: 100%;
     position: fixed;
-    top: 85px;
+    top: 105px;
 }
+
 .navigation{
     background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
     background-color: rgb(255, 55, 55);
@@ -48,6 +63,7 @@ header{
 .navigation ul li a:hover{
     background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
 }
+
 #carlos{
     width: 100%;
     height: 200px;
