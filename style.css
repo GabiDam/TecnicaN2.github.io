@@ -16,6 +16,11 @@ main{
     padding: 10px;
 }
 
+.contenedorcostado{
+    margin-left: 20%;
+    top:50% ;
+}
+
 .logotitulo{
     font-family: calibri;
     font-size: 65px;
@@ -27,7 +32,7 @@ main{
     font-family: calibri;
     font-size: 20px;
     vertical-align: bottom;
-    left: -50px;
+
 }
 
 header{
@@ -43,8 +48,7 @@ header{
     width: 100%;
     margin-left: 5%;
     position: fixed;
-    top: 85px;
-    top: 105px;
+    top: 115px;
 }
 
 .navigation{
@@ -61,7 +65,7 @@ header{
 .navigation ul li a{
     font-size: 30px;
     display:block;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 5rem;
     color: white;
     text-decoration: none;
 }
@@ -80,12 +84,12 @@ header{
 }
 
 #carlos{
-    width: 100%;
-    height: 200px;
+    width: 95%;
+    height: 2000px;
     background-color: rgb(255, 78, 78);
     margin-left: 5%;
     bottom: 0;
     color: white;
-    font-family: monospace; /*me odias*/
+    font-family: monospace; /*te odias*/
 }
 
