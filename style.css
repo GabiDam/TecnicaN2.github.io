@@ -1,41 +1,41 @@
 /*El futoro hoy*/
-body{
+body{ /*Customiza todo la pagina*/
     background-color: rgb(204, 204, 204);
     margin: 0;
     color: rgb(0, 0, 0);
 }          
 
-main{                   
+main{ /*Customiza la zona del contenido principal*/
     width: 80%;
     max-width: 850px;
     margin: 0 auto;
 }
 
-.contenedorLogo{                      
+.contenedorLogo{ /*Customiza la zona de los logos*/                  
     margin-left: 5%;
     padding: 10px;
 }
 
-.contenedorcostado{
+.contenedorcostado{ /*Customiza */
     margin-left: 20%;
-    top:50% ;
+    margin-top: 500%;
 }
 
-.logotitulo{
+.logotitulo{ /**/
     font-family: calibri;
     font-size: 65px;
     vertical-align: top;
     margin-left: 1%;
 }
 
-.logosubtitulo{
+.logosubtitulo{ /**/
     font-family: calibri;
     font-size: 20px;
     vertical-align: bottom;
 
 }
 
-header{
+header{ /**/
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     position: fixed;
@@ -44,25 +44,25 @@ header{
     right: 0;
 }
 
-.barra{
+.barra{ /**/
     width: 100%;
     margin-left: 5%;
     position: fixed;
     top: 115px;
 }
 
-.navigation{
+.navigation{ /**/
     background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
     
     background-color: rgb(255, 55, 55);
     color: white;
 }
 
-.navigation ul li{
+.navigation ul li{ /**/
     display: inline-block;
 }
 
-.navigation ul li a{
+.navigation ul li a{ /**/
     font-size: 30px;
     display:block;
     padding: 0.5rem 5rem;
@@ -70,11 +70,11 @@ header{
     text-decoration: none;
 }
 
-.navigation ul li a:hover{
+.navigation ul li a:hover{ /**/
     background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
 }
 
-.costado{
+.costado{ /**/
     width: 5%;
     background: white;
     position: fixed;
@@ -83,13 +83,15 @@ header{
     bottom: 0;
 }
 
-#carlos{
-    width: 95%;
-    height: 2000px;
+footer{ /**/
+    width: 100%;
+    height: 200px;
     background-color: rgb(255, 78, 78);
-    margin-left: 5%;
     bottom: 0;
     color: white;
-    font-family: monospace; /*te odias*/
+    font-family: monospace; 
 }
 
+.footer-text{ /**/
+    margin-left: 5%;
+}
