@@ -9,20 +9,32 @@ body{
 }
 
 
-.contenedor{                      
+.contenedor{                   
     width: 80%;
 
     max-width: 850px;
 
     margin: 0 auto;
+
   }
   
-  .contenedorImg{                      
-    width: 100%;
+  .contenedorLogo{                      
+    margin-left: 5%;
+    padding: 10px;
+  }
 
-    max-width: 850px;
+  .logotitulo{
+    font-family: calibri;
+    font-size: 65px;
+    vertical-align: top;
+    margin-left: 1%;
+  }
 
-    margin: 0 auto;
+  .logosubtitulo{
+    font-family: calibri;
+    font-size: 20px;
+    vertical-align: bottom;
+    left: -50px;
   }
 
 
@@ -41,7 +53,7 @@ body{
   width: 100%;
   margin-left: 5%;
   position: fixed;
-  top: 85px;
+  top: 105px;
 }
 
  .navigation{
