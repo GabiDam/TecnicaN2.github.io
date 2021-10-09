@@ -10,7 +10,9 @@ main{ /*Customiza la zona del contenido principal*/
     max-width: 850px;
     margin: 0 auto;
 }
-
+.logo_texto{
+    display: flex
+}
 .contenedorLogo{ /*Customiza la zona de los logos*/                  
     margin-left: 5%;
     padding: 10px;
@@ -25,14 +27,21 @@ main{ /*Customiza la zona del contenido principal*/
     font-family: calibri;
     font-size: 65px;
     vertical-align: top;
-    margin-left: 1%;
+    margin-left: 2%;
+    white-space: nowrap;
+    
+}
+
+.titulos{
+    margin-top: 20px;
 }
 
 .logosubtitulo{ /**/
     font-family: calibri;
     font-size: 20px;
     vertical-align: bottom;
-
+    margin-left: 5%;
+    
 }
 
 header{ /**/
@@ -48,7 +57,7 @@ header{ /**/
     width: 100%;
     margin-left: 5%;
     position: fixed;
-    top: 115px;
+    top: 120px;
 }
 
 .navigation{ /**/
@@ -100,4 +109,8 @@ footer{ /**/
     margin-left: 5px;
     padding-top: 5px;
     padding-bottom:5px;
+}
+
+.logo_texto ul li{
+    
 }
