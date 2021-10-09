@@ -6,12 +6,20 @@ body{ /*Customiza todo la pagina*/
 }          
 
 main{ /*Customiza la zona del contenido principal*/
+    padding-top:10%;
     width: 80%;
     max-width: 850px;
     margin: 0 auto;
 }
+
+.body2{
+    bottom:200px;
+    top:
+
+}
+
 .logo_texto{
-    display: flex
+    display: flex;
 }
 .contenedorLogo{ /*Customiza la zona de los logos*/                  
     margin-left: 5%;
@@ -109,8 +117,4 @@ footer{ /**/
     margin-left: 5px;
     padding-top: 5px;
     padding-bottom:5px;
-}
-
-.logo_texto ul li{
-    
 }
