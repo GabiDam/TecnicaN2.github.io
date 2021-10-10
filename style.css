@@ -6,7 +6,7 @@ body{ /*  Customiza todo la pagina  */
 }          
 
 main{ /*  Customiza la zona del contenido principal  */
-    padding-top:10%;
+    padding-top:25vh;
     width: 80%;
     max-width: 850px;
     margin: 0 auto;
@@ -121,6 +121,7 @@ footer{ /**/
 }
 
 /*LOS ODIO LOS ODIO */
+
 
 
 
