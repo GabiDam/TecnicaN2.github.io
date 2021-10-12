@@ -20,6 +20,7 @@ main {
 }
 
 .logo_texto {
+	
 	display: flex;
 }
 
@@ -29,6 +30,8 @@ main {
 	padding: 10px;
 	margin-top: 1%;
 }
+
+
 
 .contenedorcostado {
 	/*  Customiza  */
@@ -42,22 +45,21 @@ main {
 
 .titulos ul {
 	list-style-type: none;
+	padding-left: 1%;
 }
 
 .titulos ul li:first-child {
 	font-family: calibri;
-	font-size: 65px;
+	font-size: 5vh;
 	vertical-align: top;
-	margin-left: 2%;
 	white-space: nowrap;
 }
 
 .titulos ul li:last-child {
 	font-family: calibri;
-	font-size: 20px;
+	font-size: 2vh;
 	vertical-align: bottom;
-	margin-left: 5%;
-	margin-top: 1%;
+	
 }
 
 header {
@@ -79,7 +81,7 @@ header {
 	width: 100%;
 	margin-left: 5%;
 	position: fixed;
-	top: 120px;
+	top: 123px;
 }
 
 .navigation{ /**/
@@ -139,11 +141,20 @@ footer {
 @media only screen and (max-width: 1775px){
     
     .menu-nav{
+		margin-top: 1%;
+
+		background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
+        
+        background-color: rgb(255, 55, 55);
+
+		padding: 15px;
         display: block;
         cursor: pointer;
     }
 
     .navigation{ /**/
+		
+
         background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
         
         background-color: rgb(255, 55, 55);
@@ -152,10 +163,12 @@ footer {
     
     .navigation ul{
         display: none;
+		
     }
 
     .navigation ul.show {
         display: block;
+		margin: 0%;
     }
 
     .navigation ul li{ /**/
