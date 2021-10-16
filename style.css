@@ -19,18 +19,20 @@ main {
 	bottom: 200px;
 }
 
-.logo_texto {
-	
-	display: flex;
-}
-
 .contenedorLogo {
 	/*  Customiza la zona de los logos  */
 	margin-left: 5%;
-	padding: 20px;
+	padding-left: 2vw;
+	float: left;
+	padding-top: 2vw;
+	padding-inline-end: 0;
+
 }
 
-
+.imagenlogo{
+	height: 8vh;
+	width: auto;
+}
 
 .contenedorcostado {
 	/*  Customiza  */
@@ -38,26 +40,25 @@ main {
 	margin-top: 450%;
 }
 
-.titulos {
-	margin-top: 20px;
-}
-
 .titulos ul {
 	list-style-type: none;
-	padding-left: 1%;
+	padding-inline-start: 0;
+	margin: 0;
+	padding-top: 3vw;
+	display: block;
 }
 
 .titulos ul li:first-child {
 	font-family: calibri;
-	font-size: 30px;
-	vertical-align: top;
+	font-size: 3vh;
 	white-space: nowrap;
+	
 }
 
 .titulos ul li:last-child {
 	font-family: calibri;
-	font-size: 2vw;
-	vertical-align: bottom;
+	font-size: 2vh;
+	white-space: nowrap;
 	
 }
 
@@ -69,6 +70,7 @@ header {
 	left: 0;
 	top: 0;
 	right: 0;
+	height: 15vh;
 }
 
 .menu-nav{
@@ -80,7 +82,7 @@ header {
 	width: 100%;
 	margin-left: 5%;
 	position: fixed;
-	top: 120px;
+	top: 12vh;
 }
 
 .navigation{ /**/
@@ -141,17 +143,24 @@ footer {
 }
 
 @media only screen and (max-width: 1270px){
+	
+	.contenedorLogo{
+		margin: 0;
+		
+	}
     
     .menu-nav{
-		margin-top: 1%;
+		margin-top: 2vh;
 
 		background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
         
         background-color: rgb(255, 55, 55);
 
-		padding: 15px;
+		padding: 1vh;
         display: block;
         cursor: pointer;
+
+		font-size: 4vh;
     }
 
 	.barra {
@@ -159,7 +168,7 @@ footer {
 		width: 100%;
 		margin-left: 0;
 		position: fixed;
-		top: 120px;
+		top: 12vh;
 		
 	}
 
@@ -195,7 +204,7 @@ footer {
     }
     
     .navigation ul li a{ /**/
-        font-size: 30px;
+        font-size: 4vh;
         display:block;
         color: white;
         text-decoration: none;
