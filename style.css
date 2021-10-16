@@ -72,10 +72,6 @@ header {
 	right: 0;
 }
 
-.redes{
-	display: none;
-}
-
 .menu-nav{
     display: none;
 }
@@ -215,12 +211,7 @@ footer {
 	aside{
 		display: none;
 	}
-
-	.redes{
-		display: block;
 	}
-
-}
 
 @media only screen and (max-height: 440px){
 
