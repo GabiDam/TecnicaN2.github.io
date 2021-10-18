@@ -11,8 +11,9 @@ main {
 	/*  Customiza la zona del contenido principal  */
 	padding-top: 25vh;
 	width: 80%;
-	max-width: 850px;
+	max-width: 100vh;
 	margin: 0 auto;
+	font-size: 2vh;
 }
 
 .body2 {
@@ -22,44 +23,40 @@ main {
 .contenedorLogo {
 	/*  Customiza la zona de los logos  */
 	margin-left: 5%;
-	padding-left: 2vw;
+	padding-left: 3vh;
 	float: left;
-	padding-top: 2vw;
-	padding-inline-end: 0;
-
+	padding-top: 3vh;
+	
 }
 
 .imagenlogo{
 	height: 8vh;
 	width: auto;
+	
 }
 
 .contenedorcostado {
 	/*  Customiza  */
-	margin-left: 30%;
-	margin-top: 450%;
+	position: fixed;
+	top: 40%;
+	left: 1.5%;
 }
 
-.titulos ul {
-	list-style-type: none;
-	padding-inline-start: 0;
-	margin: 0;
-	padding-top: 3vw;
-	display: block;
-}
-
-.titulos ul li:first-child {
-	font-family: calibri;
-	font-size: 3vh;
-	white-space: nowrap;
+.imagenescostado{
+	width: 2vw;
 	
 }
 
-.titulos ul li:last-child {
-	font-family: calibri;
-	font-size: 2vh;
-	white-space: nowrap;
-	
+.rombo {
+	margin-left: 0.5vh;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 1.5vw;
+}
+
+#rombo{
+	margin-left: 0.5vh;
+	width: 1.5vw;
 }
 
 header {
@@ -120,6 +117,7 @@ aside {
 	bottom: 0;
 }
 
+
 footer {
 	/**/
 	width: 100%;
@@ -137,11 +135,7 @@ footer {
 	margin-bottom: 20;
 }
 
-.rombo {
-	margin-left: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
+
 
 @media only screen and (max-width: 1270px){
 	
@@ -152,9 +146,6 @@ footer {
     
     .menu-nav{
 		margin-top: 2vh;
-
-	rgb(143, 45, 42));
-        
         background-color: rgb(29, 29, 29);
 
 		Color: rgb(255, 255, 255);	
@@ -226,6 +217,10 @@ footer {
 	}
 	}
 
+
+	
+
+
 @media only screen and (max-height: 440px){
 
 
@@ -233,3 +228,13 @@ footer {
 	height: 35vh;
 }
 }
+
+
+@media only screen and (max-height: 200px){ /*monitor de 2 centimetros*/
+
+	.contenedorLogo{
+	display: flex; /*gracias youtube y gabi*/
+	}
+
+}
+	
