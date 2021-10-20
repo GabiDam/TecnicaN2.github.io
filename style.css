@@ -10,17 +10,6 @@ body {
 main {
 	/*  Customiza la zona del contenido principal  */
 	padding-top: 25vh;
-
-}
-
-.banner{
-	align-items: center;
-	width: 2000px;
-	max-height: 20vh;
-}
-
-
-section{
 	width: 80%;
 	max-width: 100vh;
 	margin: 0 auto;
@@ -31,12 +20,24 @@ section{
 	bottom: 200px;
 }
 
+header {
+	/**/
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+
+}
+
 .contenedorLogo {
 	/*  Customiza la zona de los logos  */
 	margin-left: 5%;
 	padding-left: 3vh;
 	float: left;
 	padding-top: 3vh;
+	padding-bottom: 3vh;
 	
 }
 
@@ -70,16 +71,6 @@ section{
 	width: 1.5vw;
 }
 
-header {
-	/**/
-	background-color: rgb(255, 255, 255);
-	color: rgb(0, 0, 0);
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	height: 15vh;
-}
 
 .menu-nav{
     display: none;
@@ -146,6 +137,7 @@ footer {
 	margin-bottom: 20;
 	font-size: 2VH;
 }
+
 
 
 @media only screen and (max-width: 1270px){
