@@ -10,6 +10,17 @@ body {
 main {
 	/*  Customiza la zona del contenido principal  */
 	padding-top: 25vh;
+
+}
+
+.banner{
+	align-items: center;
+	width: 2000px;
+	max-height: 20vh;
+}
+
+
+section{
 	width: 80%;
 	max-width: 100vh;
 	margin: 0 auto;
