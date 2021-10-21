@@ -7,14 +7,19 @@ body {
 	color: rgb(0, 0, 0);
 }
 
-main {
-	/*  Customiza la zona del contenido principal  */
-	padding-top: 25vh;
+main{
+	/* Customiza la zona principal */
+	padding-top: 15vh;
+}
+
+section{
+	padding-top: 0;
 	width: 80%;
 	max-width: 100vh;
 	margin: 0 auto;
 	font-size: 20px;
 }
+
 
 .body2 {
 	bottom: 200px;
@@ -84,19 +89,21 @@ header {
 	top: 12vh;
 }
 
-.navigation{ /**/
+.navigation{ 
+	/**/
     background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
     
     background-color: rgb(255, 55, 55);
     color: white;
 }
 
-.navigation ul li{ /**/
+.navigation ul li{ 
+	/**/
     display: inline-block;
 }
 
-.navigation ul li a{ /**/
-
+.navigation ul li a{ 
+	/**/
 	margin-left: 0.5vw;
     font-size: 1.2vw;
     display:block;
@@ -105,8 +112,20 @@ header {
     text-decoration: none;
 }
 
-.navigation ul li a:hover{ /**/
+.navigation ul li a:hover{ 
+	/**/
     background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
+}
+
+.banner{
+    padding-right: 10vh;
+    padding-bottom: 80vh;
+    padding-left: 10vh;
+    background-image: url(img/alumnos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 0;
 }
 
 aside {
@@ -131,8 +150,7 @@ footer {
 	font-family: monospace;
 }
 
-.footer-text {
-	/**/
+.footer-text {/**/
 	margin-left: 5%;
 	margin-bottom: 20;
 	font-size: 2VH;
@@ -169,7 +187,8 @@ footer {
 		
 	}
 
-    .navigation{ /**/
+    .navigation{ 
+		/**/
 		
 
         background: linear-gradient(0deg,rgb(255, 64, 64), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
@@ -196,11 +215,13 @@ footer {
 		max-height: 265px;
     }
 
-    .navigation ul li{ /**/
+    .navigation ul li{ 
+		/**/
         display: block;
     }
     
-    .navigation ul li a{ /**/
+    .navigation ul li a{ 
+		/**/
         font-size: 4vh;
         display:block;
         color: white;
@@ -208,7 +229,8 @@ footer {
 		text-align: center;
     }
     
-    .navigation ul li a:hover{ /**/
+    .navigation ul li a:hover{ 
+		/**/
         background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
     }
 
@@ -218,7 +240,7 @@ footer {
 	aside{
 		display: none;
 	}
-	}
+}
 
 
 	
@@ -226,59 +248,58 @@ footer {
 
 @media only screen and (max-height: 440px){
 
-
-.navigation ul.show{
+	.navigation ul.show{
 	height: 35vh;
-}
+	}
 }
 
 
-@media only screen and (max-height: 200px){ /*monitor de 2 centimetros*/
+@media only screen and (max-height: 200px){
+	/*monitor de 2 centimetros*/
 
 	.contenedorLogo{
 	display: flex; /*gracias youtube y gabi*/
 	}
-
 }
 	
 @media only screen and (min-width: 2000px){
 
-	main{
+	section{
 		font-size: 35px;
 	}
 }
 
 @media only screen and (min-width: 3000px){
 
-	main{
+	section{
 		font-size: 50px;
 	}
 }
 
 @media only screen and (min-width: 4000px){
 
-	main{
+	section{
 		font-size: 60px;
 	}
 }
 
 @media only screen and (min-width: 5000px){
 
-	main{
+	section{
 		font-size: 70px;
 	}
 }
 
 @media only screen and (min-width: 6000px){
 
-	main{
+	section{
 		font-size: 80px;
 	}
 }
 
 @media only screen and (min-width: 7000px){
 
-	main{
+	section{
 		font-size: 90px;
 	}
 }
