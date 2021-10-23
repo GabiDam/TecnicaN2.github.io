@@ -1,5 +1,5 @@
 jQuery('document'). ready(function($){
-
+    /**/
     var menupress = $('.menu-nav'),
         menu = $('.navigation ul');
 
@@ -20,5 +20,3 @@ jQuery('document'). ready(function($){
     });
     
 });
-
-
