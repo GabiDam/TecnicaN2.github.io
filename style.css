@@ -118,10 +118,10 @@ header {
 }
 
 .banner{
-    padding-right: 10vh;
-    padding-bottom: 80vh;
-    padding-left: 10vh;
-    background-image: url(img/alumnos.jpg);
+    padding-right: 100px;
+    padding-bottom: 250px;
+    padding-left: 100px;
+    background-image: url(img/bannerpueba.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -196,24 +196,43 @@ footer {
         background-color: rgb(252, 55, 55);
         color: white;
 
-		overflow-y: scroll;
-		
+		overflow-y: scroll; 
+	
     }
     
     .navigation ul{
         display: none;
 		
     }
+	
+	:root{
+		--nav-hg-altura: 37vh;
+	}
 
     .navigation ul.show {
+		
+
         display: block;
 		margin: 0;
 		padding: 0;
 
 		Color: rgb(255, 255, 255);		
 
-		max-height: 265px;
+		
+		height: var(--nav-hg-altura);
+		animation-name: slide;
+		animation-duration: 1s;
     }
+
+		
+	@keyframes slide{
+		from{
+			height: 0px;
+		}
+		to{
+			height: var(--nav-hg-altura) ;
+		}
+		}
 
     .navigation ul li{ 
 		/**/
@@ -222,6 +241,7 @@ footer {
     
     .navigation ul li a{ 
 		/**/
+		padding: 1.45vh;
         font-size: 4vh;
         display:block;
         color: white;
@@ -243,15 +263,10 @@ footer {
 }
 
 
+
 	
 
 
-@media only screen and (max-height: 440px){
-
-	.navigation ul.show{
-	height: 35vh;
-	}
-}
 
 
 @media only screen and (max-height: 200px){
