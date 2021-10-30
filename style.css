@@ -222,12 +222,11 @@ footer {
 		font-size: 4vh;
     }
 
-	.barra {
+	.barra{
 		width: 100%;
 		margin-left: 0;
 		position: fixed;
 		top: 12vh;
-		
 	}
 
     .navigation{
@@ -255,7 +254,6 @@ footer {
 
 		Color: rgb(255, 255, 255);		
 		
-		
 		height: var(--nav-hg-altura);
 		animation-name: slide;
 		animation-duration: 0.5s;
@@ -270,7 +268,7 @@ footer {
 		to{
 			height: var(--nav-hg-altura) ;
 		}
-		}
+	}
 
     .navigation ul li{ 
         display: block;
