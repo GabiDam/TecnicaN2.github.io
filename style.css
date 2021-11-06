@@ -163,6 +163,109 @@ header {
     background-position: 0 0;
 }
 
+.imgs{
+	
+    display: flex;
+	padding-top: 50px;
+}
+
+.imagenh1{
+	
+	margin-left: 21%;
+
+	width: 25vw;
+	height: 25vw;
+	background-image: url(Img/Captura.PNG);
+
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+.txth{
+	width: 25vw;
+	height: 25vw;
+	
+	
+	
+	background-color: rgba(48, 48, 48, 0.378);
+	opacity: 0;	
+
+	
+}
+
+.textoo{
+	margin: 0;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	padding-top: 20px;
+	
+
+}
+
+.imagenh1:hover .txth{
+	animation-name: imgh;
+	animation-duration: 0.5s;
+	opacity: 1;
+	
+}
+
+@keyframes imgh{
+	/**/
+	from{
+		background-color: rgba(94, 94, 94, 0);
+	}
+	to{
+		background-color: rgba(48, 48, 48, 0.378);
+		
+	}
+}
+
+
+.imagenh2{
+	
+	margin-left: 7%;
+
+	width: 25vw;
+	height: 25vw;
+	background-image: url(Img/Captura.PNG);
+
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+.txth2{
+	width: 25vw;
+	height: 25vw;
+	background-color: rgba(48, 48, 48, 0.378);
+	
+	opacity: 0;
+
+	
+}
+
+.textoo2{
+	margin: 0;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	padding-top: 20px;
+
+}
+
+.imagenh2:hover .txth2{
+	animation-name: imgh;
+	animation-duration: 0.5s;
+	opacity: 1;
+	
+}
+
 aside {
 	/**/
 	width: 5%;
@@ -248,6 +351,9 @@ hr{
 .ulfooter li a:hover{
     color: white;
 }
+
+
+
 @media only screen and (max-width: 1270px){
 	/**/
 	
