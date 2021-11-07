@@ -10,7 +10,7 @@ body {
 main{
 	/* Customiza la zona principal */
 	padding-top: 15vh;
-	
+	z-index: 1;
 	/*Zen Antique, */
 }
 
@@ -33,7 +33,7 @@ header {
 	left: 0;
 	top: 0;
 	right: 0;
-
+	z-index: 2;
 }
 
 .contenedorLogo {
@@ -122,6 +122,8 @@ header {
     
     background-color: rgb(255, 55, 55);
     color: white;
+	
+
 }
 
 
@@ -129,6 +131,7 @@ header {
 .navigation ul li{ 
 	/**/
     display: inline-block;
+	
 }
 
 .navigation ul li a{ 
@@ -144,11 +147,13 @@ header {
     text-decoration: none;
 	
 	
+	
 }
 
 .navigation ul li a:hover{ 
 	/**/
     background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
+	
 }
 
 .banner{ 
@@ -166,26 +171,29 @@ header {
 .imgs{
 	
     display: flex;
-	padding-top: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px ;
+	background-color: rgb(28, 27, 27);
+	background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
 }
 
 .imagenh1{
 	
-	margin-left: 21%;
+	margin-left: 18%;
 
-	width: 25vw;
-	height: 25vw;
+	width: 30vw;
+	height: 30vw;
 	background-image: url(Img/Captura.PNG);
 
 	background-size: contain;
 	background-repeat: no-repeat;
 
+	
 }
 
 .txth{
-	width: 25vw;
-	height: 25vw;
-	
+	width: 29.9vw;
+	height: 30vw;
 	
 	
 	background-color: rgba(48, 48, 48, 0.378);
@@ -198,17 +206,45 @@ header {
 	margin: 0;
 	color: white;
     font-family: 'Montserrat', sans-serif;
-	text-align: center;
 	font-weight: 700;
-	font-size: 30px;
-	padding-top: 20px;
+	font-size: 2vw;
+    transform: translate(19%);
+	padding-top: 14%;
+	position:absolute;
 	
+}
 
+.textocent1{
+	margin: 0;
+	font-size: 1.2vw;
+	padding-top: 5vw;
+	color: white;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.imagenh1:hover ~ .textoo{
+
+	animation-name: slide2;
+	animation-duration:0.5;
+}
+
+
+@keyframes slide2{
+	/**/
+	from{
+		opacity: 1;
+		margin-top: 100%;
+	}
+	to{
+		opacity: 0;
+		margin-top: 0%;
+	}
 }
 
 .imagenh1:hover .txth{
 	animation-name: imgh;
 	animation-duration: 0.5s;
+	text-align: center;
 	opacity: 1;
 	
 }
@@ -227,10 +263,10 @@ header {
 
 .imagenh2{
 	
-	margin-left: 7%;
+	margin-left: 3%;
 
-	width: 25vw;
-	height: 25vw;
+	width: 30vw;
+	height: 30vw;
 	background-image: url(Img/Captura.PNG);
 
 	background-size: contain;
@@ -239,8 +275,8 @@ header {
 }
 
 .txth2{
-	width: 25vw;
-	height: 25vw;
+	width: 29.9vw;
+	height: 30vw;
 	background-color: rgba(48, 48, 48, 0.378);
 	
 	opacity: 0;
@@ -254,10 +290,21 @@ header {
     font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 2vw;
+	padding-left: 8.5%;
 	padding-top: 20px;
-
+	position: absolute;
 }
+
+.textocent2{
+	margin: 0;
+	text-align: center;
+	font-size: 1.2vw;
+	padding-top: 5vw;
+	color: white;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
 
 .imagenh2:hover .txth2{
 	animation-name: imgh;
