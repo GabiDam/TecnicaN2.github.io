@@ -16,7 +16,7 @@ main{
 
 section{
 	/**/
-	padding-top: 25vh;
+	padding-top: 10vh;
 	width: 80%;
 	max-width: 100vh;
 	margin: 0 auto;
@@ -165,6 +165,8 @@ footer {
 	bottom: 0;
 	color: rgb(0, 0, 0);
 }
+
+
 
 hr{
 	height: 0.5px;
