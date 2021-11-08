@@ -147,6 +147,19 @@ header {
     background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
 }
 
+.maps{
+	float: right;
+}
+
+.map{
+	height: 400px;
+	width: 500px;
+}
+
+.contmaps{
+	list-style-type: none;
+}
+
 aside {
 	/**/
 	width: 5%;
@@ -234,7 +247,22 @@ hr{
 }
 @media only screen and (max-width: 1270px){
 	/**/
-	
+	.maps{
+		padding: 0;
+		margin: 0;
+	}
+
+	.map{
+		height: 250px;
+		width: 80vw;
+		max-width: 100vh;
+	}
+
+	.contmaps{
+		padding: 0;
+		margin: 0;
+		text-align: start;
+	}
 	.contfooter{
 		margin-left: 0;
 	}
