@@ -10,7 +10,6 @@ body {
 main{
 	/* Customiza la zona principal */
 	padding-top: 15vh;
-	z-index: 1;
 	/*Zen Antique, */
 }
 
@@ -177,6 +176,15 @@ header {
 	background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
 }
 
+
+.masinfo{
+	width: 30vw;
+	height: 30vw;
+	background-color: white;
+	position: absolute;
+	display: none;
+}
+
 .imagenh1{
 	
 	margin-left: 18%;
@@ -189,6 +197,12 @@ header {
 	background-repeat: no-repeat;
 
 	
+}
+
+.imgHist{
+	margin: 3%;
+	height: 500px;
+	width: auto;
 }
 
 .txth{
@@ -217,28 +231,49 @@ header {
 .textocent1{
 	margin: 0;
 	font-size: 1.2vw;
-	padding-top: 5vw;
-	color: white;
+	
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	transform: translateY(280%);
+	color: rgb(49, 49, 49)
 }
 
-.imagenh1:hover ~ .textoo{
+.info1{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	transform: translateY(1200%);
+	color: rgb(49, 49, 49);
+	
+	background-color: transparent;
+}
 
-	animation-name: slide2;
-	animation-duration:0.5;
+.info1:hover{
+	
+	background-color: rgba(209, 209, 209, 0.22);
+}
+
+.imagenh1:hover .info1{
+	color: white;
+	transform: translateY(1000%);
+	transition: all .4s ease-in;
+}
+
+.imagenh1:hover .textocent1{
+	
+	color: rgb(255, 255, 255);
+	transform: translateY(200%);
+	transition: all .4s ease-in;
 }
 
 
-@keyframes slide2{
-	/**/
-	from{
-		opacity: 1;
-		margin-top: 100%;
-	}
-	to{
-		opacity: 0;
-		margin-top: 0%;
-	}
+
+.imagenh1:hover .textoo{
+
+	transition: padding-top 0.2s;
+	padding-top: 10%;
 }
 
 .imagenh1:hover .txth{
@@ -291,20 +326,37 @@ header {
 	text-align: center;
 	font-weight: 700;
 	font-size: 2vw;
-	padding-left: 8.5%;
-	padding-top: 20px;
+	padding-left: 8%;
+	padding-top: 14%;
 	position: absolute;
+	
+
+
+	
 }
 
 .textocent2{
 	margin: 0;
-	text-align: center;
 	font-size: 1.2vw;
-	padding-top: 5vw;
-	color: white;
+	
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	text-align: center;
+	transform: translateY(350%);
+	color: rgb(49, 49, 49)
 }
 
+.imagenh2:hover .textocent2{
+	
+	color: rgb(255, 255, 255);
+	transform: translateY(250%);
+	transition: all .4s ease-in;
+}
+
+.imagenh2:hover .textoo2{
+
+	transition: padding-top 0.2s;
+	padding-top: 10%;
+}
 
 .imagenh2:hover .txth2{
 	animation-name: imgh;
@@ -323,6 +375,12 @@ aside {
 	bottom: 0;
 }
 
+.titulo{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+	font-weight: 300;
+}
 
 footer {
 	/**/
