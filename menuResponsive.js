@@ -19,4 +19,24 @@ jQuery('document'). ready(function($){
 
     });
     
+
+    var boton = $('info1'),
+    menu = $('.navigation ul');
+
+boton.click(function(){
+
+    if(menu.hasClass('show')){
+
+        menu.removeClass('show');
+        
+    }
+    else{
+
+        menu.addClass('show');
+        
+    }
+
+
+});
+
 });

@@ -10,7 +10,6 @@ body {
 main{
 	/* Customiza la zona principal */
 	padding-top: 15vh;
-	
 	/*Zen Antique, */
 }
 
@@ -33,7 +32,7 @@ header {
 	left: 0;
 	top: 0;
 	right: 0;
-
+	z-index: 2;
 }
 
 .contenedorLogo {
@@ -122,6 +121,8 @@ header {
     
     background-color: rgb(255, 55, 55);
     color: white;
+	
+
 }
 
 
@@ -129,6 +130,7 @@ header {
 .navigation ul li{ 
 	/**/
     display: inline-block;
+	
 }
 
 .navigation ul li a{ 
@@ -144,11 +146,13 @@ header {
     text-decoration: none;
 	
 	
+	
 }
 
 .navigation ul li a:hover{ 
 	/**/
     background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
+	
 }
 
 .banner{ 
@@ -166,26 +170,44 @@ header {
 .imgs{
 	
     display: flex;
-	padding-top: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px ;
+	background-color: rgb(28, 27, 27);
+	background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
+}
+
+
+.masinfo{
+	width: 30vw;
+	height: 30vw;
+	background-color: white;
+	position: absolute;
+	display: none;
 }
 
 .imagenh1{
 	
-	margin-left: 21%;
+	margin-left: 18%;
 
-	width: 25vw;
-	height: 25vw;
+	width: 30vw;
+	height: 30vw;
 	background-image: url(Img/Captura.PNG);
 
 	background-size: contain;
 	background-repeat: no-repeat;
 
+	
+}
+
+.imgHist{
+	margin: 3%;
+	height: 500px;
+	width: auto;
 }
 
 .txth{
-	width: 25vw;
-	height: 25vw;
-	
+	width: 29.9vw;
+	height: 30vw;
 	
 	
 	background-color: rgba(48, 48, 48, 0.378);
@@ -198,17 +220,66 @@ header {
 	margin: 0;
 	color: white;
     font-family: 'Montserrat', sans-serif;
-	text-align: center;
 	font-weight: 700;
-	font-size: 30px;
-	padding-top: 20px;
+	font-size: 2vw;
+    transform: translate(19%);
+	padding-top: 14%;
+	position:absolute;
 	
+}
 
+.textocent1{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	transform: translateY(280%);
+	color: rgb(49, 49, 49)
+}
+
+.info1{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	transform: translateY(1200%);
+	color: rgb(49, 49, 49);
+	
+	background-color: transparent;
+}
+
+.info1:hover{
+	
+	background-color: rgba(209, 209, 209, 0.22);
+}
+
+.imagenh1:hover .info1{
+	color: white;
+	transform: translateY(1000%);
+	transition: all .4s ease-in;
+}
+
+.imagenh1:hover .textocent1{
+	
+	color: rgb(255, 255, 255);
+	transform: translateY(200%);
+	transition: all .4s ease-in;
+}
+
+
+
+.imagenh1:hover .textoo{
+
+	transition: padding-top 0.2s;
+	padding-top: 10%;
 }
 
 .imagenh1:hover .txth{
 	animation-name: imgh;
 	animation-duration: 0.5s;
+	text-align: center;
 	opacity: 1;
 	
 }
@@ -227,10 +298,10 @@ header {
 
 .imagenh2{
 	
-	margin-left: 7%;
+	margin-left: 3%;
 
-	width: 25vw;
-	height: 25vw;
+	width: 30vw;
+	height: 30vw;
 	background-image: url(Img/Captura.PNG);
 
 	background-size: contain;
@@ -239,8 +310,8 @@ header {
 }
 
 .txth2{
-	width: 25vw;
-	height: 25vw;
+	width: 29.9vw;
+	height: 30vw;
 	background-color: rgba(48, 48, 48, 0.378);
 	
 	opacity: 0;
@@ -254,9 +325,37 @@ header {
     font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-weight: 700;
-	font-size: 30px;
-	padding-top: 20px;
+	font-size: 2vw;
+	padding-left: 8%;
+	padding-top: 14%;
+	position: absolute;
+	
 
+
+	
+}
+
+.textocent2{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	text-align: center;
+	transform: translateY(350%);
+	color: rgb(49, 49, 49)
+}
+
+.imagenh2:hover .textocent2{
+	
+	color: rgb(255, 255, 255);
+	transform: translateY(250%);
+	transition: all .4s ease-in;
+}
+
+.imagenh2:hover .textoo2{
+
+	transition: padding-top 0.2s;
+	padding-top: 10%;
 }
 
 .imagenh2:hover .txth2{
@@ -276,6 +375,12 @@ aside {
 	bottom: 0;
 }
 
+.titulo{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+	font-weight: 300;
+}
 
 footer {
 	/**/
