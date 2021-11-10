@@ -159,13 +159,14 @@ aside {
 }
 
 .Login-box {
-	width: 100px;
-	height: 100px;
+	width: 10vw;
+	height: 10vw;
 	background-color: rgb(255, 255, 255);
 	color: #fff;
 	box-sizing: border-box;
-	padding: 200px 200px;
+	padding: 19vw 15vw;
 	margin: 7%;
+	margin-top: 10%;
 	margin-left: 38%;
 	
 
@@ -173,17 +174,20 @@ aside {
 }
 
 .Login-box .avatar {
-width: 200px;
-height: 200px;
+width: 15vw;
+height: 15vw;
 transform: translate(-50%, -120%);
 margin-right: 50%;
 }
 
 .Paraingresar{
+	width: 15vw;
+	height: 15vw;
 	display: flex;
 	position: absolute;
 	color: black;
-	transform: translate(-50%, -138%);
+	transform: translate(-40%, -138%);
+	font-size: 1vw;
 }
 .Paraingresar input {
   width: 100%;
