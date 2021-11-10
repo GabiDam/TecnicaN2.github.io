@@ -467,3 +467,16 @@ hr{
 	display: flex; /*gracias youtube y gabi*/
 	}
 }
+
+@media only screen and (max-height: 800px){
+	.maps{
+		padding: 0;
+		margin: 0;
+	}
+
+	.map{
+		height: 250px;
+		width: 80vw;
+		max-width: 100vh;
+	}
+}
