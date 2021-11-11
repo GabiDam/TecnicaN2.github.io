@@ -205,12 +205,14 @@ header {
 .cerrar{
 	height: 5%;
 	width: 4%;
+	padding: 0%;
 	border-radius: 0px;
 	border-width: 0.1px;
 	border-color: rgb(208, 208, 208);
-
+   	font-size: 1vw;
 	font-weight: 500;
 	transform: translateX(33.6vw);
+	box-shadow: none;
 	animation-name: cerrar;
 	animation-duration: 0.4s;
 }
@@ -221,6 +223,31 @@ header {
 	}
 	to{
 		transform: translateX(33.7vw);
+	}
+}
+
+.cerrar2{
+	height: 5%;
+	width: 4%;
+	padding: 0%;
+	border-radius: 0px;
+	border-width: 0.1px;
+	border-color: rgb(208, 208, 208);
+   	font-size: 1vw;
+	font-weight: 500;
+	transform: translateX(0vw);
+	box-shadow: none;
+	animation-name: cerrar2;
+	animation-duration: 0.4s;
+}
+
+@keyframes cerrar2{
+	from{
+		transform: translateX(33.7vw);
+		
+	}
+	to{
+		transform: translateX(0vw);
 	}
 }
 
@@ -255,13 +282,15 @@ header {
 	
 }
 
+
+
 .bgo{
 	width: 29.9vw;
 	height: 30vw;
 	
 	
-	background-color: rgb(48, 48, 48);
-	opacity: 0;	
+	background-color: rgb(49, 49, 49);
+	text-align: center;
 }
 
 .textoo{
@@ -276,6 +305,17 @@ header {
 	
 }
 
+.tituloabierto{
+	margin: 0;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 2vw;
+    transform: translate(19%);
+	padding-top: 10%;
+	position:absolute;
+}
+
 .textocent1{
 	margin: 0;
 	font-size: 1.2vw;
@@ -284,6 +324,16 @@ header {
 	
 	transform: translateY(280%);
 	color: rgb(49, 49, 49)
+}
+
+.textoa1{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	transform: translateY(200%);
+	color: rgb(255, 255, 255)
 }
 
 .info1{
@@ -296,6 +346,10 @@ header {
 	color: rgb(49, 49, 49);
 	
 	background-color: transparent;
+}
+
+.chauinfo{
+	display: none;
 }
 
 .info1:hover{
@@ -391,23 +445,6 @@ header {
 	
 }
 
-.imagenh1:hover .bgo{
-	animation-name: bgovich;
-	animation-duration: 0.5s;
-	text-align: center;
-	opacity: 1;
-	
-}
-
-@keyframes bgovich{
-	from{
-		background-color: rgba(48, 48, 48, 0.378);
-	}
-	to{
-		background-color: rgb(48, 48, 48);
-		
-	}
-}
 
 @keyframes imgh{
 	/**/
@@ -420,6 +457,14 @@ header {
 	}
 }
 
+.bgo2{
+	width: 29.9vw;
+	height: 30vw;
+	
+	
+	background-color: rgb(49, 49, 49);
+	text-align: center;
+}
 
 .imagenh2{
 	
@@ -437,9 +482,10 @@ header {
 .txth2{
 	width: 29.9vw;
 	height: 30vw;
-	background-color: rgba(48, 48, 48, 0.378);
 	
-	opacity: 0;
+	
+	background-color: rgba(48, 48, 48, 0.378);
+	opacity: 0;	
 
 	
 }
@@ -456,6 +502,18 @@ header {
 	position: absolute;
 	
 }
+
+
+.textoa2{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	transform: translateY(200%);
+	color: rgb(255, 255, 255)
+}
+
 
 .textocent2{
 	margin: 0;
