@@ -237,19 +237,9 @@ header {
 	font-weight: 500;
 	transform: translateX(0vw);
 	box-shadow: none;
-	animation-name: cerrar2;
-	animation-duration: 0.4s;
+
 }
 
-@keyframes cerrar2{
-	from{
-		transform: translateX(33.7vw);
-		
-	}
-	to{
-		transform: translateX(0vw);
-	}
-}
 
 .imagenh1{
 	
@@ -278,8 +268,6 @@ header {
 	
 	background-color: rgba(48, 48, 48, 0.378);
 	opacity: 0;	
-
-	
 }
 
 
@@ -346,6 +334,7 @@ header {
 	color: rgb(49, 49, 49);
 	
 	background-color: transparent;
+	
 }
 
 .chauinfo{
@@ -361,7 +350,7 @@ header {
 
 .imagenh1:hover .info1{
 	color: white;
-	transform: translateY(1000%);
+	transform: translateY(15.6vw);
 	transition: all .4s ease-in;
 }
 
@@ -380,7 +369,7 @@ header {
 
 .imagenh2:hover .info2{
 	color: white;
-	transform: translate(100% ,1000%);
+	transform: translate(100% ,17vw);
 	transition: all .4s ease-in;
 }
 
@@ -477,7 +466,7 @@ header {
 	background-size: contain;
 	background-repeat: no-repeat;
 
-}
+} 
 
 .txth2{
 	width: 29.9vw;
@@ -514,6 +503,22 @@ header {
 	color: rgb(255, 255, 255)
 }
 
+.tituloabierto2{
+	margin: 0;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: 700;
+	font-size: 2vw;
+	padding-left: 8%;
+	position: absolute;
+	
+	padding-top: 10%;
+}
+
+.chauinfo2{
+	display: none;  
+}
 
 .textocent2{
 	margin: 0;
@@ -523,6 +528,16 @@ header {
 	text-align: center;
 	transform: translateY(350%);
 	color: rgb(49, 49, 49)
+}
+
+.textoa2{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	text-align: center;
+	transform: translateY(250%);
+	color: rgb(255, 255, 255)
 }
 
 .imagenh2:hover .textocent2{
@@ -543,6 +558,25 @@ header {
 	animation-duration: 0.5s;
 	opacity: 1;
 	
+}
+
+/*Esto es la seccion de celu de mas informaicon de las carreras*/
+
+.mostrar{
+	padding: 0;
+}
+
+.inftec{
+	background: linear-gradient(180deg, rgb(22, 28, 61), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
+}
+
+.mmo{
+   background-color: rgb(60, 130, 71);
+}
+
+.tituloC{
+	text-align: center;
+	background: white;
 }
 
 aside {
@@ -641,6 +675,115 @@ hr{
 
 @media only screen and (max-width: 1270px){
 	/**/
+
+	
+	.cerrar{
+		height: 5%;
+		width: 4%;
+		padding: 0%;
+		border-radius: 0px;
+		border-width: 0.1px;
+		border-color: rgb(208, 208, 208);
+		   font-size: 1vw;
+		font-weight: 500;
+		transform: translateX(38.4vw);
+		box-shadow: none;
+		animation-name: cerrar;
+		animation-duration: 0.4s;
+	}
+
+	@keyframes cerrar{
+		from{
+			transform: translateX(0vw);
+		}
+		to{
+			transform: translateX(38.4vw);
+		}
+	}
+
+	.imagenh1{
+		margin-left: 12%;
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.txth{
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.textocent1{
+		transform: translateY(350%);
+	}
+
+	.imagenh1:hover .textocent1{
+	
+		color: rgb(255, 255, 255);
+		transform: translateY(250%);
+		transition: all .4s ease-in;
+	}
+
+	.textoa1{
+		transform: translateY(250%);
+	}
+
+	.bgo{
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.imgs a.show2{
+		width: 40vw;
+		height: 35vw;
+	}
+
+	@keyframes tr{
+		/**/
+		from{
+			width: 0vw;
+		}
+		to{
+			
+			width: 40vw;
+		}
+	}
+
+	.imagenh2{
+		margin-left: 6%;
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.txth2{
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.bgo2{
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.imgs ul.show3{
+		width: 40vw;
+		height: 35vw;
+	}
+	
+
+	
+	@keyframes tr2{
+		/**/
+		from{
+			width: 0vw;
+		}
+		to{
+			
+			width: 40vw;
+		}
+	}
+
+
+	
 	
 	.contfooter{
 		margin-left: 0;

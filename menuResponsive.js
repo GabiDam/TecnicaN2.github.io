@@ -68,9 +68,10 @@ jQuery('document'). ready(function($){
         else{
     
             carlo2.addClass('show3');
-            porfa.removeClass('bgo2');
+            porfa2.removeClass('txth2');
+            porfa2.addClass('bgo2');
             texto2.removeClass('textocent2');
-            texto2.addClass('textoa1');
+            texto2.addClass('textoa2');
             titulo2.removeClass('textoo2');
             titulo2.addClass('tituloabierto2');
             info2.removeClass('info2');
@@ -122,8 +123,11 @@ jQuery('document'). ready(function($){
         texto2.addClass('textocent2');
         titulo2.removeClass('tituloabierto2');
         titulo2.addClass('textoo2');
- 
+        info2.removeClass('chauinfo2');
+        info2.addClass('info2');
     }
+ 
+    
 
 
     });
