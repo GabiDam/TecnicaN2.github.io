@@ -733,8 +733,9 @@ hr{
 	}
 
 	.imgs a.show2{
-		width: 40vw;
+		width: 41vw;
 		height: 35vw;
+		transform: translateX(46.9vw);
 	}
 
 	@keyframes tr{
@@ -744,7 +745,7 @@ hr{
 		}
 		to{
 			
-			width: 40vw;
+			width: 41vw;
 		}
 	}
 
@@ -765,10 +766,10 @@ hr{
 	}
 
 	.imgs ul.show3{
-		width: 40vw;
+		width: 41.5vw;
 		height: 35vw;
+		transform: translateX(1.5vw);
 	}
-	
 
 	
 	@keyframes tr2{
@@ -778,7 +779,7 @@ hr{
 		}
 		to{
 			
-			width: 40vw;
+			width: 41.5vw;
 		}
 	}
 
@@ -910,5 +911,9 @@ hr{
 	.contenedorLogo{
 	display: flex; /*gracias youtube y gabi*/
 	}
+}
+
+@media only screen and (max-width: 950px){
+	
 }
 
