@@ -186,9 +186,10 @@ td{
 	background-color: rgb(46, 46, 46);
 	color: rgb(243, 238, 238);
 	text-align: center;
-	padding: 2.5vw;
+	padding: 2vw;
 	border: 1px solid rgb(187, 187, 187);
-	
+	margin-left: 1.5vw;
+	margin-right: 1.5vw;
 }
 
 .ig{
