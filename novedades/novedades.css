@@ -32,6 +32,7 @@ header {
 	left: 0;
 	top: 0;
 	right: 0;
+	z-index: 2;
 
 }
 
@@ -230,6 +231,50 @@ hr{
 .ulfooter li a:hover{
     color: white;
 }
+/*Aca empieza modificacion de novedades*/ 
+.titulop{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0%;
+}
+
+.titulo{
+	
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0%;
+	text-align: center;
+
+}
+
+.fecha{
+    font-size: 15px; 
+    margin: 0%;
+
+}
+
+.autor{
+    font-size: 15px;
+    margin: 0%;
+	margin-bottom: 4vh;
+
+}
+.hrn{
+height: 0.5px;
+background-color: rgb(0, 175, 194);
+    border-color: rgb(0, 175, 194);
+	margin-bottom: 4vh;
+	margin-top: 4vh;
+}
+
+
+
+
+/*Aca termina modificacion de novedades*/
+
 @media only screen and (max-width: 1270px){
 	/**/
 	
