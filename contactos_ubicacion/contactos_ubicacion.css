@@ -201,6 +201,12 @@ header {
     color: white;
 }
 
+.info{
+	max-width: 100vh;
+	text-align: center;
+	padding-top: 3vh;
+}
+
 aside {
 	/**/
 	width: 5%;
