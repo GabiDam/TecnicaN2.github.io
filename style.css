@@ -94,6 +94,7 @@ header {
 .menu-nav{
 	/**/
     display: none;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .barra{
@@ -159,12 +160,32 @@ header {
 .imgs{
 	
     display: flex;
-	padding-top: 100px;
-	padding-bottom: 100px ;
+	padding-top: 5vw;
+	padding-bottom: 5vw ;
 	background-color: rgb(28, 27, 27);
 	background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
 }
 
+.imgs h1{
+	font-weight: 200;
+	
+	font-size: 2vw;
+	color: white;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -200%);
+	font-family: 'Montserrat', sans-serif;
+}
+
+.linea{
+	height: 0.2vw;
+	width: 63vw;
+	background-color: rgb(145, 145, 145);
+	position: absolute;
+	left: 50%;
+	border-radius: 1px;
+	transform: translate(-50%, -350%);
+}
 
 .imgs a{
 	display: none;
@@ -243,7 +264,7 @@ header {
 
 .imagenh1{
 	
-	margin-left: 18%;
+	margin-left: 18.3%;
 
 	width: 30vw;
 	height: 30vw;
@@ -282,22 +303,22 @@ header {
 }
 
 .textoo{
+	font-weight: 200;
 	margin: 0;
 	color: white;
     font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
 	font-size: 2vw;
-    transform: translate(19%);
+    transform: translateX(19%);
 	padding-top: 14%;
 	position:absolute;
 	
 }
 
 .tituloabierto{
+	font-weight: 200;
 	margin: 0;
 	color: white;
     font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
 	font-size: 2vw;
     transform: translate(19%);
 	padding-top: 10%;
@@ -484,7 +505,7 @@ header {
 	color: white;
     font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	font-weight: 700;
+	font-weight: 200;
 	font-size: 2vw;
 	padding-left: 8%;
 	padding-top: 14%;
@@ -504,11 +525,12 @@ header {
 }
 
 .tituloabierto2{
+	
 	margin: 0;
 	color: white;
     font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	font-weight: 700;
+	font-weight: 200;
 	font-size: 2vw;
 	padding-left: 8%;
 	position: absolute;
@@ -587,6 +609,7 @@ aside {
 	top: 0;
 	left: 0;
 	bottom: 0;
+	z-index: 2;
 }
 
 .titulo{
@@ -738,6 +761,10 @@ hr{
 		transform: translateX(46.9vw);
 	}
 
+	.textoo{
+		transform: translateX(35%);
+	}
+
 	@keyframes tr{
 		/**/
 		from{
@@ -769,6 +796,11 @@ hr{
 		width: 41.5vw;
 		height: 35vw;
 		transform: translateX(1.5vw);
+	}
+	
+	.textoo2{
+		transform: translateX(12%);
+		
 	}
 
 	
@@ -913,7 +945,39 @@ hr{
 	}
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 940px){
 	
+.imgs{
+	display: block;
+}
+
+.info1{
+	display: none;
+}		
+
+.imagenh1{
+	margin: 0;
+
+	width: 100%;
+	height: auto;
+
+	background-size: cover;
+}
+
+.txth{
+	width: 100%;
+	height: 100vw;
+}
+
+
+
+
+.info2{
+	display: none;
+}
+
+
+
+
 }
 
