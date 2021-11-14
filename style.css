@@ -209,7 +209,19 @@ header {
 	animation-duration: 0.4s;
 }
 
+.masinfo{
+	width: 100%;
+}
 
+.Subtitul2{
+	margin: 0;
+	font-size: 1.5vw;
+}
+
+.txtinfo{
+	margin: 0;
+	font-size: 1vw;
+}
 
 @keyframes tr{
 	/**/
@@ -466,6 +478,7 @@ header {
 		
 	}
 }
+
 
 .bgo2{
 	width: 29.9vw;
@@ -891,6 +904,16 @@ hr{
 @media only screen and (max-width: 1270px){
 	/**/
 
+	.Subtitul2{
+		margin: 0;
+		font-size: 2vw;
+	}
+	
+	.txtinfo{
+		margin: 0;
+		font-size: 1.2vw;
+	}
+
 	.titulon{
         text-align: center;
         font-family: 'Montserrat', sans-serif;
@@ -1147,6 +1170,23 @@ hr{
 
 @media only screen and (max-width: 940px){
 	
+.masinfo{
+	display: none;
+}
+
+.imgs a.show2{
+	display: none;
+}
+
+.bgo{
+	display: none;
+}
+
+.tituloabierto{
+	display: none;
+}
+
+
 .imgs{
 	display: block;
 }
@@ -1329,4 +1369,3 @@ hr{
 
 }
 }
-
