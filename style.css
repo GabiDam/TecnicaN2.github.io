@@ -1,4 +1,12 @@
-
+/*
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		CLASES ELEMENTALES
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
 body {
 	/*  Customiza todo la pagina  */
 	background-color: rgb(223, 223, 223);
@@ -21,7 +29,6 @@ section{
 	max-width: 100vh;
 	margin: 0 auto;
 	font-size: 20px;
-	
 }
 
 header {
@@ -35,566 +42,6 @@ header {
 	z-index: 2;
 }
 
-.contenedorLogo {
-	/*  Customiza la zona de los logos  */
-	margin-left: 5%;
-	padding-left: 3vh;
-	float: left;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
-	
-}
-
-.imagenlogo{
-	/**/
-	height: 10vh;
-	width: auto;
-	
-}
-
-.bsas{
-	/**/
-	height: 10vh;
-	width: auto;
-	
-	padding-left: 3vh;
-	float: right;
-	padding-top: 3vh;
-	padding-bottom: 3vh;
-}
-
-.contenedorcostado {
-	/*  Customiza  */
-	position: fixed;
-	top: 40%;
-	left: 1.5%;
-}
-
-.imagenescostado{
-	/**/
-	width: 2vw;
-	
-}
-
-.rombo {
-	/**/
-	margin-left: 0.5vh;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: 1.5vw;
-}
-
-#rombo{
-	/**/
-	margin-left: 0.5vh;
-	width: 1.5vw;
-}
-
-
-.menu-nav{
-	/**/
-    display: none;
-	font-family: 'Times New Roman', Times, serif;
-}
-
-.barra{
-	/**/
-	width: 100%;
-	margin-left: 5%;
-	position: fixed;
-	top: 12vh;
-}
-
-.navigation{ 
-	/**/
-    background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
-    
-    background-color: rgb(255, 55, 55);
-    color: white;
-	
-
-}
-
-
-
-.navigation ul li{ 
-	/**/
-    display: inline-block;
-	
-}
-
-.navigation ul li a{ 
-	/**/
-	
-    font-size: 1.35vw;
-    display:block;
-    padding-right: 4.5vw;
-	padding-left: 4.5vw;
-	padding-top:0.6rem ;
-	padding-bottom:0.6rem ;
-    color: white;
-    text-decoration: none;
-	
-	
-	
-}
-
-.navigation ul li a:hover{ 
-	/**/
-    background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
-	
-}
-
-.banner{ 
-	/**/
-    padding-right: 100px;
-    padding-bottom: 250px;
-    padding-left: 100px;
-    background-image: url(img/bannerpueba.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: 0 0;
-}
-
-.imgs{
-	
-    display: flex;
-	padding-top: 5vw;
-	padding-bottom: 5vw ;
-	background-color: rgb(28, 27, 27);
-	background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
-}
-
-.imgs h1{
-	font-weight: 200;
-	
-	font-size: 2vw;
-	color: white;
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, -200%);
-	font-family: 'Montserrat', sans-serif;
-}
-
-.linea{
-	height: 0.2vw;
-	width: 63vw;
-	background-color: rgb(145, 145, 145);
-	position: absolute;
-	left: 50%;
-	border-radius: 1px;
-	transform: translate(-50%, -350%);
-}
-
-.imgs a{
-	display: none;
-}
-
-.imgs a.show2{
-	display: flex;
-	width: 35vw;
-	height: 30vw;
-	background-color: white;
-	position: absolute;
-	
-
-	transform: translateX(47.7vw);
-	z-index: 1;
-
-	padding: 0;
-	margin: 0;
-
-	animation-name: tr;
-	animation-duration: 0.4s;
-}
-
-.masinfo{
-	width: 100%;
-}
-
-.Subtitul2{
-	margin: 0;
-	font-size: 1.5vw;
-}
-
-.txtinfo{
-	margin: 0;
-	font-size: 1vw;
-}
-
-@keyframes tr{
-	/**/
-	from{
-		width: 0vw;
-	}
-	to{
-		width: 35vw;
-		
-	}
-}
-
-
-.cerrar{
-	height: 5%;
-	width: 4%;
-	padding: 0%;
-	border-radius: 0px;
-	border-width: 0.1px;
-	border-color: rgb(208, 208, 208);
-   	font-size: 1vw;
-	font-weight: 500;
-	transform: translateX(33.6vw);
-	box-shadow: none;
-	animation-name: cerrar;
-	animation-duration: 0.4s;
-}
-
-@keyframes cerrar{
-	from{
-		transform: translateX(0vw);
-	}
-	to{
-		transform: translateX(33.7vw);
-	}
-}
-
-.cerrar2{
-	height: 5%;
-	width: 4%;
-	padding: 0%;
-	border-radius: 0px;
-	border-width: 0.1px;
-	border-color: rgb(208, 208, 208);
-   	font-size: 1vw;
-	font-weight: 500;
-	transform: translateX(0vw);
-	box-shadow: none;
-
-}
-
-
-.imagenh1{
-	
-	margin-left: 18.3%;
-
-	width: 30vw;
-	height: 30vw;
-	background-image: url(Img/Captura.PNG);
-
-	background-size: contain;
-	background-repeat: no-repeat;
-
-	
-}
-
-.imgHist{
-	margin: 3%;
-	height: 45vw;
-	width: 45vw;
-}
-
-.txth{
-	width: 29.9vw;
-	height: 30vw;
-	
-	
-	background-color: rgba(48, 48, 48, 0.378);
-	opacity: 0;	
-}
-
-
-
-.bgo{
-	width: 29.9vw;
-	height: 30vw;
-	
-	
-	background-color: rgb(49, 49, 49);
-	text-align: center;
-}
-
-.textoo{
-	font-weight: 200;
-	margin: 0;
-	color: white;
-    font-family: 'Montserrat', sans-serif;
-	font-size: 2vw;
-    transform: translateX(19%);
-	padding-top: 14%;
-	position:absolute;
-	
-}
-
-.tituloabierto{
-	font-weight: 200;
-	margin: 0;
-	color: white;
-    font-family: 'Montserrat', sans-serif;
-	font-size: 2vw;
-    transform: translate(19%);
-	padding-top: 10%;
-	position:absolute;
-}
-
-.textocent1{
-	margin: 0;
-	font-size: 1.2vw;
-	
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	
-	transform: translateY(280%);
-	color: rgb(49, 49, 49)
-}
-
-.textoa1{
-	margin: 0;
-	font-size: 1.2vw;
-	
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	
-	transform: translateY(200%);
-	color: rgb(255, 255, 255)
-}
-
-.info1{
-	margin: 0;
-	font-size: 1.2vw;
-	
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	
-	transform: translateY(1200%);
-	color: rgb(49, 49, 49);
-	
-	background-color: transparent;
-	
-}
-
-.chauinfo{
-	display: none;
-}
-
-.info1:hover{
-	
-	background-color: rgba(209, 209, 209, 0.22);
-}
-
-
-
-.imagenh1:hover .info1{
-	color: white;
-	transform: translateY(15.6vw);
-	transition: all .4s ease-in;
-}
-
-.info2{
-	margin: 0;
-	font-size: 1.2vw;
-	
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	
-	transform: translate(100%, 1200%);
-
-	color: rgb(49, 49, 49);
-	
-	background-color: transparent;
-}
-
-.imagenh2:hover .info2{
-	color: white;
-	transform: translate(100% ,17vw);
-	transition: all .4s ease-in;
-}
-
-.imgs ul{
-	display: none;
-}
-
-.imgs ul.show3{
-	display: flex;
-	width: 35vw;
-	height: 30vw;
-	background-color: white;
-	position: absolute;
-	right: 48.6%;
-	list-style-type: none;
-	
-
-	transform: translateX(0vw);
-	z-index: 1;
-
-	padding: 0;
-	margin: 0;
-
-	animation-name: tr2;
-	animation-duration: 0.4s;
-
-
-}
-
-@keyframes tr2{
-	/**/
-	from{
-		width: 0vw;
-	}
-	to{
-		
-		width: 35vw;
-	}
-}
-
-
-.imagenh1:hover .textocent1{
-	
-	color: rgb(255, 255, 255);
-	transform: translateY(200%);
-	transition: all .4s ease-in;
-}
-
-
-
-.imagenh1:hover .textoo{
-
-	transition: padding-top 0.2s;
-	padding-top: 10%;
-}
-
-.imagenh1:hover .txth{
-	animation-name: imgh;
-	animation-duration: 0.5s;
-	text-align: center;
-	opacity: 1;
-	
-}
-
-
-@keyframes imgh{
-	/**/
-	from{
-		background-color: rgba(94, 94, 94, 0);
-	}
-	to{
-		background-color: rgba(48, 48, 48, 0.378);
-		
-	}
-}
-
-
-.bgo2{
-	width: 29.9vw;
-	height: 30vw;
-	
-	
-	background-color: rgb(49, 49, 49);
-	text-align: center;
-}
-
-.imagenh2{
-	
-	margin-left: 3%;
-
-	width: 30vw;
-	height: 30vw;
-	background-image: url(Img/Captura.PNG);
-
-	background-size: contain;
-	background-repeat: no-repeat;
-
-} 
-
-.txth2{
-	width: 29.9vw;
-	height: 30vw;
-	
-	
-	background-color: rgba(48, 48, 48, 0.378);
-	opacity: 0;	
-
-	
-}
-
-.textoo2{
-	margin: 0;
-	color: white;
-    font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-weight: 200;
-	font-size: 2vw;
-	padding-left: 8%;
-	padding-top: 14%;
-	position: absolute;
-	
-}
-
-
-.textoa2{
-	margin: 0;
-	font-size: 1.2vw;
-	
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	
-	transform: translateY(200%);
-	color: rgb(255, 255, 255)
-}
-
-.tituloabierto2{
-	
-	margin: 0;
-	color: white;
-    font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	font-weight: 200;
-	font-size: 2vw;
-	padding-left: 8%;
-	position: absolute;
-	
-	padding-top: 10%;
-}
-
-.chauinfo2{
-	display: none;  
-}
-
-.textocent2{
-	margin: 0;
-	font-size: 1.2vw;
-	
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	text-align: center;
-	transform: translateY(350%);
-	color: rgb(49, 49, 49)
-}
-
-.textoa2{
-	margin: 0;
-	font-size: 1.2vw;
-	
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-	text-align: center;
-	transform: translateY(250%);
-	color: rgb(255, 255, 255)
-}
-
-.imagenh2:hover .textocent2{
-	
-	color: rgb(255, 255, 255);
-	transform: translateY(250%);
-	transition: all .4s ease-in;
-}
-
-.imagenh2:hover .textoo2{
-
-	transition: padding-top 0.2s;
-	padding-top: 10%;
-}
-
-.imagenh2:hover .txth2{
-	animation-name: imgh;
-	animation-duration: 0.5s;
-	opacity: 1;
-	
-}
-
 aside {
 	/**/
 	width: 5%;
@@ -604,13 +51,6 @@ aside {
 	left: 0;
 	bottom: 0;
 	z-index: 2;
-}
-
-.titulo{
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-	font-weight: 300;
 }
 
 footer {
@@ -623,127 +63,459 @@ footer {
 }
 
 hr{
+	margin: 0, 2%, 0, 2%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 	height: 0.5px;
-	margin-right: 2%;	
-	margin-top: 0;
-	margin-bottom: 0;
 	background-color: rgb(255, 106, 106);
 	border-color: rgb(255, 106, 106);
 }	
 
-#copy{
-	
-	background-color: rgb(255, 64, 64);
+/*
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+	CLASES DEL HEADER
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+.contenedorLogo {
+	/*  Customiza la zona de los logos  */
+	margin-left: 5%;
+	padding-left: 3vh;
+	float: left;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 }
 
-.contcopy{
-	margin-left: 7%;
-	background-color: rgb(255, 64, 64);
+.imagenlogo{
+	/*Determina Tamaño del Logo T2*/
+	height: 10vh;
+	width: auto;
 }
 
-.Copyright{
-	/**/
-	position: relative;
-	color: white;
-	font-size: 15px;
-	
+.bsas{
+	/*Determina tamaño y distancia del logo de BsAs*/
+	height: 10vh;
+	width: auto;
+	padding-left: 3vh;
+	float: right;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
 }
 
-
-.contfooter{
-    
-    bottom: 0;
-    margin-left: 5%;
-    text-align: center;
-    background-color: rgb(255, 64, 64);
+.barra{
+	/*Fija posicion de la barra de nav.*/
+	width: 100%;
+	margin-left: 5%;
+	position: fixed;
+	top: 12vh;
 }
 
-.ulfooter{
-    
-    padding-right: 25vh;
-    list-style-type: none;
+.menu-nav{
+	/*Fuentes de la barra*/
+    display: none;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.navigation{ 
+	/*Crea el gradiente de colores*/
+    background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
+    background-color: rgb(255, 55, 55);
+    color: white;
+}
+
+.navigation ul li{ 
+	/*El inline-block los pone en linea recta y permite customizar el tamaño de los boxes*/
     display: inline-block;
+}
+
+.navigation ul li a{ 
+	/*Hace el diseño y separacion de cada seccion del navegador*/
+    font-size: 1.35vw;
+    display:block;
+    padding-right: 4.5vw;
+	padding-left: 4.5vw;
+	padding-top:0.6rem ;
+	padding-bottom:0.6rem ;
     color: white;
-}
-
-.ulfooter li{
-    padding-top: 10px;
-
-}
-
-.contfooter ul a{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-.ulfooter li a{
-    /**/
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
     text-decoration: none;
-    color: rgb(223, 223, 223);
 }
 
-.ulfooter li a:hover{
-    color: white;
+.navigation ul li a:hover{ 
+	/*Si mantienes pulsado, cambia el color*/
+    background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
 }
 
-/*Esto es la seccion de celu de mas informaicon de las carreras*/
+/*
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+	CLASES DEL ASIDE
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+*/
 
-.mostrar{
-    padding: 0;
+.contenedorcostado {
+	/*Fija los logos de las redes sociales*/
+	position: fixed;
+	top: 40%;
+	left: 1.5%;
 }
 
-.inftec{
-    display: none;
-    width: 80%;
-    max-width: 100vh;
-    margin: 0 auto;
-    font-size: 20px;
-
-    
+.imagenescostado{
+	width: 2vw;
 }
 
-.mmo{
-    display: none;
-    width: 80%;
-    max-width: 100vh;
-    margin: 0 auto;
-    font-size: 20px;
-    
+#rombo{
+	margin-left: 0.5vh;
+	width: 1.5vw;
 }
 
-.titulon{
-    
-    font-family: 'Montserrat', sans-serif;
+/*
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+	CLASES DEL MAIN
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+.banner{ 
+	/*La separacion entre las imagenes de las orientaciones de la tecnica 2
+	y customizaciones sobre la imagen*/
+
+    padding-right: 100px;
+    padding-bottom: 350px;
+    padding-left: 100px;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 0;
+}
+
+.imgs{
+	/*Contenedor de los contenidos de las orientaciones*/
+    display: flex;
+	padding-top: 5vw;
+	padding-bottom: 5vw ;
+	background-color: rgb(28, 27, 27);
+	background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
+}
+
+.linea{
+	/*Crea una linea de separacion*/
+	height: 0.2vw;
+	width: 63vw;
+	background-color: rgb(145, 145, 145);
+	position: absolute;
+	left: 50%;
+	border-radius: 1px;
+	transform: translate(-50%, -350%);
+}
+
+.masinfo{
+	width: 100%;
+}
+/*Diseña el texto emergente de cuando aprietas "mas informacion" en Tecnico Informatica*/
+.Subtitul2{
+	margin: 0;
+	font-size: 1.5vw;
+}
+.txtinfo{
+	margin: 0;
+	font-size: 1vw;
+}
+	/*
+	@@@@@@@@@@@@@@@@@@@@@@@
+		Tecnico en Informatica
+	@@@@@@@@@@@@@@@@@@@@@@@
+	*/
+	.imagenh1{
+		/*Clase sobre Orientacion en Informatica*/
+		margin-left: 18.3%;
+		width: 30vw;
+		height: 30vw;
+		background-image: url(Img/Captura.PNG);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.imagenh1:hover .textocent1{
+		color: rgb(255, 255, 255);
+		transform: translateY(200%);
+		transition: all .4s ease-in;
+	}
+	
+	.imagenh1:hover .textoo{
+		transition: padding-top 0.2s;
+		padding-top: 10%;
+	}
+	
+	.imagenh1:hover .txth{
+		animation-name: imgh;
+		animation-duration: 0.5s;
+		text-align: center;
+		opacity: 1;
+	}
+
+	.imagenh1:hover .info1{
+		color: white;
+		transform: translateY(15.6vw);
+		transition: all .4s ease-in;
+	}
+	
+	
+	.textoo{
+		font-weight: 200;
+		margin: 0;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 2vw;
+		transform: translateX(19%);
+		padding-top: 14%;
+		position:absolute;
+	}
+
+	.txth{
+		/*Le da fondo y tamaño al contenedor del texto*/
+		width: 29.9vw;
+		height: 30vw;
+		background-color: rgba(48, 48, 48, 0.378);
+		opacity: 0;	
+	}
+	
+	.textocent1{
+		/*Diseña el texto sobre la Tecnica de Informatica*/
+		margin: 0;
+		font-size: 1.2vw;
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+		transform: translateY(280%);
+		color: rgb(49, 49, 49)
+	}
+
+	.info1{
+		/*Diseña el boton del boton de M.Info en Tecnico en Informatica*/
+		margin: 0;
+		font-size: 1.2vw;
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+		transform: translateY(1200%);
+		color: rgb(49, 49, 49);
+		background-color: transparent;
+	}
+	
+	.info1:hover{
+		/*Si mantienes el cursor cambia el fondo*/
+		background-color: rgba(209, 209, 209, 0.22);
+	}
+	/*
+	@@@@@@@@@@@@@@@@@@@@@@@
+		Maestro Mayor de Obras
+	@@@@@@@@@@@@@@@@@@@@@@@
+	*/
+
+	.imagenh2{
+		margin-left: 3%;
+		width: 30vw;
+		height: 30vw;
+		background-image: url(Img/mmoimg.JPG);
+		background-size: contain;
+		background-repeat: no-repeat;
+	} 
+
+	.imagenh2:hover .info2{
+	/*Transicion del boton de Maestro Mayor de Obras*/
+		color: white;
+		transform: translate(100% ,17vw);
+		transition: all .4s ease-in;
+	}
+
+	.textoo2{
+		margin: 0;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-weight: 200;
+		font-size: 2vw;
+		padding-left: 8%;
+		padding-top: 14%;
+		position: absolute;
+	}
+
+	.imagenh2:hover .textocent2{
+	
+		color: rgb(255, 255, 255);
+		transform: translateY(250%);
+		transition: all .4s ease-in;
+	}
+	
+	.imagenh2:hover .textoo2{
+		transition: padding-top 0.2s;
+		padding-top: 10%;
+	}
+	
+	.imagenh2:hover .txth2{
+		animation-name: imgh;
+		animation-duration: 0.5s;
+		opacity: 1;
+	}
+
+	.txth2{
+		width: 29.9vw;
+		height: 30vw;
+		background-color: rgba(48, 48, 48, 0.378);
+		opacity: 0;	
+	}
+	
+	.textocent2{
+		margin: 0;
+		font-size: 1.2vw;
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+		text-align: center;
+		transform: translateY(350%);
+		color: rgb(49, 49, 49)
+	}
+	
+	.info2{
+		margin: 0;
+		font-size: 1.2vw;
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+		transform: translate(100%, 1200%);
+		color: rgb(49, 49, 49);
+		background-color: transparent;
+	}
+
+	/*
+		@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		Texto Emergente Informatica
+		@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	*/
+
+	.imgs h1{
+		/*Diseño del titulo de "Orientaciones"*/
+		font-weight: 200;
+		font-size: 2vw;
+		color: white;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -200%);
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	.imgs ul{
+		display: none;
+	}
+	
+	.imgs ul.show3{
+		display: flex;
+		width: 35vw;
+		height: 30vw;
+		background-color: white;
+		position: absolute;
+		right: 48.6%;
+		list-style-type: none;
+		transform: translateX(0vw);
+		z-index: 1;
+		padding: 0;
+		margin: 0;
+		animation-name: tr2;
+		animation-duration: 0.4s;
+	}
+
+	.imgs a{
+		/*Que este desactivado mientras no pidas el texto escrito*/
+		display: none;
+	}
+
+	.imgs a.show2{
+		/*Permite el contenido de texto de cuando apretas "mas informacion" en Tecnico en Informatica*/
+		display: flex;
+		width: 35vw;
+		height: 30vw;
+		background-color: white;
+		position: absolute;
+		transform: translateX(47.7vw);
+		z-index: 1;
+		padding: 0;
+		margin: 0;
+		animation-name: tr;
+		animation-duration: 0.4s;
+	}
+
+	.cerrar{
+		height: 5%;
+		width: 4%;
+		padding: 0%;
+		border-radius: 0px;
+		border-width: 0.1px;
+		border-color: rgb(208, 208, 208);
+		font-size: 1vw;
+		font-weight: 500;
+		transform: translateX(33.6vw);
+		box-shadow: none;
+		animation-name: cerrar;
+		animation-duration: 0.4s;
+	}
+
+
+	/*
+		@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		Texto Emergente Maestro Mayor de Obras
+		@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	*/
+
+	.cerrar2{
+		height: 5%;
+		width: 4%;
+		padding: 0%;
+		border-radius: 0px;
+		border-width: 0.1px;
+		border-color: rgb(208, 208, 208);
+		font-size: 1vw;
+		font-weight: 500;
+		transform: translateX(0vw);
+		box-shadow: none;
+	}
+
+/*
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		Clases del Section
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+.titulo{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    font-weight: 700;
-    padding-left: 35vw;
-    color: white;
+	font-weight: 300;
 }
 
-
-.tituloc{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 45px;
-    font-weight: 3000;
+.imgHist{
+	margin: 3%;
+	height: 30vw;
+	width: 45vw;
 }
 
-.Subtitul{
-    font-weight: 300;
-    font-size: 25px;
-}
-
-.hrt{
-    position: flex;
-    height: 0.5px;
-    padding: 1px;
-    padding-right: 3px;
-    padding-left: 3px;
-    background-color: rgb(28, 28, 28);
-    border-color: rgb(46, 46, 46);
-    margin-top: 5px;
-}    
+/*
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		Clases del Slider de Novedades
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
 
 .hrt2{
     margin: 1px;
@@ -763,143 +535,321 @@ hr{
     padding-bottom: 5%;
 }
 
-.imagenslide{
-    height: 50px;
-    width: 1000px;
-    
-}
-
-.slide {
-
-    height: 50vh;
-    width: 50vw;
-    
-    margin-top: 26px;
-    margin-left: 28%;
-}
-
-.slide-inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: calc( 300px + 3em);
-}
-
-.slide-open:checked + .slide-item {
-    position: static;
-    opacity: 100;
-}
-
-.slide-item {
-    position: absolute;
-    opacity: 0;
-    -webkit-transition: opacity 0.6s ease-out;
-    transition: opacity 0.6s ease-out;
-}
-
-.slide-item img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-}
-
-.slide-control {
-    background: rgba(0, 0, 0, 0.28);
-    border-radius: 50%;
-    color: #fff;
-    cursor: pointer;
-    display: none;
+.titulon{
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    height: 40px;
-    line-height: 35px;
-    position: absolute;
-    top: 10vw;
-    -webkit-transform: translate(0, -50%);
-    cursor: pointer;
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
+    font-weight: 700;
+    padding-left: 35vw;
+    color: white;
+}
+
+	/*
+		@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		CLASES DEL SLIDER (MAS AUN)
+		@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	*/
+
+	.imagenslide{
+		height: 50px;
+		width: 1000px;
+		
+	}
+	
+	.slide {
+		height: 50vh;
+		width: 50vw;
+		margin-top: 26px;
+		margin-left: 28%;
+	}
+	
+	.slide-inner {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		height: calc( 300px + 3em);
+	}
+	
+	.slide-open:checked + .slide-item {
+		position: static;
+		opacity: 100;
+	}
+	
+	.slide-item {
+		position: absolute;
+		opacity: 0;
+		-webkit-transition: opacity 0.6s ease-out;
+		transition: opacity 0.6s ease-out;
+	}
+	
+	.slide-item img {
+		display: block;
+		height: auto;
+		max-width: 100%;
+	}
+	
+	.slide-control {
+		background: rgba(0, 0, 0, 0.28);
+		border-radius: 50%;
+		color: #fff;
+		cursor: pointer;
+		display: none;
+		font-size: 40px;
+		height: 40px;
+		line-height: 35px;
+		position: absolute;
+		top: 10vw;
+		-webkit-transform: translate(0, -50%);
+		cursor: pointer;
+		-ms-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+		text-align: center;
+		width: 40px;
+		z-index: 1;
+	}
+	
+	.slide-control.prev {
+		left: 2%;
+	}
+	
+	.slide-control.next {
+		right: 2%;
+	}
+	
+	.slide-control:hover {
+		background: rgba(0, 0, 0, 0.8);
+		color: #aaaaaa;
+	}
+	
+	#slide-1:checked ~ .control-1,
+	#slide-2:checked ~ .control-2,
+	#slide-3:checked ~ .control-3 {
+		display: block;
+	}
+	
+	.slide-indicador {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		bottom: 0%;
+		left: 0;
+		right: 0;
+		text-align: center;
+		z-index: 1;
+		top: 19vw;
+	}
+	
+	.slide-indicador li {
+		display: inline-block;
+		margin: 0 5px;
+	}
+	
+	.slide-circulo {
+		color: #828282;
+		cursor: pointer;
+		display: block;
+		font-size: 35px;
+	}
+	
+	.slide-circulo:hover {
+		color: #aaaaaa;
+	}
+	
+	#slide-1:checked ~ .control-1 ~ .slide-indicador li:nth-child(1) .slide-circulo,
+	#slide-2:checked ~ .control-2 ~ .slide-indicador li:nth-child(2) .slide-circulo,
+	#slide-3:checked ~ .control-3 ~ .slide-indicador li:nth-child(3) .slide-circulo {
+		color: #428bca;
+	}
+
+	/*
+		@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		CLASES DEL SLIDER (CIERRE ._:)
+		@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	*/
+
+/*
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		INFORMACION SOLO MOBILE DE LAS ORIENTACIONES (TEC. INFO Y MAESTRO MAYOR DE OBRAS)
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+.inftec{
+	/*Informacion de Tecnico en Informatica (div)*/
+    display: none;
+    width: 80%;
+    max-width: 100vh;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.mmo{
+	/*Informacion de MMO(div)*/
+    display: none;
+    width: 80%;
+    max-width: 100vh;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.hrt{
+    position: flex;
+    height: 0.5px;
+    padding: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    background-color: rgb(28, 28, 28);
+    border-color: rgb(46, 46, 46);
+    margin-top: 5px;
+}
+
+.tituloc{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	font-weight: 3000;
+}
+
+.Subtitul{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/*
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		CLASES DEL FOOTER
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+.contfooter{
+    bottom: 0;
+    margin-left: 5%;
     text-align: center;
-    width: 40px;
-    z-index: 1;
+    background-color: rgb(255, 64, 64);
 }
 
-.slide-control.prev {
-    left: 2%;
+.contfooter ul a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
-.slide-control.next {
-    right: 2%;
-}
-
-.slide-control:hover {
-    background: rgba(0, 0, 0, 0.8);
-    color: #aaaaaa;
-}
-
-#slide-1:checked ~ .control-1,
-#slide-2:checked ~ .control-2,
-#slide-3:checked ~ .control-3 {
-    display: block;
-}
-
-.slide-indicador {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    bottom: 0%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 1;
-    top: 19vw;
-}
-
-.slide-indicador li {
+.ulfooter{
+    padding-right: 25vh;
+    list-style-type: none;
     display: inline-block;
-    margin: 0 5px;
+    color: white;
 }
 
-.slide-circulo {
-    color: #828282;
-    cursor: pointer;
-    display: block;
-    font-size: 35px;
+.ulfooter li{
+    padding-top: 10px;
+
 }
 
-.slide-circulo:hover {
-    color: #aaaaaa;
+.ulfooter li a{
+    /**/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(223, 223, 223);
 }
 
-#slide-1:checked ~ .control-1 ~ .slide-indicador li:nth-child(1) .slide-circulo,
-#slide-2:checked ~ .control-2 ~ .slide-indicador li:nth-child(2) .slide-circulo,
-#slide-3:checked ~ .control-3 ~ .slide-indicador li:nth-child(3) .slide-circulo {
-    color: #428bca;
+.ulfooter li a:hover{
+    color: white;
 }
 
-#titulo {
-    width: 100%;
-    position: absolute;
-    padding: 0px;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 27px;
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Open Sans', sans-serif;
-    z-index: 9999;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+/*
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		CLASES DEL COPYRIGHT
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+#copy{
+	background-color: rgb(255, 64, 64);
 }
 
-hr{
-    margin-top: 0%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-block-start: 0%;
-    margin-block-end: 0%;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+.contcopy{
+	margin-left: 7%;
+	background-color: rgb(255, 64, 64);
 }
-/*Aca termina*/
+
+.Copyright{
+	/**/
+	position: relative;
+	color: white;
+	font-size: 15px;
+}
+
+/*
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		ANIMACIONES
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+@keyframes tr{
+	/**/
+	from{
+		width: 0vw;
+	}
+	to{
+		width: 35vw;
+		
+	}
+}
+
+@keyframes cerrar{
+	from{
+		transform: translateX(0vw);
+	}
+	to{
+		transform: translateX(33.7vw);
+	}
+}
+
+@keyframes tr2{
+	/**/
+	from{
+		width: 0vw;
+	}
+	to{
+		
+		width: 35vw;
+	}
+}
+
+@keyframes imgh{
+	/**/
+	from{
+		background-color: rgba(94, 94, 94, 0);
+	}
+	to{
+		background-color: rgba(48, 48, 48, 0.378);
+		
+	}
+}
+
+/*
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		MEDIA QUERIES
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
 
 @media only screen and (max-width: 1270px){
 	/**/
@@ -930,7 +880,7 @@ hr{
 		border-radius: 0px;
 		border-width: 0.1px;
 		border-color: rgb(208, 208, 208);
-		   font-size: 1vw;
+		font-size: 1vw;
 		font-weight: 500;
 		transform: translateX(38.4vw);
 		box-shadow: none;
@@ -1153,7 +1103,6 @@ hr{
 		display: none;
 	}
 }
-
 @media only screen and (max-width: 1300px){
 	/**/
 	.localidad{
@@ -1369,3 +1318,94 @@ hr{
 
 }
 }
+
+
+/*
+
+
+CLASES RARAS?
+
+
+*/
+.bgo{
+	width: 29.9vw;
+	height: 30vw;
+	background-color: rgb(49, 49, 49);
+	text-align: center;
+}
+
+.tituloabierto{
+	font-weight: 200;
+	margin: 0;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 2vw;
+    transform: translate(19%);
+	padding-top: 10%;
+	position:absolute;
+}
+.textoa1{
+	margin: 0;
+	font-size: 1.2vw;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	transform: translateY(200%);
+	color: rgb(255, 255, 255)
+}
+.chauinfo{
+	display: none;
+}
+.bgo2{
+	width: 29.9vw;
+	height: 30vw;
+	background-color: rgb(49, 49, 49);
+	text-align: center;
+}
+.textoa2{
+	margin: 0;
+	font-size: 1.2vw;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	transform: translateY(200%);
+	color: rgb(255, 255, 255)
+}
+.tituloabierto2{
+	margin: 0;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 2vw;
+	padding-left: 8%;
+	position: absolute;
+	padding-top: 10%;
+}
+.chauinfo2{
+	display: none;  
+}
+.textoa2{
+	margin: 0;
+	font-size: 1.2vw;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	text-align: center;
+	transform: translateY(250%);
+	color: rgb(255, 255, 255)
+}
+.mostrar{
+    padding: 0;
+}
+#titulo {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+/*
+
+CLASES RARAS?
+
+*/
