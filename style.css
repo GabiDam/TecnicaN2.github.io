@@ -63,17 +63,6 @@ header {
 	padding-bottom: 3vh;
 }
 
-.vl{
-	/**/
-	height: 8vh;
-	width: auto;
-	margin-right: 2%;
-	padding-left: 3vh;
-	float: right;
-	padding-top: 3vh;
-	padding-bottom: 3vh;
-}
-
 .contenedorcostado {
 	/*  Customiza  */
 	position: fixed;
@@ -105,6 +94,7 @@ header {
 .menu-nav{
 	/**/
     display: none;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .barra{
@@ -170,24 +160,123 @@ header {
 .imgs{
 	
     display: flex;
-	padding-top: 100px;
-	padding-bottom: 100px ;
+	padding-top: 5vw;
+	padding-bottom: 5vw ;
 	background-color: rgb(28, 27, 27);
 	background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
 }
 
-
-.masinfo{
-	width: 30vw;
-	height: 30vw;
-	background-color: white;
+.imgs h1{
+	font-weight: 200;
+	
+	font-size: 2vw;
+	color: white;
 	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -200%);
+	font-family: 'Montserrat', sans-serif;
+}
+
+.linea{
+	height: 0.2vw;
+	width: 63vw;
+	background-color: rgb(145, 145, 145);
+	position: absolute;
+	left: 50%;
+	border-radius: 1px;
+	transform: translate(-50%, -350%);
+}
+
+.imgs a{
 	display: none;
 }
 
+.imgs a.show2{
+	display: flex;
+	width: 35vw;
+	height: 30vw;
+	background-color: white;
+	position: absolute;
+	
+
+	transform: translateX(47.7vw);
+	z-index: 1;
+
+	padding: 0;
+	margin: 0;
+
+	animation-name: tr;
+	animation-duration: 0.4s;
+}
+
+.masinfo{
+	width: 100%;
+}
+
+.Subtitul2{
+	margin: 0;
+	font-size: 1.5vw;
+}
+
+.txtinfo{
+	margin: 0;
+	font-size: 1vw;
+}
+
+@keyframes tr{
+	/**/
+	from{
+		width: 0vw;
+	}
+	to{
+		width: 35vw;
+		
+	}
+}
+
+
+.cerrar{
+	height: 5%;
+	width: 4%;
+	padding: 0%;
+	border-radius: 0px;
+	border-width: 0.1px;
+	border-color: rgb(208, 208, 208);
+   	font-size: 1vw;
+	font-weight: 500;
+	transform: translateX(33.6vw);
+	box-shadow: none;
+	animation-name: cerrar;
+	animation-duration: 0.4s;
+}
+
+@keyframes cerrar{
+	from{
+		transform: translateX(0vw);
+	}
+	to{
+		transform: translateX(33.7vw);
+	}
+}
+
+.cerrar2{
+	height: 5%;
+	width: 4%;
+	padding: 0%;
+	border-radius: 0px;
+	border-width: 0.1px;
+	border-color: rgb(208, 208, 208);
+   	font-size: 1vw;
+	font-weight: 500;
+	transform: translateX(0vw);
+	box-shadow: none;
+
+}
+
+
 .imagenh1{
 	
-	margin-left: 18%;
+	margin-left: 18.3%;
 
 	width: 30vw;
 	height: 30vw;
@@ -201,8 +290,8 @@ header {
 
 .imgHist{
 	margin: 3%;
-	height: 500px;
-	width: auto;
+	height: 45vw;
+	width: 45vw;
 }
 
 .txth{
@@ -212,20 +301,40 @@ header {
 	
 	background-color: rgba(48, 48, 48, 0.378);
 	opacity: 0;	
+}
 
+
+
+.bgo{
+	width: 29.9vw;
+	height: 30vw;
 	
+	
+	background-color: rgb(49, 49, 49);
+	text-align: center;
 }
 
 .textoo{
+	font-weight: 200;
 	margin: 0;
 	color: white;
     font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
 	font-size: 2vw;
-    transform: translate(19%);
+    transform: translateX(19%);
 	padding-top: 14%;
 	position:absolute;
 	
+}
+
+.tituloabierto{
+	font-weight: 200;
+	margin: 0;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 2vw;
+    transform: translate(19%);
+	padding-top: 10%;
+	position:absolute;
 }
 
 .textocent1{
@@ -238,6 +347,16 @@ header {
 	color: rgb(49, 49, 49)
 }
 
+.textoa1{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	transform: translateY(200%);
+	color: rgb(255, 255, 255)
+}
+
 .info1{
 	margin: 0;
 	font-size: 1.2vw;
@@ -248,6 +367,11 @@ header {
 	color: rgb(49, 49, 49);
 	
 	background-color: transparent;
+	
+}
+
+.chauinfo{
+	display: none;
 }
 
 .info1:hover{
@@ -255,11 +379,70 @@ header {
 	background-color: rgba(209, 209, 209, 0.22);
 }
 
+
+
 .imagenh1:hover .info1{
 	color: white;
-	transform: translateY(1000%);
+	transform: translateY(15.6vw);
 	transition: all .4s ease-in;
 }
+
+.info2{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	transform: translate(100%, 1200%);
+
+	color: rgb(49, 49, 49);
+	
+	background-color: transparent;
+}
+
+.imagenh2:hover .info2{
+	color: white;
+	transform: translate(100% ,17vw);
+	transition: all .4s ease-in;
+}
+
+.imgs ul{
+	display: none;
+}
+
+.imgs ul.show3{
+	display: flex;
+	width: 35vw;
+	height: 30vw;
+	background-color: white;
+	position: absolute;
+	right: 48.6%;
+	list-style-type: none;
+	
+
+	transform: translateX(0vw);
+	z-index: 1;
+
+	padding: 0;
+	margin: 0;
+
+	animation-name: tr2;
+	animation-duration: 0.4s;
+
+
+}
+
+@keyframes tr2{
+	/**/
+	from{
+		width: 0vw;
+	}
+	to{
+		
+		width: 35vw;
+	}
+}
+
 
 .imagenh1:hover .textocent1{
 	
@@ -284,6 +467,7 @@ header {
 	
 }
 
+
 @keyframes imgh{
 	/**/
 	from{
@@ -296,6 +480,15 @@ header {
 }
 
 
+.bgo2{
+	width: 29.9vw;
+	height: 30vw;
+	
+	
+	background-color: rgb(49, 49, 49);
+	text-align: center;
+}
+
 .imagenh2{
 	
 	margin-left: 3%;
@@ -307,14 +500,15 @@ header {
 	background-size: contain;
 	background-repeat: no-repeat;
 
-}
+} 
 
 .txth2{
 	width: 29.9vw;
 	height: 30vw;
-	background-color: rgba(48, 48, 48, 0.378);
 	
-	opacity: 0;
+	
+	background-color: rgba(48, 48, 48, 0.378);
+	opacity: 0;	
 
 	
 }
@@ -324,15 +518,41 @@ header {
 	color: white;
     font-family: 'Montserrat', sans-serif;
 	text-align: center;
-	font-weight: 700;
+	font-weight: 200;
 	font-size: 2vw;
 	padding-left: 8%;
 	padding-top: 14%;
 	position: absolute;
 	
+}
 
 
+.textoa2{
+	margin: 0;
+	font-size: 1.2vw;
 	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	transform: translateY(200%);
+	color: rgb(255, 255, 255)
+}
+
+.tituloabierto2{
+	
+	margin: 0;
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 2vw;
+	padding-left: 8%;
+	position: absolute;
+	
+	padding-top: 10%;
+}
+
+.chauinfo2{
+	display: none;  
 }
 
 .textocent2{
@@ -343,6 +563,16 @@ header {
 	text-align: center;
 	transform: translateY(350%);
 	color: rgb(49, 49, 49)
+}
+
+.textoa2{
+	margin: 0;
+	font-size: 1.2vw;
+	
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	text-align: center;
+	transform: translateY(250%);
+	color: rgb(255, 255, 255)
 }
 
 .imagenh2:hover .textocent2{
@@ -373,6 +603,7 @@ aside {
 	top: 0;
 	left: 0;
 	bottom: 0;
+	z-index: 2;
 }
 
 .titulo{
@@ -457,10 +688,358 @@ hr{
     color: white;
 }
 
+/*Esto es la seccion de celu de mas informaicon de las carreras*/
 
+.mostrar{
+    padding: 0;
+}
+
+.inftec{
+    display: none;
+    width: 80%;
+    max-width: 100vh;
+    margin: 0 auto;
+    font-size: 20px;
+
+    
+}
+
+.mmo{
+    display: none;
+    width: 80%;
+    max-width: 100vh;
+    margin: 0 auto;
+    font-size: 20px;
+    
+}
+
+.titulon{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 35vw;
+    color: white;
+}
+
+
+.tituloc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 3000;
+}
+
+.Subtitul{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.hrt{
+    position: flex;
+    height: 0.5px;
+    padding: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+    background-color: rgb(28, 28, 28);
+    border-color: rgb(46, 46, 46);
+    margin-top: 5px;
+}    
+
+.hrt2{
+    margin: 1px;
+    position: flex;
+    height: 0.5px;
+    padding: 1px;
+    padding-right: 70vw;
+    padding-left: 0vw;
+    background-color: rgb(28, 28, 28);
+    border-color: rgb(46, 46, 46);
+}    
+
+.minmuesnovedades{
+    display: block;
+    background-color: rgb(28, 27, 27);
+    background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
+    padding-bottom: 5%;
+}
+
+.imagenslide{
+    height: 50px;
+    width: 1000px;
+    
+}
+
+.slide {
+
+    height: 50vh;
+    width: 50vw;
+    
+    margin-top: 26px;
+    margin-left: 28%;
+}
+
+.slide-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: calc( 300px + 3em);
+}
+
+.slide-open:checked + .slide-item {
+    position: static;
+    opacity: 100;
+}
+
+.slide-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.slide-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.slide-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 10vw;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 1;
+}
+
+.slide-control.prev {
+    left: 2%;
+}
+
+.slide-control.next {
+    right: 2%;
+}
+
+.slide-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1,
+#slide-2:checked ~ .control-2,
+#slide-3:checked ~ .control-3 {
+    display: block;
+}
+
+.slide-indicador {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    top: 19vw;
+}
+
+.slide-indicador li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slide-circulo {
+    color: #828282;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.slide-circulo:hover {
+    color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1 ~ .slide-indicador li:nth-child(1) .slide-circulo,
+#slide-2:checked ~ .control-2 ~ .slide-indicador li:nth-child(2) .slide-circulo,
+#slide-3:checked ~ .control-3 ~ .slide-indicador li:nth-child(3) .slide-circulo {
+    color: #428bca;
+}
+
+#titulo {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+hr{
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+/*Aca termina*/
 
 @media only screen and (max-width: 1270px){
 	/**/
+
+	.Subtitul2{
+		margin: 0;
+		font-size: 2vw;
+	}
+	
+	.txtinfo{
+		margin: 0;
+		font-size: 1.2vw;
+	}
+
+	.titulon{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    padding: 0%;
+        color: white;
+    }
+	
+	.cerrar{
+		height: 5%;
+		width: 4%;
+		padding: 0%;
+		border-radius: 0px;
+		border-width: 0.1px;
+		border-color: rgb(208, 208, 208);
+		   font-size: 1vw;
+		font-weight: 500;
+		transform: translateX(38.4vw);
+		box-shadow: none;
+		animation-name: cerrar;
+		animation-duration: 0.4s;
+	}
+
+	@keyframes cerrar{
+		from{
+			transform: translateX(0vw);
+		}
+		to{
+			transform: translateX(38.4vw);
+		}
+	}
+
+	.imagenh1{
+		margin-left: 12%;
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.txth{
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.textocent1{
+		transform: translateY(350%);
+	}
+
+	.imagenh1:hover .textocent1{
+	
+		color: rgb(255, 255, 255);
+		transform: translateY(250%);
+		transition: all .4s ease-in;
+	}
+
+	.textoa1{
+		transform: translateY(250%);
+	}
+
+	.bgo{
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.imgs a.show2{
+		width: 41vw;
+		height: 35vw;
+		transform: translateX(46.9vw);
+	}
+
+	.textoo{
+		transform: translateX(35%);
+	}
+
+	@keyframes tr{
+		/**/
+		from{
+			width: 0vw;
+		}
+		to{
+			
+			width: 41vw;
+		}
+	}
+
+	.imagenh2{
+		margin-left: 6%;
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.txth2{
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.bgo2{
+		width: 35vw;
+		height: 35vw;
+	}
+
+	.imgs ul.show3{
+		width: 41.5vw;
+		height: 35vw;
+		transform: translateX(1.5vw);
+	}
+	
+	.textoo2{
+		transform: translateX(12%);
+		
+	}
+
+	
+	@keyframes tr2{
+		/**/
+		from{
+			width: 0vw;
+		}
+		to{
+			
+			width: 41.5vw;
+		}
+	}
+
+
+	
 	
 	.contfooter{
 		margin-left: 0;
@@ -587,4 +1166,206 @@ hr{
 	.contenedorLogo{
 	display: flex; /*gracias youtube y gabi*/
 	}
+}
+
+@media only screen and (max-width: 940px){
+	
+.masinfo{
+	display: none;
+}
+
+.imgs a.show2{
+	display: none;
+}
+
+.bgo{
+	display: none;
+}
+
+.tituloabierto{
+	display: none;
+}
+
+
+.imgs{
+	display: block;
+}
+
+.imgs h1{
+	position: relative;
+	font-size: 7vw;
+	text-align: center;
+	transform:translate(-50%, 50%) ;
+	width: 50vw;
+}
+
+.linea{
+	height: 0.3vw;
+	width: 90%;
+}
+
+.info1{
+	display: none;
+}		
+
+.imagenh1{
+	margin: 0;
+
+	width: 100%;
+	height: auto;
+
+	background-size: cover;
+}
+
+.textoo{
+	width: 75%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-size: 7vw;
+	padding-top: 15%;
+	word-break: break-all;
+}
+
+.imagenh1:hover .textoo{
+
+	transition: padding-top 0.2s;
+	padding-top: 10%;
+}
+
+.txth{
+	width: 100%;
+	height: 100vw;
+}
+
+.textocent1{
+	transform: translateY(150%);
+	font-size: 5vw;
+}
+
+.imagenh1:hover .textocent1{
+
+	transform: translateY(100%);
+}
+
+
+.imagenh2{
+	margin: 0;
+
+	width: 100%;
+	height: auto;
+
+	background-size: cover;
+}
+
+.txth2{
+	width: 100%;
+	height: 100vw;
+}
+
+.textoo2{
+	width: 75%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-size: 7vw;
+	padding-top: 15%;
+	word-break: break-all;
+}
+
+.textocent2{
+	transform: translateY(200%);
+	font-size: 5vw;
+}
+
+.imagenh2:hover .textocent2{
+
+	transform: translateY(120%);
+}
+
+.info2{
+	display: none;
+}
+
+
+
+/* lo nuevo*/
+.slide {
+
+    height: 30vh;
+    width: 70vw;
+
+    margin-top: 26px;
+    margin-left: 15%;
+}
+
+.slide-indicador {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    top: 31vw;
+}
+
+
+.slide-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 20vw;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 1;
+}
+
+
+.minmuesnovedades{
+    display: block;
+    background-color: rgb(28, 27, 27);
+    background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
+    padding-bottom: 30%;
+}
+
+.titulon{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding: 0%;
+}
+
+.inftec{
+	display: block;
+	width: 80%;
+	max-width: 100vh;
+	margin: 0 auto;
+	font-size: 20px;
+
+
+}
+
+.mmo{
+	display: block;
+	width: 80%;
+	max-width: 100vh;
+	margin: 0 auto;
+	font-size: 20px;
+
+}
 }
