@@ -16,7 +16,7 @@ main{
 
 section{
 	/**/
-	padding-top: 25vh;
+	padding-top: 10vh;
 	width: 80%;
 	max-width: 100vh;
 	margin: 0 auto;
@@ -234,7 +234,7 @@ hr{
 /*Aca empieza modificacion de novedades*/ 
 .titulop{
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 300;
     text-align: center;
     margin: 0%;
