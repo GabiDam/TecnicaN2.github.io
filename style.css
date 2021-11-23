@@ -534,17 +534,19 @@ hr{
 }    
 
 .minmuesnovedades{
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(28, 27, 27);
     background: linear-gradient(180deg, rgb(24, 24, 24), rgb(31, 31, 31), rgb(41, 41, 41), rgb(49, 49, 49));
     padding-bottom: 5%;
 }
 
 .titulon{
+    display: flex;
+    justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 700;
-    padding-left: 35vw;
     color: white;
 }
 
