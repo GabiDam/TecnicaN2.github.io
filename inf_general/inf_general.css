@@ -1,407 +1,416 @@
-
 body {
-	/*  Customiza todo la pagina  */
-	background-color: rgb(223, 223, 223);
-	margin: 0;
-	color: rgb(0, 0, 0);
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  /*  Customiza todo la pagina  */
+  background-color: rgb(223, 223, 223);
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
-main{
-	/* Customiza la zona principal */
-	padding-top: 15vh;
-	z-index: 1;
-	/*Zen Antique, */
+main {
+  /* Customiza la zona principal */
+  padding-top: 15vh;
+  z-index: 1;
+  /*Zen Antique, */
 }
 
-section{
-	/**/
-	padding-top: 10vh;
-	padding-bottom: 10vh;
-	width: 80%;
-	max-width: 100vh;
-	margin:  0 auto;
-	font-size: 20px;
-	
+section {
+  /**/
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  width: 80%;
+  max-width: 100vh;
+  margin: 0 auto;
+  font-size: 20px;
 }
-
 
 header {
-	/**/
-	background-color: rgb(255, 255, 255);
-	color: rgb(0, 0, 0);
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	z-index: 2;
+  /**/
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 2;
 }
 
 .contenedorLogo {
-	/*  Customiza la zona de los logos  */
-	margin-left: 5%;
-	padding-left: 3vh;
-	float: left;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
-	
+  /*  Customiza la zona de los logos  */
+  margin-left: 5%;
+  padding-left: 3vh;
+  float: left;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
-.imagenlogo{
-	/**/
-	height: 10vh;
-	width: auto;
-	
+.imagenlogo {
+  /**/
+  height: 10vh;
+  width: auto;
 }
 
-.bsas{
-	/**/
-	height: 10vh;
-	width: auto;
-	
-	padding-left: 3vh;
-	float: right;
-	padding-top: 3vh;
-	padding-bottom: 3vh;
+.bsas {
+  /**/
+  height: 10vh;
+  width: auto;
+
+  padding-left: 3vh;
+  float: right;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
 }
 
-.vl{
-	/**/
-	height: 8vh;
-	width: auto;
-	margin-right: 2%;
-	padding-left: 3vh;
-	float: right;
-	padding-top: 3vh;
-	padding-bottom: 3vh;
+.vl {
+  /**/
+  height: 8vh;
+  width: auto;
+  margin-right: 2%;
+  padding-left: 3vh;
+  float: right;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
 }
 
 .contenedorcostado {
-	/*  Customiza  */
-	position: fixed;
-	top: 40%;
-	left: 1.5%;
+  /*  Customiza  */
+  position: fixed;
+  top: 40%;
+  left: 1.5%;
 }
 
-.imagenescostado{
-	/**/
-	width: 2vw;
-	
+.imagenescostado {
+  /**/
+  width: 2vw;
 }
 
-#rombo{
-	/**/
-	margin-left: 0.5vh;
-	width: 1.5vw;
-	height: 1.5vw;
+#rombo {
+  /**/
+  margin-left: 0.5vh;
+  width: 1.5vw;
+  height: 1.5vw;
 }
 
-.menu-nav{
-	/**/
-    display: none;
+.menu-nav {
+  /**/
+  display: none;
 }
 
-.barra{
-	/**/
-	width: 100%;
-	margin-left: 5%;
-	position: fixed;
-	top: 12vh;
+.barra {
+  /**/
+  width: 100%;
+  margin-left: 5%;
+  position: fixed;
+  top: 12vh;
 }
 
-.navigation{ 
-	/**/
-    background: linear-gradient(0deg,rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
-    
-    background-color: rgb(255, 55, 55);
-    color: white;
+.navigation {
+  /**/
+  background: linear-gradient(
+    0deg,
+    rgb(255, 78, 78),
+    rgb(180, 53, 51),
+    rgb(175, 54, 58),
+    rgb(143, 45, 42)
+  );
+
+  background-color: rgb(255, 55, 55);
+  color: white;
 }
 
-.navigation ul li{ 
-	/**/
-    display: inline-block;
+.navigation ul li {
+  /**/
+  display: inline-block;
 }
 
-.navigation ul li a{ 
-	/**/
-	
-    font-size: 1.35vw;
-    display:block;
-    padding-right: 4.5vw;
-	padding-left: 4.5vw;
-	padding-top:0.6rem ;
-	padding-bottom:0.6rem ;
-    color: white;
-    text-decoration: none;
+.navigation ul li a {
+  /**/
+
+  font-size: 1.35vw;
+  display: block;
+  padding-right: 4.5vw;
+  padding-left: 4.5vw;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  color: white;
+  text-decoration: none;
 }
 
-.navigation ul li a:hover{ 
-	/**/
-    background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
+.navigation ul li a:hover {
+  /**/
+  background: linear-gradient(
+    180deg,
+    rgb(255, 78, 78),
+    rgb(180, 53, 51),
+    rgb(175, 54, 58),
+    rgb(143, 45, 42)
+  );
 }
 
-.hrt{
-	height: 0.5px;	
-	margin-bottom: 3vh;
-	background-color: rgb(0, 175, 194);
-	border-color: rgb(0, 175, 194);
+.hrt {
+  height: 0.5px;
+  margin-bottom: 3vh;
+  background-color: rgb(0, 175, 194);
+  border-color: rgb(0, 175, 194);
 }
 
-.title{
-	font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-	text-align: center;
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center;
 }
 
-.info{
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-	text-align: start;
+.info {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  text-align: start;
 }
 
-
- 
-td{
-	padding-right: 5vw;
-	padding-left: 5vw;
+td {
+  padding-right: 5vw;
+  padding-left: 5vw;
 }
 
-.ch:hover{
-	color: black;
+.ch:hover {
+  color: black;
 }
 
-.ch{
-	text-decoration: none;
-	color: rgb(0, 175, 194);
+.ch {
+  text-decoration: none;
+  color: rgb(0, 175, 194);
 }
 
-.Tablalink{
-	background-color: rgb(46, 46, 46);
-	color: rgb(243, 238, 238);
-	text-align: center;
-	padding: 2vw;
-	border: 1px solid rgb(187, 187, 187);
+.Tablalink {
+  background-color: rgb(46, 46, 46);
+  color: rgb(243, 238, 238);
+  text-align: center;
+  padding: 2vw;
+  border: 1px solid rgb(187, 187, 187);
 }
 
-.ig{
-	color: rgb(0, 175, 194);
-	text-decoration: none;
+.ig {
+  color: rgb(0, 175, 194);
+  text-decoration: none;
 }
 
-.ig:hover{
-	color: white;
+.ig:hover {
+  color: white;
 }
 aside {
-	/**/
-	width: 5%;
-	background: white;
-	position: fixed;
-	top: 0;
-	left: 0;
-	bottom: 0;
+  /**/
+  width: 5%;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
 }
 
 footer {
-	/**/
-	width: 100%;
-	height: 20vh;
-	background-color: rgb(255, 64, 64);
-	bottom: 0;
-	color: rgb(0, 0, 0);
+  /**/
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(255, 64, 64);
+  bottom: 0;
+  color: rgb(0, 0, 0);
 }
 
-hr{
-	height: 0.5px;
-	margin-right: 2%;	
-	margin-top: 0;
-	margin-bottom: 0;
-	background-color: rgb(255, 106, 106);
-	border-color: rgb(255, 106, 106);
-}	
-
-#copy{
-	
-	background-color: rgb(255, 64, 64);
+hr {
+  height: 0.5px;
+  margin-right: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: rgb(255, 106, 106);
+  border-color: rgb(255, 106, 106);
 }
 
-.contcopy{
-	margin-left: 7%;
-	background-color: rgb(255, 64, 64);
+#copy {
+  background-color: rgb(255, 64, 64);
 }
 
-.Copyright{
-	/**/
-	position: relative;
-	color: white;
-	font-size: 15px;
-	
+.contcopy {
+  margin-left: 7%;
+  background-color: rgb(255, 64, 64);
 }
 
+.Copyright {
+  /**/
+  position: relative;
+  color: white;
+  font-size: 15px;
+}
 
-.contfooter{
-    
-    bottom: 0;
-    margin-left: 5%;
+.contfooter {
+  bottom: 0;
+  margin-left: 5%;
+  text-align: center;
+  background-color: rgb(255, 64, 64);
+}
+
+.ulfooter {
+  padding-right: 25vh;
+  list-style-type: none;
+  display: inline-block;
+  color: white;
+}
+
+.ulfooter li {
+  padding-top: 10px;
+}
+
+.contfooter ul a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.ulfooter li a {
+  /**/
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(223, 223, 223);
+}
+
+.ulfooter li a:hover {
+  color: white;
+}
+@media only screen and (max-width: 1270px) {
+  /**/
+
+  .contfooter {
+    margin-left: 0;
+  }
+
+  .ulfooter {
     text-align: center;
-    background-color: rgb(255, 64, 64);
-}
+    margin-left: 0;
+    padding-right: 5vh;
+    padding-left: 5vh;
+  }
 
-.ulfooter{
-    
-    padding-right: 25vh;
-    list-style-type: none;
-    display: inline-block;
+  hr {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .contcopy {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .contenedorLogo {
+    margin: 0;
+  }
+
+  .menu-nav {
+    margin-top: 2vh;
+    background-color: rgb(29, 29, 29);
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1vh;
+    display: block;
+    cursor: pointer;
+
+    font-size: 4vh;
+  }
+
+  .barra {
+    width: 100%;
+    margin-left: 0;
+    position: fixed;
+    top: 12vh;
+  }
+
+  .navigation {
+    background: linear-gradient(
+      0deg,
+      rgb(255, 64, 64),
+      rgb(180, 53, 51),
+      rgb(175, 54, 58),
+      rgb(143, 45, 42)
+    );
+
+    background-color: rgb(252, 55, 55);
     color: white;
-}
 
-.ulfooter li{
-    padding-top: 10px;
+    overflow-y: scroll;
+  }
 
-}
+  .navigation ul {
+    display: none;
+  }
 
-.contfooter ul a{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
+  :root {
+    --nav-hg-altura: 37vh;
+  }
 
-.ulfooter li a{
+  .navigation ul.show {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    color: rgb(255, 255, 255);
+
+    height: var(--nav-hg-altura);
+    animation-name: slide;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes slide {
     /**/
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    text-decoration: none;
-    color: rgb(223, 223, 223);
-}
+    from {
+      height: 0px;
+    }
+    to {
+      height: var(--nav-hg-altura);
+    }
+  }
 
-.ulfooter li a:hover{
+  .navigation ul li {
+    display: block;
+  }
+
+  .navigation ul li a {
+    padding: 1.45vh;
+    font-size: 4vh;
+    display: block;
     color: white;
-}
-@media only screen and (max-width: 1270px){
-	/**/
-	
-	.contfooter{
-		margin-left: 0;
-	}
+    text-decoration: none;
+    text-align: center;
+  }
 
-	.ulfooter{
-		text-align: center;
-		margin-left: 0;
-		padding-right: 5vh;
-		padding-left: 5vh;
-	}
+  .navigation ul li a:hover {
+    /**/
+    background: linear-gradient(
+      180deg,
+      rgb(255, 78, 78),
+      rgb(180, 53, 51),
+      rgb(175, 54, 58),
+      rgb(143, 45, 42)
+    );
+  }
 
-	hr{
-		margin-left: 2%;
-		margin-right: 2%;
-	}
-	
-	.contcopy{
-		text-align: center;
-		margin-left:0;
-	}
+  /*actualizate plis*/
 
-	.contenedorLogo{
-		margin: 0;
-		
-	}
-    
-    .menu-nav{
-		margin-top: 2vh;
-        background-color: rgb(29, 29, 29);
-
-		Color: rgb(255, 255, 255);	
-		text-align: center;
-		padding: 1vh;
-        display: block;
-        cursor: pointer;
-
-		font-size: 4vh;
-    }
-
-	.barra{
-		width: 100%;
-		margin-left: 0;
-		position: fixed;
-		top: 12vh;
-	}
-
-    .navigation{
-        background: linear-gradient(0deg,rgb(255, 64, 64), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
-
-        background-color: rgb(252, 55, 55);
-        color: white;
-
-		overflow-y: scroll; 
-	
-    }
-    
-    .navigation ul{
-        display: none;
-    }
-	
-	:root{
-		--nav-hg-altura: 37vh;
-	}
-
-    .navigation ul.show {
-        display: block;
-		margin: 0;
-		padding: 0;
-
-		Color: rgb(255, 255, 255);		
-		
-		height: var(--nav-hg-altura);
-		animation-name: slide;
-		animation-duration: 0.5s;
-    }
-
-		
-	@keyframes slide{
-		/**/
-		from{
-			height: 0px;
-		}
-		to{
-			height: var(--nav-hg-altura) ;
-		}
-	}
-
-    .navigation ul li{ 
-        display: block;
-    }
-    
-    .navigation ul li a{ 
-		padding: 1.45vh;
-        font-size: 4vh;
-        display:block;
-        color: white;
-        text-decoration: none;
-		text-align: center;
-    }
-    
-    .navigation ul li a:hover{ 
-		/**/
-        background: linear-gradient(180deg, rgb(255, 78, 78), rgb(180, 53, 51), rgb(175, 54, 58), rgb(143, 45, 42));
-    }
-
-	/*actualizate plis*/
-
-
-	aside{
-		display: none;
-	}
+  aside {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 1300px){
-	/**/
-	.localidad{
-		display: none;
-	}
+@media only screen and (max-width: 1300px) {
+  /**/
+  .localidad {
+    display: none;
+  }
 }
 
-@media only screen and (max-height: 200px){
-	/*monitor de 2 centimetros*/
-	.contenedorLogo{
-	display: flex; /*gracias youtube y gabi*/
-	}
+@media only screen and (max-height: 200px) {
+  /*monitor de 2 centimetros*/
+  .contenedorLogo {
+    display: flex; /*gracias youtube y gabi*/
+  }
 }
-
