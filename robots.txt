@@ -1,0 +1,5 @@
+Sitemap: https://gabidam.github.io/TecnicaN2.github.io/sitemap.xml
+
+User-agent: *
+Disallow: /novedades/*
+Disallow: /*.pdf
