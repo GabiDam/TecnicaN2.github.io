@@ -1,3 +1,3 @@
-User-agent: *
-Disallow: /novedades/*
-Disallow: /*.pdf
+User-Agent: *
+Disallow: /novedades/
+Sitemap: https://gabidam.github.io/TecnicaN2.github.io/
