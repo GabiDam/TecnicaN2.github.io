@@ -307,6 +307,7 @@ hr {
 .textoo {
   font-weight: 200;
   margin: 0;
+  text-align: center;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 2vw;
@@ -325,7 +326,7 @@ hr {
 
 .textocent1 {
   /*Diseña el texto sobre la Tecnica de Informatica*/
-  margin: 0;
+  margin: 0 2%;
   font-size: 1.2vw;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -409,7 +410,7 @@ hr {
 }
 
 .textocent2 {
-  margin: 0;
+  margin: 0 2%;
   font-size: 1.2vw;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
