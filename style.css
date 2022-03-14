@@ -571,6 +571,7 @@ hr {
 
 .minmuesnovedades {
   display: flex;
+  align-items: center;
   flex-direction: column;
   background-color: rgb(28, 27, 27);
   background: linear-gradient(
@@ -581,6 +582,7 @@ hr {
     rgb(49, 49, 49)
   );
   padding-bottom: 5%;
+  margin-left: 5%;
 }
 
 .titulon {
@@ -607,7 +609,6 @@ hr {
   height: 50vh;
   width: 50vw;
   margin-top: 26px;
-  margin-left: 28%;
 }
 
 .slide-inner {
@@ -1380,7 +1381,6 @@ CLASES RARAS?
   .slide {
     height: 30vh;
     width: 70vw;
-
     margin-top: 26px;
     margin-left: 15%;
   }
@@ -1429,6 +1429,7 @@ CLASES RARAS?
       rgb(49, 49, 49)
     );
     padding-bottom: 30%;
+    margin: auto;
   }
 
   .titulon {
