@@ -8,4 +8,4 @@ Entra a la pagina via link: https://gabidam.github.io/TecnicaN2.github.io/
 
 O... Escanea este QR!
 
-![alt text](https://qrcodegeneratorfree.online/img/qrcode1637626521.png)
+![alt text](https://qr-api.quel.jp/v1/?size=9&data=https%3A%2F%2Fgabidam.github.io%2FTecnicaN2.github.io%2F)
