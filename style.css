@@ -387,7 +387,7 @@ hr {
 
 .imagenh2:hover .textocent2 {
   color: rgb(255, 255, 255);
-  transform: translateY(250%);
+  transform: translateY(200%);
   transition: all 0.4s ease-in;
 }
 
@@ -1000,6 +1000,33 @@ CLASES RARAS?
 
 @media only screen and (max-width: 1270px) {
   /**/
+
+  /*maestro mayor lol*/
+
+
+  .textocent2 {
+    transform: translateY(350%);
+   
+  }
+
+  .imagenh2:hover .textocent2 {
+    transform: translateY(250%);
+  }
+
+  .info2 {
+
+    transform: translate(120%, 1200%);
+
+  }
+
+  .imagenh2:hover .info2 {
+    /*Transicion del boton de Maestro Mayor de Obras*/
+
+    transform: translate(120%, 800%);
+    transition: all 0.4s ease-in;
+  }
+  
+  /*no mas maestro mayor*/
 
   .Subtitul2 {
     margin: 0;
