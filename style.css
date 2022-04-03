@@ -224,7 +224,7 @@ hr {
   /*La separacion entre las imagenes de las orientaciones de la tecnica 2
 	y customizaciones sobre la imagen*/
   padding: 0% 100px 350px 100px;
-  background: url(Img/banner.jpg) no-repeat 0 0;
+  background: url(Img/banner.webp) no-repeat 0 0;
   background-size: cover;
 }
 
@@ -281,7 +281,7 @@ hr {
   margin-left: 18.3%;
   width: 30vw;
   height: 30vw;
-  background-image: url(Img/Captura.PNG);
+  background-image: url(Img/informatica.webp);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -367,7 +367,7 @@ hr {
   margin-left: 3%;
   width: 30vw;
   height: 30vw;
-  background-image: url(Img/mmoimg.JPG);
+  background-image: url(Img/mmoimg.webp);
   background-size: contain;
   background-repeat: no-repeat;
 }
