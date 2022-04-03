@@ -260,10 +260,16 @@ hr {
 .Subtitul2 {
   margin: 0;
   font-size: 1.5vw;
+  margin-block-start: -0.2em;
 }
 .txtinfo {
   margin: 0;
   font-size: 1vw;
+}
+
+.materias{
+  margin: 0;
+  font-size: 1.5vw;
 }
 /*
 	@@@@@@@@@@@@@@@@@@@@@@@
@@ -582,7 +588,7 @@ hr {
     rgb(49, 49, 49)
   );
   padding-bottom: 5%;
-  margin-left: 5%;
+  margin-left: 0%;
 }
 
 .titulon {
@@ -644,9 +650,9 @@ hr {
   display: none;
   font-size: 40px;
   height: 40px;
-  line-height: 35px;
+  line-height: 30px;
   position: absolute;
-  top: 10vw;
+  top: 9.69vw;
   -webkit-transform: translate(0, -50%);
   cursor: pointer;
   -ms-transform: translate(0, -50%);
@@ -699,6 +705,8 @@ hr {
   display: block;
   font-size: 35px;
 }
+
+
 
 .slide-circulo:hover {
   color: #aaaaaa;
@@ -998,8 +1006,30 @@ CLASES RARAS?
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
 
+
+@media only screen and (max-width: 1450px) {
+  /**/
+  .localidad {
+    display: none;
+  }
+
+  .txtinfo{
+    font-size: 1vw;
+  }
+  .Subtitul2{
+    font-size: 1.4vw;
+    
+  }
+}
+
 @media only screen and (max-width: 1270px) {
   /**/
+
+  .slide {
+    height: 40vh;
+    width: 60vw;
+    margin-top: 26px;
+  }
 
   /*maestro mayor lol*/
 
@@ -1071,6 +1101,13 @@ CLASES RARAS?
     }
   }
 
+  .txtinfo{
+    font-size: 1.2vw;
+  }
+  .Subtitul2{
+    font-size: 1.7vw;
+    margin-block-start: -0.4em;
+  }
   .imagenh1 {
     margin-left: 12%;
     width: 35vw;
@@ -1277,12 +1314,6 @@ CLASES RARAS?
     display: none;
   }
 }
-@media only screen and (max-width: 1300px) {
-  /**/
-  .localidad {
-    display: none;
-  }
-}
 
 @media only screen and (max-height: 200px) {
   /*monitor de 2 centimetros*/
@@ -1406,10 +1437,10 @@ CLASES RARAS?
 
   /* lo nuevo*/
   .slide {
-    height: 30vh;
-    width: 70vw;
+    height: 60vh;
+    width: 80vw;
     margin-top: 26px;
-    margin-left: 15%;
+    margin-left: 10%;
   }
 
   .slide-indicador {
@@ -1433,9 +1464,9 @@ CLASES RARAS?
     display: none;
     font-size: 40px;
     height: 40px;
-    line-height: 35px;
+    line-height: 30px;
     position: absolute;
-    top: 20vw;
+    top: 15vw;
     -webkit-transform: translate(0, -50%);
     cursor: pointer;
     -ms-transform: translate(0, -50%);
@@ -1455,7 +1486,7 @@ CLASES RARAS?
       rgb(41, 41, 41),
       rgb(49, 49, 49)
     );
-    padding-bottom: 30%;
+    padding-bottom: 0;
     margin: auto;
   }
 

@@ -174,7 +174,7 @@ td {
 }
 
 .ch:hover {
-  color: black;
+  color: white;
 }
 
 .ch {
@@ -198,6 +198,16 @@ td {
 .ig:hover {
   color: white;
 }
+
+.pc{
+  text-decoration: none;
+  color: rgb(0, 175, 194);
+}
+
+.pc:hover {
+  color: white;
+}
+
 aside {
   /**/
   width: 5%;
