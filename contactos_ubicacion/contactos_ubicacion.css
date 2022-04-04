@@ -209,7 +209,6 @@ li {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   padding-bottom: 0.5vh;
-  width: 100%;
   border-bottom: 1px solid rgb(223, 223, 223);
   border-radius: 0.3vw;
 }
@@ -341,6 +340,7 @@ hr {
   /**/
   .mapsinf {
     text-align: center;
+
   }
 
   .map {
@@ -500,15 +500,24 @@ hr {
 }
 
 @media only screen and (max-height: 900px) {
+
   .map {
-    height: 250px;
-    width: 80vw;
-    max-width: 100vh;
+    display: flex;
+    margin-left: 0;
+
   }
+
   .imgesc,
   .imgcmp {
-    height: 230px;
-    width: 300px;
+    width: 95%;
+    height: 95%;
+  }
+  #nombre, #email, #mensaje{
+    height: 30px;
+    margin: 0 1vw;
+  }
+  button{
+    margin: 1vh 1vw;
   }
 }
 
