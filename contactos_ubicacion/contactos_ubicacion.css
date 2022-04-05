@@ -211,6 +211,20 @@ li {
   padding-bottom: 0.5vh;
   border-bottom: 1px solid rgb(223, 223, 223);
   border-radius: 0.3vw;
+  background-color: rgb(221, 221, 221);
+}
+
+#mensaje{
+  height: 10vh;
+}
+
+#mensaje:focus, #nombre:focus, #email:focus {
+  background-color: rgb(255, 255, 255);
+}
+
+button:hover{
+  background-color: rgb(180, 53, 51);
+  color: rgb(255, 255, 255);
 }
 
 .imgesc,
