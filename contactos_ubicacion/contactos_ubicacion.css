@@ -413,14 +413,17 @@ hr {
   .menu-nav {
     margin-top: 2vh;
     background-color: rgb(29, 29, 29);
-
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 1vh;
     display: block;
     cursor: pointer;
-
     font-size: 4vh;
+  }
+
+  .menu-nav:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 29);
   }
 
   .barra {
@@ -457,9 +460,7 @@ hr {
     display: block;
     margin: 0;
     padding: 0;
-
     color: rgb(255, 255, 255);
-
     height: var(--nav-hg-altura);
     animation-name: slide;
     animation-duration: 0.5s;
@@ -518,18 +519,18 @@ hr {
   .map {
     display: flex;
     margin-left: 0;
-
   }
 
   .imgesc,
   .imgcmp {
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: auto;
   }
   #nombre, #email, #mensaje{
     height: 30px;
     margin: 0 1vw;
   }
+
   button{
     margin: 1vh 1vw;
   }

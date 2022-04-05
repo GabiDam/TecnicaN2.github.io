@@ -1047,7 +1047,6 @@ CLASES RARAS?
 
   .textocent2 {
     transform: translateY(350%);
-   
   }
 
   .imagenh2:hover .textocent2 {
@@ -1055,14 +1054,11 @@ CLASES RARAS?
   }
 
   .info2 {
-
     transform: translate(120%, 1200%);
-
   }
 
   .imagenh2:hover .info2 {
     /*Transicion del boton de Maestro Mayor de Obras*/
-
     transform: translate(120%, 800%);
     transition: all 0.4s ease-in;
   }
@@ -1233,14 +1229,18 @@ CLASES RARAS?
   .menu-nav {
     margin-top: 2vh;
     background-color: rgb(29, 29, 29);
-
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 1vh;
     display: block;
     cursor: pointer;
-
     font-size: 4vh;
+    box-shadow: none;
+  }
+  
+  .menu-nav:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 29);
   }
 
   .barra {
