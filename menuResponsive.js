@@ -58,7 +58,7 @@ jQuery('document'). ready(function($){
     info1 = $('.info1');
     info2 = $('.info2');
 
-     boton2.click(function(){
+    boton2.click(function(){
 
         if(carlo2.hasClass('show3')){
     
@@ -126,10 +126,6 @@ jQuery('document'). ready(function($){
         info2.removeClass('chauinfo2');
         info2.addClass('info2');
     }
- 
-    
-
-
     });
 
 });
