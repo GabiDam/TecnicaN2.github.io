@@ -1,3 +1,14 @@
+
+.coopf{
+  background-color: rgb(41, 41, 41);
+  padding-top: 0;
+  width: 100%;
+}
+
+.infocoop{
+  color: white;  
+  
+}
 body {
   /*  Customiza todo la pagina  */
   background-color: rgb(223, 223, 223);
@@ -153,6 +164,7 @@ header {
   margin-bottom: 3vh;
   background-color: rgb(0, 175, 194);
   border-color: rgb(0, 175, 194);
+  margin-right: 0%;
 }
 
 .title {
