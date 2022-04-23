@@ -188,6 +188,15 @@ header {
   color: white;
 }
 
+.fs{
+  color: rgb(0, 175, 194);
+  text-decoration: none;
+}
+
+.fs:hover {
+  color: white;
+}
+
 aside {
   /**/
   width: 5%;
