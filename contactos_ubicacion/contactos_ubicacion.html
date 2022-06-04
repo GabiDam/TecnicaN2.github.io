@@ -12,13 +12,14 @@
     <meta name="keywords"
         content="Escuela, Secundaria, T2, Tecnica N2, Munro, Buenos Aires, Vicente Lopez, Tecnica, Educacion, Aprender, IBM, P-tech, Informatica, Maestro mayor de obra">
     <meta name="author"
-        content="Fidel Barreiros, Gabriel D’Ambrosio, Joaquín Díaz, Tomas Linares, Tomas Morini, Iván Ratzmann, Iván Rodríguez, Luca Testa">
+        content="Fidel Barreiros, Gabriel D'Ambrosio, Joaquín Díaz, Tomas Linares, Tomas Morini, Iván Ratzmann, Iván Rodríguez, Luca Testa">
     <!---  Importar archivos  -->
     <link rel="stylesheet" href="../normalize.css">
     <link rel="stylesheet" href="contactos_ubicacion.css">
     <!---Importar Javascript-->
     <script src ="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src ="../menuResponsive.js"></script>
+    <script src="../filterwords.js"></script>
 </head>
 
 <body>
@@ -130,10 +131,17 @@
                             <input type="text" name="Nombre" id="nombre" placeholder="César Yago" required>
                             
                             <label for="Email">Tu Correo</label>
+<<<<<<< Updated upstream
                             <input type="email" name="Email" id="email" placeholder="cesaryago22@gmail.com">
 
                             <label for="Mensaje">Mensaje</label>
                             <textarea name="Mensaje" id="mensaje" placeholder="Hola tengo 23 casi 24, y lo siento pero bajo mis condiciones"></textarea>
+=======
+                            <input type="email" name="Email" id="email" placeholder="...@gmail.com" required>
+
+                            <label for="Mensaje">Mensaje</label>
+                            <textarea name="Mensaje" id="mensaje" onclick="alerta()" placeholder="Inserte su mensaje..." required></textarea>
+>>>>>>> Stashed changes
                             
                             <button type="submit">Enviar</button>
                         </form>
