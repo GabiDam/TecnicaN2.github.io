@@ -562,164 +562,12 @@ hr {
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
-
-.hrt2 {
-  margin: 1px;
-  position: flex;
-  height: 0.5px;
-  padding: 1px;
-  padding-right: 70vw;
-  padding-left: 0vw;
-  background-color: rgb(28, 28, 28);
-  border-color: rgb(46, 46, 46);
-}
-
-.minmuesnovedades {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgb(28, 27, 27);
-  background: linear-gradient(
-    180deg,
-    rgb(24, 24, 24),
-    rgb(31, 31, 31),
-    rgb(41, 41, 41),
-    rgb(49, 49, 49)
-  );
-  padding-bottom: 5%;
-  margin-left: 0%;
-}
-
-.titulon {
-  display: flex;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  color: white;
-}
-
 /*
 		@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		CLASES DEL SLIDER (MAS AUN)
 		@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	*/
 
-.imagenslide {
-  height: 50px;
-  width: 1000px;
-}
-
-.slide {
-  height: 50vh;
-  width: 50vw;
-  margin-top: 26px;
-}
-
-.slide-inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: calc(300px + 3em);
-}
-
-.slide-open:checked + .slide-item {
-  position: static;
-  opacity: 100;
-}
-
-.slide-item {
-  position: absolute;
-  opacity: 0;
-  -webkit-transition: opacity 0.6s ease-out;
-  transition: opacity 0.6s ease-out;
-}
-
-.slide-item img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-
-.slide-control {
-  background: rgba(0, 0, 0, 0.28);
-  border-radius: 50%;
-  color: #fff;
-  cursor: pointer;
-  display: none;
-  font-size: 40px;
-  height: 40px;
-  line-height: 30px;
-  position: absolute;
-  top: 9.69vw;
-  -webkit-transform: translate(0, -50%);
-  cursor: pointer;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-align: center;
-  width: 40px;
-  z-index: 1;
-}
-
-.slide-control.prev {
-  left: 2%;
-}
-
-.slide-control.next {
-  right: 2%;
-}
-
-.slide-control:hover {
-  background: rgba(0, 0, 0, 0.8);
-  color: #aaaaaa;
-}
-
-#slide-1:checked ~ .control-1,
-#slide-2:checked ~ .control-2,
-#slide-3:checked ~ .control-3 {
-  display: block;
-}
-
-.slide-indicador {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom: 0%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 1;
-  top: 19vw;
-}
-
-.slide-indicador li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.slide-circulo {
-  color: #828282;
-  cursor: pointer;
-  display: block;
-  font-size: 35px;
-}
-
-
-
-.slide-circulo:hover {
-  color: #aaaaaa;
-}
-
-#slide-1:checked ~ .control-1 ~ .slide-indicador li:nth-child(1) .slide-circulo,
-#slide-2:checked ~ .control-2 ~ .slide-indicador li:nth-child(2) .slide-circulo,
-#slide-3:checked
-  ~ .control-3
-  ~ .slide-indicador
-  li:nth-child(3)
-  .slide-circulo {
-  color: #428bca;
-}
 
 /*
 		@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -796,7 +644,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1% 0 1% 0;
+  padding: 1%;
 }
 
 .contfooter {
