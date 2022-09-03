@@ -120,67 +120,6 @@ hr {
 	width: auto;
 }
 
-.barra {
-  /*  Customiza la barra de navegacion */
-	width: 100%;
-	margin-left: 5%;
-	position: fixed;
-	top: 11vh;
-}
-
-.menu-nav {
-	/*Fuentes de la barra*/
-	display: none;
-	font-family: "Times New Roman", Times, serif;
-	font-weight: bold;
-	color: rgb(0, 0, 0);
-	letter-spacing: 0.1em;
-}
-
-.navigation {
-  /*  Customiza la barra de navegacion */
-	/*Crea el gradiente de colores*/
-	background: linear-gradient(
-    0deg,
-    rgb(255, 78, 78),
-    rgb(180, 53, 51),
-    rgb(175, 54, 58),
-    rgb(143, 45, 42)
-	);
-	background-color: rgb(255, 55, 55);
-	color: rgb(255, 255, 255);
-}
-
-.navigation ul li {
-  /*El inline-block los pone en linea recta y permite customizar el tamaño de los boxes*/
-  display: inline-block;
-  /*El padding-left y padding-right se pone para que no se solape*/
-  padding: 0% 0.5vw;
-}
-
-.navigation a {
-  /*  Customiza el texto de la barra de navegacion */
-  text-decoration: none;;
-  font-size: 1.35vw;
-  color: rgb(255, 255, 255);
-  display: block;
-  padding: 0.6rem 4.5vw;
-  text-align: center;
-  color: white;
-}
-
-.navigation a:hover {
-  /*  Customiza el texto de la barra de navegacion al pasar el mouse */
-  text-decoration: none;
-  background: linear-gradient(
-    180deg,
-    rgb(255, 78, 78),
-    rgb(180, 53, 51),
-    rgb(175, 54, 58),
-    rgb(143, 45, 42)
-  );
-}
-
 /*
 @@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@
@@ -1074,65 +1013,6 @@ CLASES RARAS?
     margin: 0;
   }
 
-  .menu-nav {
-    margin-top: 2vh;
-    background-color: rgb(29, 29, 29);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 1vh;
-    display: block;
-    cursor: pointer;
-    font-size: 4vh;
-    box-shadow: none;
-  }
-  
-  .menu-nav:active {
-    background-color: rgb(255, 255, 255);
-    color: rgb(29, 29, 29);
-  }
-
-  .barra {
-    width: 100%;
-    margin-left: 0;
-    position: fixed;
-    top: 12vh;
-  }
-
-  .navigation {
-    background: linear-gradient(
-      0deg,
-      rgb(255, 64, 64),
-      rgb(180, 53, 51),
-      rgb(175, 54, 58),
-      rgb(143, 45, 42)
-    );
-
-    background-color: rgb(252, 55, 55);
-    color: white;
-
-    overflow-y: scroll;
-  }
-
-  .navigation ul {
-    display: none;
-  }
-
-  :root {
-    --nav-hg-altura: 37vh;
-  }
-
-  .navigation ul.show {
-    display: block;
-    margin: 0;
-    padding: 0;
-
-    color: rgb(255, 255, 255);
-
-    height: var(--nav-hg-altura);
-    animation-name: slide;
-    animation-duration: 0.5s;
-  }
-
   @keyframes slide {
     /**/
     from {
@@ -1143,32 +1023,7 @@ CLASES RARAS?
     }
   }
 
-  .navigation ul li {
-    display: block;
-  }
-
-  .navigation ul li a {
-    padding: 1.45vh;
-    font-size: 4vh;
-    display: block;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .navigation ul li a:hover {
-    /**/
-    background: linear-gradient(
-      180deg,
-      rgb(255, 78, 78),
-      rgb(180, 53, 51),
-      rgb(175, 54, 58),
-      rgb(143, 45, 42)
-    );
-  }
-
   /*actualizate plis*/
-
   aside {
     display: none;
   }
