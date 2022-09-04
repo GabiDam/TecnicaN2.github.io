@@ -128,6 +128,10 @@ hr {
 	top: 11vh;
 }
 
+.nav-bar-mobile {
+  display: none;
+}
+
 .menu-nav {
 	/*Fuentes de la barra*/
 	display: none;
@@ -884,6 +888,10 @@ CLASES RARAS?
 @media only screen and (max-width: 1270px) {
   /**/
 
+  main {
+    padding-top: 14vh;
+  }
+
   .slide {
     height: 40vh;
     width: 60vw;
@@ -945,6 +953,13 @@ CLASES RARAS?
     box-shadow: none;
     animation-name: cerrar;
     animation-duration: 0.4s;
+  }
+
+  .nav-bar-mobile {
+    display: block;
+    width: 8vh;
+    margin-right: 5%;
+    cursor: pointer;
   }
 
   @keyframes cerrar {
@@ -1074,22 +1089,6 @@ CLASES RARAS?
     margin: 0;
   }
 
-  .menu-nav {
-    margin-top: 2vh;
-    background-color: rgb(29, 29, 29);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 1vh;
-    display: block;
-    cursor: pointer;
-    font-size: 4vh;
-    box-shadow: none;
-  }
-  
-  .menu-nav:active {
-    background-color: rgb(255, 255, 255);
-    color: rgb(29, 29, 29);
-  }
 
   .barra {
     width: 100%;
