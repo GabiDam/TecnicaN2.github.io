@@ -17,11 +17,6 @@ body {
     "Segoe UI Symbol";
 }
 
-main {
-  /*  Customiza el contenido principal  */
-	padding-top: 15vh;
-}
-
 section {
   /*  Customiza el contenido de cada seccion  */
 	padding-top: 0;
@@ -38,10 +33,9 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	color: rgb(0, 0, 0);
-	position: fixed;
-	width: 100%;
+	position: sticky;
 	top: 0;
-	z-index: 2;
+  z-index: 2;
 }
 
 aside {
@@ -103,7 +97,6 @@ hr {
 .imagenT2 {
 	/*Determina Tamaño del Logo T2*/
 	height: 10vh;
-	width: auto;
 }
 
 .localidad {
@@ -128,7 +121,7 @@ hr {
 	top: 11vh;
 }
 
-.nav-bar-mobile {
+.bars_menu_mobile{
   display: none;
 }
 
@@ -872,24 +865,56 @@ CLASES RARAS?
 
 @media only screen and (max-width: 1450px) {
   /**/
-  .localidad {
-    display: none;
-  }
 
   .txtinfo{
     font-size: 1vw;
   }
   .Subtitul2{
     font-size: 1.4vw;
-    
   }
 }
 
 @media only screen and (max-width: 1270px) {
   /**/
 
-  main {
-    padding-top: 14vh;
+  .localidad {
+    display: none;
+  }
+
+  .bars_menu_mobile{
+    height: 10em;
+    width: 10em;
+    background-color: #000000;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Formato de las barras*/
+  .menu_item{
+    background: #ffffff;
+    width: 5.5rem;
+    height: 0.5rem;
+    border-radius: 5px;
+  }
+
+  /*Crea 2 barritas mas, antes y despues de la barra central*/
+  .menu_item::before,
+  .menu_item::after{
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    width: 5.5rem;
+    height: 0.5rem;
+    border-radius: 5px;
+  }
+
+  /*Mover una barra arriba y otra abajo*/
+  .menu_item::before{
+    transform: translateY(250%);
+  }
+  .menu_item::after{
+    transform: translateY(-250%);
   }
 
   .slide {
@@ -953,13 +978,6 @@ CLASES RARAS?
     box-shadow: none;
     animation-name: cerrar;
     animation-duration: 0.4s;
-  }
-
-  .nav-bar-mobile {
-    display: block;
-    width: 8vh;
-    margin-right: 5%;
-    cursor: pointer;
   }
 
   @keyframes cerrar {
@@ -1091,79 +1109,11 @@ CLASES RARAS?
 
 
   .barra {
-    width: 100%;
-    margin-left: 0;
-    position: fixed;
-    top: 12vh;
-  }
-
-  .navigation {
-    background: linear-gradient(
-      0deg,
-      rgb(255, 64, 64),
-      rgb(180, 53, 51),
-      rgb(175, 54, 58),
-      rgb(143, 45, 42)
-    );
-
-    background-color: rgb(252, 55, 55);
-    color: white;
-
-    overflow-y: scroll;
-  }
-
-  .navigation ul {
     display: none;
   }
 
   :root {
     --nav-hg-altura: 37vh;
-  }
-
-  .navigation ul.show {
-    display: block;
-    margin: 0;
-    padding: 0;
-
-    color: rgb(255, 255, 255);
-
-    height: var(--nav-hg-altura);
-    animation-name: slide;
-    animation-duration: 0.5s;
-  }
-
-  @keyframes slide {
-    /**/
-    from {
-      height: 0px;
-    }
-    to {
-      height: var(--nav-hg-altura);
-    }
-  }
-
-  .navigation ul li {
-    display: block;
-  }
-
-  .navigation ul li a {
-    padding: 1.45vh;
-    font-size: 4vh;
-    display: block;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .navigation ul li a:hover {
-    /**/
-    background: linear-gradient(
-      180deg,
-      rgb(255, 78, 78),
-      rgb(180, 53, 51),
-      rgb(175, 54, 58),
-      rgb(143, 45, 42)
-    );
   }
 
   /*actualizate plis*/

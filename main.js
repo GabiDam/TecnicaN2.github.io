@@ -1,23 +1,4 @@
 jQuery('document'). ready(function($){
-    /**/
-    var menupress = $('.menu-nav'),
-        menu = $('.navigation ul');
-
-    menupress.click(function(){
-
-        if(menu.hasClass('show')){
-
-            menu.removeClass('show');
-            
-        }
-        else{
-
-            menu.addClass('show');
-            
-        }
-
-
-    });
     
 
     var boton = $('.info1'),
@@ -82,7 +63,6 @@ jQuery('document'). ready(function($){
     
     
     });
-    
 
     var botonc1 = $('.cerrar'),
     carlo = $('.imgs a');
@@ -103,11 +83,6 @@ jQuery('document'). ready(function($){
     }
 
     });
-
-
-
-
-
 
     var botonc2 = $('.cerrar2'),
     carlo2 = $('.imgs ul');
