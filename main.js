@@ -1,15 +1,31 @@
-jQuery('document'). ready(function($){
-    
+// 
+var menu_item = document.querySelector('.menu-btn');
+let menu_estado = false;
+// Si es clickeado se añade la clase "open", sino, no se abrió
+menu_item.addEventListener('click', () => {
+    if(!menu_estado)
+    {
+        menu_item.classList.add('open');
+        menu_estado = true;
+    }
+    else{
+        menu_item.classList.remove('open');
+        menu_estado = false;
+    }
+})
 
-    var boton = $('.info1'),
-        carlo = $('.imgs a');
+
+jQuery('document'). ready(function($){
+
+
+    // Muestra el texto de Tecnico en Informática y Maestro Mayor
+    var boton = $('.info1');
+    carlo = $('.imgs a');
 
     boton.click(function(){
 
         if(carlo.hasClass('show2')){
-
             return
-        
         }
         else{
 
@@ -17,14 +33,12 @@ jQuery('document'). ready(function($){
             porfa.removeClass('txth');
             porfa.addClass('bgo');
             texto.removeClass('textocent1');
-            texto.addClass('textoa1')
+            texto.addClass('textoa1');
             titulo1.removeClass('textoo');
             titulo1.addClass('tituloabierto');
             info1.removeClass('info1');
             info1.addClass('chauinfo');
         }
-
-
     });
 
 
@@ -102,5 +116,5 @@ jQuery('document'). ready(function($){
         info2.addClass('info2');
     }
     });
-
+    //Aqui termina el añadir texto para las imagenes
 });

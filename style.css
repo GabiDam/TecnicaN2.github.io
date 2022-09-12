@@ -121,7 +121,7 @@ hr {
 	top: 11vh;
 }
 
-.bars_menu_mobile{
+.menu-btn{
   display: none;
 }
 
@@ -881,7 +881,7 @@ CLASES RARAS?
     display: none;
   }
 
-  .bars_menu_mobile{
+  .menu-btn{
     height: 10em;
     width: 10em;
     background-color: #000000;
@@ -916,6 +916,8 @@ CLASES RARAS?
   .menu_item::after{
     transform: translateY(-250%);
   }
+
+  /*Animación de menu_item*/
 
   .slide {
     height: 40vh;
