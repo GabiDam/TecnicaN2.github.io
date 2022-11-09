@@ -411,14 +411,14 @@ footer {
 
 @media only screen and (max-width: 1300px) {
   /**/
-  .localidad {
+  .bsas aside {
     display: none;
   }
 
   .grid{
     display:flex ;
-    
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
