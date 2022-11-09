@@ -1,3 +1,17 @@
+.titulo{
+  text-decoration: underline;
+}
+
+.grid{
+  display:flex;
+  justify-content: center;
+}
+
+.card{
+  margin: 5%;
+  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.699);
+}
+
 body {
   /*  Customiza todo la pagina  */
   background-color: rgb(223, 223, 223);
@@ -11,7 +25,7 @@ body {
 main {
   /* Customiza la zona principal */
   padding-top: 15vh;
-
+  background-color: rgb(223, 223, 223);
   /*Zen Antique, */
 }
 
@@ -174,15 +188,6 @@ footer {
   color: rgb(0, 0, 0);
 }
 
-hr {
-  height: 0.5px;
-  margin-right: 2%;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: rgb(255, 106, 106);
-  border-color: rgb(255, 106, 106);
-}
-
 #copy {
   background-color: rgb(255, 64, 64);
 }
@@ -206,6 +211,11 @@ hr {
   background-color: rgb(255, 64, 64);
 }
 
+.contfooter ul a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
 .ulfooter {
   padding-right: 25vh;
   list-style-type: none;
@@ -215,11 +225,6 @@ hr {
 
 .ulfooter li {
   padding-top: 10px;
-}
-
-.contfooter ul a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
 }
 
 .ulfooter li a {
@@ -267,6 +272,15 @@ hr {
   border-color: rgb(0, 175, 194);
   margin-bottom: 4vh;
   margin-top: 4vh;
+}
+
+.hr2{
+    height: 0.5px;
+    margin-right: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(255, 106, 106);
+    border-color: rgb(255, 106, 106);
 }
 
 /*Aca termina modificacion de novedades*/
@@ -399,6 +413,12 @@ hr {
   /**/
   .localidad {
     display: none;
+  }
+
+  .grid{
+    display:flex ;
+    
+    justify-content: center;
   }
 }
 

@@ -635,18 +635,6 @@ hr {
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
 
-#contactos_link:hover{
-  color: #fff;
-  text-decoration: none;
-}
-
-.contacto{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1%;
-}
-
 .contfooter {
   bottom: 0;
   margin-left: 5%;
