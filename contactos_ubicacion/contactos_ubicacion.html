@@ -26,9 +26,9 @@
 
     <header> <!---Encabezado-->
 
-            <div class="contenedorLogo"> <!---Clases para customizar logo de la escuela-->
+            <a class="contenedorLogo" href="/TecnicaN2.github.io/"> <!---Clases para customizar logo de la escuela-->
                 <img class="imagenlogo" src="../Img/logo.svg" alt="T2">
-            </div>
+            </a>
 
             <div class="localidad"> <!---Logos del Gob.-->
                 <img class="bsas" src="https://gba.gob.ar/imagenes/logo_gba_footer_blanco.svg" alt="Gobierno de Buenos Aires"> 
@@ -41,10 +41,10 @@
             <nav class="navigation">                
                 <ul>
                     <li>
-                        <a href="../index.html">Inicio</a>
+                        <a href="/TecnicaN2.github.io/">Inicio</a>
                     </li>
                     <li>
-                        <a href="../inf_general/inf_general.html">Informacion General</a>
+                        <a href="../inf_general/inf_general.html">Información General</a>
                     </li>
                     <li>
                         <a href="contactos_ubicacion.html">Contactos y Ubicación</a>
@@ -53,7 +53,7 @@
                         <a href="../inscripciones/inscripciones.html">Inscripciones</a>
                     </li>
                     <li>
-                        <a href="../novedades/novedades.html">Novedades</a>
+                        <a href="../proyectos/proyectos.html">Proyectos</a>
                     </li>
                 </ul>
             </nav>
@@ -95,7 +95,7 @@
                 </ul>
                 <ul class= "tinf">
                     <li>
-                        <a>Ubicación</a>
+                        <a class="ubicacion">Ubicación</a>
                     </li>
                 </ul>
                 <ul class= "inf">
@@ -115,113 +115,68 @@
                         <a>Campo de Deportes N°2</a>
                     </li>
                     <li>
-                       <a>Entrada por Roque Sáenz Peña.</a>
+                        <a>Entrada por Roque Sáenz Peña.</a>
                     </li>
                     <li>
-                        <a>Codigo postal: B1605EEP.</a>
+                        <a>Código postal: B1605EEP.</a>
                     </li>
                         <hr class="conthr"></hr>
                 </ul>
                 <ul class="infcon">
                     <li>
-                        <a>Comunicación y Redes</a>
+                        <h4>Contáctanos</h4>
+                        <form class="info" action="https://formspree.io/f/xknyvpyq" method="post">
+                            <label for="Nombre" id="">Tu nombre y apellido</label>
+                            <input type="text" name="Nombre" id="nombre" placeholder="Tu Nombre" required>
+                            
+                            <label for="Email">Tu Correo</label>
+                            <input type="email" name="Email" id="email" placeholder="...@gmail.com">
+
+                            <label for="Mensaje">Mensaje</label>
+                            <textarea name="Mensaje" id="mensaje" placeholder="Inserte su mensaje..."></textarea>
+                            
+                            <button type="submit">Enviar</button>
+                        </form>
                     </li>
                 </ul>
-                <ul class="redeshref">
-                    <li>
-                        <a id="redeshref" href="tel: +54 11 4762-2859">
-                            Tel: +054 11 4762-2859</a>
-                            <a>/</a>
-                        <a id="redeshref" href= "tel: +54 11 4756-2942">
-                             +054 11 4756-2942</a>
-                    </li>
-                    <li>
-                        <a id="redeshref" href="mailto:Munrotecnica2@gmail.com">
-                            E-Mail: Munrotecnica2@gmail.com</a>
-                    </li>  
-                    <li>
-                        <a id="redeshref" href="https://www.instagram.com/tecnica2vl">
-                            Instagram</a>
-                            <a>/</a>
-                        <a id="redeshref" href="https://es-la.facebook.com/pages/category/Education/Escuela-Secundaria-Tecnica-2-Munro-1501647160051524">
-                            Facebook</a>
-                    </li>  
-                    <br></br>
-                </ul>           
         </section>
     </div>
         <section class="infoc">
             <li>
-                <a>Nuestra escuela se encuentra en Munro, a tres cuadras de Av. Vélez Sarsfield / Ugarte y Av. Mitre, lo que la hace accesible en cualquier medio de transporte, ya sea el FFCC Belgrano Norte o las muchas líneas de colectivo que nos conectan con las distintas localidades. (Líneas: 93, 41, 130, 184, 314, 333, 343, 407 y todas aquellas que recorren la Autopista Panamericana que está ubicada a unos 600 metros). </a>
-            </li>
-            <li>
-                <a>A continuacion les mostramos imagenes de las entradas:</a>
+                <p><b>A continuación les mostramos imágenes de las entradas:</b></p>
             </li>
         </section>
-        <section style="padding-top: 5vh;" ALIGN="center">
-            <img class="imgesc"  src="../Img/aver2.jfif">
-            <img class="imgcmp"  src="../Img/sin_nada.jpg">
+        <section class="imagenes">
+            <img class="imgesc"  src="../Img/colegio_ubicacion.webp">
+            <img class="imgcmp"  src="../Img/campo_deportes.webp">
+
         </section>
     </main>
-    <footer> <!--Pie de Pagina--->⠀⠀⠀⠀
+    <footer> <!--Pie de Pagina--->
         <div class="contfooter">
             <ul class="ulfooter"> <!-- SECCION1 --->
                 <a>Contactos</a>
-                <li>
-                    <a>
-                        Sgto. Cabral 2772, Munro
-                    </a>
-                </li>
-                <li>
-                    <a>
-                        Buenos Aires, Argentina
-                    </a>
-                </li>
-                <li>
-                    <a href="tel: +54 11 4762 2859">
-                        +054 11 4762-2859
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:eest2vicentelopez@abc.gob.ar">
-                        eest2vicentelopez@abc.gob.ar
-                    </a>
-                </li>
+                <li><a>Sgto. Cabral 2772, Munro</a></li>
+                <li><a>Buenos Aires, Argentina</a></li>
+                <li><a href="tel: +54 11 4762 2859">+054 11 4762-2859</a></li>
+                <li><a href="mailto:eest2vicentelopez@abc.gob.ar">eest2vicentelopez@abc.gob.ar</a></li>
             </ul>
             <ul class="ulfooter"> <!-- SECCION3 --->
                 <a>Enlaces Externos</a>
-                <li><a href = "https://www.argentina.gob.ar/educacion">
-                        Ministerio de Educación
-                    </a>
-                </li>
-                <li>
-                    <a href = "https://www.instagram.com/tecnica2vl">
-                        Instagram
-                    </a>
-                </li>
-                <li>
-                    <a href = "https://es-la.facebook.com/pages/category/Education/Escuela-Secundaria-Tecnica-2-Munro-1501647160051524">
-                        Facebook
-                    </a>
-                </li>
-                <li>
-                    <a href = "https://www.ptech.org/es/open-p-%20tech" >
-                        IBM
-                    </a>
-                </li>
+                <li><a href = "https://www.argentina.gob.ar/educacion">Ministerio de Educación</a></li>
+                <li><a href = "https://www.instagram.com/tecnica2vl">Instagram</a></li>
+                <li><a href = "https://es-la.facebook.com/pages/category/Education/Escuela-Secundaria-Tecnica-2-Munro-1501647160051524">Facebook</a></li>
+                <li><a href = "https://www.ptech.org/es/open-p-%20tech">IBM</a></li>
             </ul>
-                
-
         </div>
-        
+
         <div id="copy">
             <div class="contcopy">
-                <hr></hr>
-                <small Class="Copyright" >&copy; Copyright 2021, Escuela Técnica N°2<small> <!-- Añadir Copyright --->
+                <hr>
+                <small Class="Copyright" >&copy; Copyright 2021, Escuela Técnica N°2//Proyecto llevado acabo por un grupo de 6to2da//integrantes: Fidel Barreiros, Gabriel D'ambrosio, Ivan Ratzmann,Tomas Morini, Ivan Rodriguez, Luca Testa<small> <!-- Añadir Copyright --->
             </div>
         </div>
 
     </footer>     
-  
 </body>
 </html>

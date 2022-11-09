@@ -5,12 +5,15 @@
     <!---  Metadatos  -->
     <meta charset="UTF-8">
     <!---  Permite simbolos complejos como emojis  -->
-    <title>Escuela Tecnica N2
-    </title>
+    <title>Escuela Técnica N2 Munro</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Escuela Técnica N2 de Vte Lopez, Munro. Orientados en Técnicos en Informática y Maestro Mayor de Obras. Encontrá como inscribirte aquí.">
+    <meta name="keywords" content="Escuela Técnica N2, Vte Lopez, Munro, Técnicos en Informática, Maestro Mayor de Obras, Técnica">
+    <!--Icono de la pagina web-->
+    <link rel="icon" type="image/x-icon" href="/Img/favicon.ico">
+    <!--Que google me verifique la pagina xd-->
+    <meta name="google-site-verification" content="9BLnSqNxjqVSLMMteUu6D9zkUchiAI_ehjSY3qWlwXY" />
     <!-- Que sea escalable la pagina --->
-    <meta name="keywords"
-        content="Escuela, Secundaria, T2, Tecnica N2, Munro, Buenos Aires, Vicente Lopez, Tecnica, Educacion, Aprender, IBM, P-tech, Informatica, Maestro mayor de obra">
     <meta name="author"
         content="Fidel Barreiros, Gabriel D’Ambrosio, Joaquín Díaz, Tomas Linares, Tomas Morini, Iván Ratzmann, Iván Rodríguez, Luca Testa">
     <!---  Importar archivos  -->
@@ -22,204 +25,230 @@
 </head>
 
 <body><!--Tentacion-->
-
-
     <header> <!---Encabezado-->
-
-            <div class="contenedorLogo"> <!---Clases para customizar logo de la escuela-->
-                <img class="imagenlogo" src="Img/logo.svg"  alt="T2">
-            </div>
-
-            <div class="localidad"> <!---Logos del Gob.-->
-                <img class="bsas" src="https://gba.gob.ar/imagenes/logo_gba_footer_blanco.svg" alt="Gobierno de Buenos Aires"> 
-            </div>
-
+            <a class="contenedorT2" href="/TecnicaN2.github.io/"> <!---Logo de la Escuela-->
+                <img class="imagenT2" src="Img/logo.svg"  alt="Logo de la Escuela">
+            </a>
+            <a class="localidad" href="https://www.gba.gob.ar/"> <!---Logos del Gob.-->
+                <img class="imagenGob" src="https://gba.gob.ar/imagenes/logo_gba_footer_blanco.svg" loading="lazy" alt="Logo delGobierno de Buenos Aires">
+            </a>
         <div class="barra">
             <!--  Barra donde tendrá los links  -->
             <span class="menu-nav"> ●●● </span> 
             <!-- Botones de Navegacion -->
-            <nav class="navigation">                
+            <nav class="navigation">
                 <ul>
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="inf_general/inf_general.html">Informacion General</a>
-                    </li>
-                    <li>
-                        <a href="contactos_ubicacion/contactos_ubicacion.html">Contactos y Ubicación</a>
-                    </li>
-                    <li>
-                        <a href="inscripciones/inscripciones.html">Inscripciones</a>
-                    </li>
-                    <li>
-                        <a href="novedades/novedades.html">Novedades</a>
-                    </li>
+                    <li><a href="/TecnicaN2.github.io/">Inicio</a></li>
+                    <li><a href="inf_general/inf_general.html">Información General</a></li>
+                    <li><a href="contactos_ubicacion/contactos_ubicacion.html">Contactos y Ubicación</a></li>
+                    <li><a href="inscripciones/inscripciones.html">Inscripciones</a></li>
+                    <li><a href="proyectos/proyectos.html">Proyectos</a></li>
                 </ul>
             </nav>
         </div>
-
     </header>
-    
+
     <aside> <!--ASIDE = CONTENIDO DE LADO\NO IMPORTANTE -->
         <!--  Zona donde estaran las redes sociales  -->
         <div class="contenedorcostado">
             <a href="https://www.instagram.com/tecnica2vl/">
                 <img class= "imagenescostado" src="Img/iglogo.svg" alt="Instagram">
             </a>
-
             <br>
-            </br>
-
-            <img id="rombo" class= "imagenescostado" src="Img/rombei.svg">
-            
+            <img id="rombo" class= "imagenescostado" alt="separador" src="Img/rombei.svg">
             <br>
-            </br>
-
-            <a
-                href="https://es-la.facebook.com/pages/category/Education/Escuela-Secundaria-Tecnica-2-Munro-1501647160051524/">
+            <a href="https://es-la.facebook.com/pages/category/Education/Escuela-Secundaria-Tecnica-2-Munro-1501647160051524/">
                 <img class= "imagenescostado" src="Img/facelogo.svg" alt="Facebook">
             </a>
         </div>
-        
     </aside>
 
-    
     <main><!-- CONTENIDO TOTAL DE LA PAGINA --->
         <div class="banner"></div>
+            <div class="imgs">
+            <!--Contenedor de las orientaciones--->
+                <h1>Orientaciones</h1>
+                <div class="linea"></div> 
+                <!--Linea Separacion--->
+                <div class="imagenh1">
+                <!--Contenedor de Tecnico en Informatica--->
+                    <p class="textoo">Técnico en Informática</p>
+                    <div class="txth">
+                        <p Class="textocent1"> En la carrera de técnico en informática se van a ver todas cosas relacionadas a esta, desde los inicios de la programación hasta todas las partes de una pc es una aventura por los caminos de la informática donde se podrá aprender un montón de cosas</p>
+                        <button Class="info1" type="button">Mas Informacion</button>
+                    </div>
+                </div>
 
+                <a> <!--Texto Emergente de "mas informacion" en la orientacion Tecnico en Informatica---> 
+                    <button class="cerrar" type="button">X</button>
+                    
+                    <div Class="masinfo">
+                        <p class="materias">Todo lo que vas a ver en esta materia:</p>
+                        <br>
+                        <p class="Subtitul2">Investigacion Operativa</p>
+                
+                        <p class="txtinfo">Aprenderás métodos analíticos avanzados para tomar mejores decisiones.</p>
+                        <br>
+                        <p class="Subtitul2">Programación</p>
+                        
+                        <p class="txtinfo">Aprenderás desde programación básica hasta un nivel avanzado.</p>
+                        <br>
+                        <p class="Subtitul2">Hardware</p>
+                
+                        <p class="txtinfo">Aprenderás todas las partes que compone una PC y como se relacionan entre ellas.</p>
+                        <br>
+                        <p class="Subtitul2">Sistemas Operativos</p>
+                        
+                        <p class="txtinfo">Aprenderás sobre todos los tipos de sistemas operativos, como funcionan y la historia de estos.</p>
+                        <br>
+                        <p class="Subtitul2">Ciberseguridad</p>
+                        
+                        <p class="txtinfo">Aprenderás como funcionan los métodos de defensa para la informática, como funcionan, antivirus y virus, como son los protocolos y cosas a tener en cuenta cuando un Ciber ataque es llevado acabo.</p>
+                    </div> 
+                </a>
+
+                <div class="imagenh2">
+                <!--Contenedor de Maestro Mayor--->
+                    <p class="textoo2">Maestro Mayor</p>
+                    <div class="txth2">
+                        <p Class="textocent2"> En la carrera de mastro mayor de obras vas a poder ver cosas relacionadas a esta, desde como armar planos y maquetas de trabajo hasta poder llevar a cabo proyectos en grupos para futuras construcciones.</p>
+                        <button Class="info2" type="button">Mas Informacion</button>
+                    </div>
+                </div>
+
+                <ul> <!--Texto Emergente de "mas informacion uwu" en la orientacion Maestro Mayor de Obras---> 
+                    <button class="cerrar2" type="button">X</button>
+
+                    <div Class="masinfo">
+                        <p class="materias">Todo lo que vas a ver en esta materia:</p>
+                        <br>
+                        <p class="Subtitul2">Sistemas Constructivos</p>
+            
+                        <p class="txtinfo">Los estudiantes aprenderán el conjunto de elementos técnicos, procedimientos y materiales para distintos tipos de construcciones arquitectónicas.</p>
+
+                        <br>
+                        <p class="Subtitul2">Proyecto de Instalaciones</p>
+                        
+                        <p class="txtinfo">Los estudiantes aprenderán un conjunto de documentación descriptiva necesaria para distintas instalaciones de servicios en una construcción.</p>
+
+                        <br>
+                        <p class="Subtitul2">Estructuras</p>
+                        
+                        <p class="txtinfo">Los estudiantes aprenderán elementos resistentes para soportar cargas y trasmitirlas donde se emplean cálculos matemáticos para el dimensionamiento de construcciones.</p>
+                        <br>
+                        <p class="Subtitul2">Instalaciones Sanitarias y de Gas</p>
+                        
+                        <p class="txtinfo">Los estudiantes aprenderán el diseño, cálculo y dimensionamiento de redes de gas y sanitarias de una construcción.</p>
+                        <br>
+                        <p class="Subtitul2">Dirección y Ejecución de las instalaciones</p>
+                        
+                        <p class="txtinfo">Los estudiantes aprenderán el estudio que capacita al futuro profesional para el control de distintas instalaciones de construcción.</p>
+                    </div> 
+                </ul>
+            </div>
+    <section> <!--SECTION = SECCIONES DE LA PAGINA-->
+        <p Class="titulo">Historia de la Escuela</p>
+        <p>
+            El origen de nuestra escuela se encuentra en la década de 1970 en los cursos de formación profesional de esa época.
+            El curso de dibujo técnico dio lugar a las carreras de Técnico-constructor y Maestro Mayor de Obras a partir de la demanda de alumnos trabajadores de la construcción. 
+            En 1987 se produjo por primera vez en turno diurno, la apertura del primer curso de ler. Año del ciclo Básico técnico, dando lugar al desdoblamiento de la escuela de educación Media N.º 5,
+            creándose la escuela de educación Técnica N.º2 de Vicente López el día 12 de mayo de 1987, en que efectivamente se nombraron autoridades, se desprendieron los planteles, los cursos y los bienes. Y efectivamente a partir de allí, la Escuela Técnica N.º 2 de Vicente López comenzó a construir su identidad, su estilo, su edificio propio, su convivencia y sus vínculos.
+        </p>
         
-        <div class="imgs">
-            <div class="imagenh1">
-                <div class="txth">
-                    <p class="textoo">Tecnico en Informatica</p>
-                </div>
-            </div>
+        <p>  
+            En 1999 los docentes liderados por el equipo directivo comenzaron la transformación educativa en los polimodales de MMO y la apertura del Bachillerato de Adultos Tecnológico. En el año 2002 respondiendo a las nuevas demandas regionales enfrentamos un nuevo desafío abriendo la carrera de Técnica en Informática Personal y Profesional. En el año 2007 y al amparo de la nueva Ley Nacional de Educación Técnica se abrió el camino que hoy transitamos de los 7 años para obtener las tecnicaturas de Maestro Mayor de Obra y de Informática.
+        </p>
 
-            <div class="imagenh2">
-                <div class="txth2">
-                    <p class="textoo2">Tecnico en Informatica</p>
-                </div>
-            </div>
+        <p>
+            También como menciones honorificas tenemos en el 2019 MMO Mención Especial por la Cámara Empresaria de Vicente López y también el mimo año, Informática ganador del 1er puesto en Olimpiadas Nacionales.
+        </p>
+        <br></br>
+        <img class="imgHist" src="Img/Escuela_Educacion.webp" loading="lazy" alt="Entrada de la Técnica N2">
+    </section>
+        <!--
+        SLIDER DE NOVEDADES EN LA TECNICA N2
+        -->
+        <div Class="inftec">
+        <!--
+            SOLO EN MOBILES
+            INFORMACION DE LA TECNICATURA EN INFORMATICA
+        -->
+            <hr Class="hrt"></hr>
+            <hr Class="hrt"></hr>
+            <p Class="tituloc">Técnico en Informática</p>
+
+            <p>En la carrera de Técnico en Informática se vera desde los inicios de la programación hasta todas las partes de una PC, es una aventura por los caminos de la informática donde se podrá aprender un montón de cosas.</p>
+            <br>
+            <p>Todo lo que vas a ver en esta materia:</p>
+            <br>
+            <p class="Subtitul">Investigación Operativa</p>
+
+            <p>En esta materia aprenderán a organizarse y sacar la mayor efectividad de cada uno de sus proyectos.</p>
+            <br>
+            <p class="Subtitul">Programación</p>
+            
+            <p>En esta materia van a aprender los fundamentos básicos para aprender a programar, empezando con DFD, luego por Visual Basic y llegando a lenguajes como Python, HTML, CSS ¡y mucho más!</p>
+            <br>
+            <p class="Subtitul">Hardware</p>
+
+            <p>En esta materia van a aprender todas las partes que compone una PC y como se relacionan entre ellas.</p>
+            <br>
+            <p class="Subtitul">Sistemas Operativos</p>
+            
+            <p>En esta materia van a aprender sobre todos los tipos de Sistemas Operativos, como funcionan y la historia de estos.</p>
+            <br>
+            <p class="Subtitul">Ciberseguridad</p>
+            
+            <p>En esta materia van a aprender como funciona los metodos de defensa para la informática, como funcionan, antivirus y virus, como son los protocolos y cosas a tener en cuenta cuando un Ciber ataque es llevado acabo.</p>
+
+            <br>
+            <hr Class="hrt"></hr>
+            
         </div>
-        <!--  Contenido Principal e Importante  -->
-        <section> <!--SECTION = SECCIONES DE LA PAGINA-->
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-        </section>
-        <section> <!-- SECCION2 --->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-        </section>
+        <div Class="mmo">
+        <!--
+            SOLO EN MOBILES
+            INFORMACION DE LA MAESTRIA MAYOR DE OBRAS
+        -->
+            <hr Class="hrt"></hr>
+            <p Class="tituloc">Maestro Mayor de Obras</p>
+            <p>En la carrera de Mastro Mayor de Obras vas a poder ver cosas relacionadas a esta, desde armar planos y maquetas de trabajo hasta poder llevar a cabo proyectos en grupos para futuras construcciones.</p>
+            <br>
+            
+            <p>Todo lo que vas a ver en esta materia:</p>
+            <br>
+            <p class="Subtitul">Sistemas Constructivos</p>
+            
+            <p>En esta materia van a estudiar el conjunto de elementos técnicos, procedimientos, equipamientos, materiales y herramientas para distintos tipos de construcciones arquitectónicas.</p>
+            <br>
+            <p class="Subtitul">Proyecto</p>
+                        
+            <p>En esta materia van a aprender el conjunto de documentos mediante la cual se define el diseño y desarrollo de trabajos de arquitectura e ingeniería.</p>
+
+            <br>
+            <p class="Subtitul">Proyecto de Instalaciones</p>
+                        
+            <p>En esta materia van a estudiar un conjunto de documentación descriptiva necesaria que se desarrolla para la realización de distintas instalaciones de servicios en una construcción.</p>
+
+            <br>
+            <p class="Subtitul">Estructuras</p>
+            
+            <p>En esta materia van a aprender un conjunto de elemento resistente de una construccion con la finalidad de soportar cargas y trasmiltirlas donde se emplean calculos matematicos para el dimisionamiento de las misma.</p>
+            <br>
+            <p class="Subtitul">Instalaciones Sanitarias y de gas</p>
+                        
+            <p>En esta materia van a estudiar el diseño, cálculo y dimensionamiento de redes de gas y sanitarias en una construcción.</p>
+            <br>
+            <p class="Subtitul">Dirección y Ejecución de las instalaciones</p>
+                        
+            <p>En esta materia van a aprender el estudio que capacita al futuro profesional para el control durante la ejecución de distintas instalaciones en una construcción.</p>
+            <br>
+        </div> 
     </main>
-    <footer> <!--Pie de Pagina--->⠀⠀⠀⠀
+    <footer> <!--Pie de Pagina--->
         <div class="contfooter">
         
-            <ul class="ulfooter"> <!-- SECCION1 --->
+            <ul class="ulfooter"> <!-- CONTACTOS --->
                 <a>Contactos</a>
                 <li>
                     <a>
@@ -268,14 +297,14 @@
 
         </div>
         
-        <div id="copy">
+        <div id="copy"> <!--Copyright-->
             <div class="contcopy">
                 <hr></hr>
-                <small Class="Copyright" >&copy; Copyright 2021, Escuela Técnica N°2<small> <!-- Añadir Copyright --->
+                <small Class="Copyright" >&copy; Copyright 2021, Escuela Técnica N°2</small> <!-- Añadir Copyright y Creditos--->
+                <small class="Copyright">//Proyecto llevado acabo por un grupo de 6to 2da Informática, integrantes: Fidel Barreiros, Gabriel D'ambrosio, Iván Ratzmann, Tomas Morini, Iván Rodriguez, Luca Testa, Joaquín Diaz</small> 
             </div>
+        
         </div>
-
     </footer>     
-  
 </body>
 </html>
