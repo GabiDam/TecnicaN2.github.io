@@ -621,8 +621,16 @@ hr {
     margin-left: 0;
   }
 
-  #nombre, #email, #mensaje{
+  .Title{
+    margin: 1vh 0px;
+  }
+
+  #nombre, #email{
     height: 30px;
+    margin: 0 1vw;
+  }
+
+  #mensaje{
     margin: 0 1vw;
   }
 
