@@ -10,6 +10,10 @@
     </title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!-- Que sea escalable la pagina --->
+    
+    <!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
     <meta name="keywords"
         content="Escuela, Secundaria, T2, Tecnica N2, Munro, Buenos Aires, Vicente Lopez, Tecnica, Educacion, Aprender, IBM, P-tech, Informatica, Maestro mayor de obra">
     <meta name="author"
@@ -64,7 +68,7 @@
 
     </header>
     
-    <aside> <!--ASIDE = CONTENIDO DE LADO\NO IMPORTANTE -->
+    <aside class="left_container"> <!--ASIDE = CONTENIDO DE LADO\NO IMPORTANTE -->
         <!--  Zona donde estaran las redes sociales  -->
         <div class="contenedorcostado">
             <a href="https://www.instagram.com/tecnica2vl/">
@@ -93,35 +97,38 @@
         <!--  Contenido Principal e Importante  -->
         <section>
             <h1 class ="titulo">Proyectos de Informática</h1>
-            <div class ="grid">  
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../Img/museo" alt="Card image cap">
-                    <div class="card-body">
-                    <h5 class="card-title">Proyecto de Olimpiadas</h5>
-                    <p class="card-text">Sitio web (HTML, CSS, JavaScript, PHP, Webhost) realizado para participar en las Olimpiadas de Informática 2022.</p>
-                    <a href="https://museoolim.000webhostapp.com" class="btn btn-primary">Visitar sitio</a>
+                <div class="year_2022">
+                    <h2 class="año">Año 2022</h2>
+                    <div class ="grid">  
+                        <div class="card">
+                            <img class="card-img-top" src="../Img/museo" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Proyecto de Olimpiadas</h5>
+                            <p class="card-text">Sitio web (HTML, CSS, JavaScript, PHP, Webhost) realizado para participar en las Olimpiadas de Informática 2022.</p>
+                            <a href="https://museoolim.000webhostapp.com" class="btn btn-primary">Visitar sitio</a>
+                            </div>
+                        </div>
+                        <div class="card" id="github_container">
+                            <img class="card-img-top" id="github_logo" src="../Img/github.svg" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Projecto Página Web de la Escuela Secundaria Técnica N°2</h5>
+                            <p class="card-text">Sitio Web (HTML, CSS, JS, Github Pages) realizado por alumnos para la institución, usando Github para controlar el projecto</p>
+                            <a href="https://github.com/GabiDam/TecnicaN2.github.io" class="btn btn-primary">Visitar repositorio</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../Img/juego" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Juego</h5>
+                            <p class="card-text">Hecho en scratch (programación en bloques) usando de referencia al juego de moviles "Flappy Bird".</p>
+                            <a href="https://scratch.mit.edu/projects/759043034" class="btn btn-primary">Visitar sitio</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../Img/github.svg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">GitHub</h5>
-                      <p class="card-text">Aplicación utilizada para el almacenamiento de los proyecto. Puedes entrar a los repositorios para ver el codigo de los proyectos</p>
-                      <a href="https://github.com/thelpix/olimpiadas2022.github.io" class="btn btn-primary">Visitar sitio</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="../Img/juego" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Juego</h5>
-                      <p class="card-text">Hecho en scratch (programación en bloques) usando de referencia al juego de moviles "Flappy Bird".</p>
-                      <a href="https://scratch.mit.edu/projects/759043034" class="btn btn-primary">Visitar sitio</a>
-                    </div>
-                  </div>
-            </div>
         </section>
     </main>
-    <footer> <!--Pie de Pagina--->⠀⠀⠀⠀
+    <footer> <!--Pie de Pagina--->
         <div class="contfooter">
         
             <ul class="ulfooter"> <!-- SECCION1 --->
