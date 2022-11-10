@@ -313,7 +313,7 @@ footer {
   /**/
   width: 100%;
   height: 20vh;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
   bottom: 0;
   color: rgb(0, 0, 0);
 }
@@ -328,12 +328,12 @@ hr {
 }
 
 #copy {
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .contcopy {
   margin-left: 7%;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .Copyright {
@@ -347,7 +347,7 @@ hr {
   bottom: 0;
   margin-left: 5%;
   text-align: center;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .ulfooter {

@@ -78,6 +78,9 @@ header {
   top: 0;
   right: 0;
   z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contenedorLogo {
@@ -85,7 +88,7 @@ header {
   margin-left: 5%;
   padding-left: 3vh;
   float: left;
-  padding-top: 2vh;
+  padding-top: 1vh;
   padding-bottom: 2vh;
 }
 
@@ -99,22 +102,7 @@ header {
   /**/
   height: 10vh;
   width: auto;
-
-  padding-left: 3vh;
-  float: right;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-}
-
-.vl {
-  /**/
-  height: 8vh;
-  width: auto;
-  margin-right: 2%;
-  padding-left: 3vh;
-  float: right;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  float:right;
 }
 
 .contenedorcostado {
@@ -220,12 +208,12 @@ footer {
 }
 
 #copy {
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .contcopy {
   margin-left: 7%;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .Copyright {
@@ -239,7 +227,7 @@ footer {
   bottom: 0;
   margin-left: 5%;
   text-align: center;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .contfooter ul a {
@@ -348,15 +336,13 @@ footer {
   }
 
   .menu-nav {
-    margin-top: 2vh;
+    margin-top: 1vh;
     background-color: rgb(29, 29, 29);
-
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 1vh;
     display: block;
     cursor: pointer;
-
     font-size: 4vh;
   }
 
