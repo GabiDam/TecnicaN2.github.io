@@ -655,6 +655,10 @@ hr {
    padding: 2vh 0px 0px 0px;
 }
 
+#contactos_link{
+  text-decoration: none;
+}
+
 .ulfooter {
   padding-right: 25vh;
   list-style-type: none;
