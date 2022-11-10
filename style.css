@@ -647,6 +647,13 @@ hr {
   font-size: 20px;
 }
 
+.contacto{
+  display:flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2vh 0px 0px 0px;
+}
+
 .ulfooter {
   padding-right: 25vh;
   list-style-type: none;
