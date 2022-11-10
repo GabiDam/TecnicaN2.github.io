@@ -3,8 +3,11 @@
 }
 
 .year_2022{
+  font-family: "Montserrat", sans-serif;
   margin-top: 5%;
-  background-color: #000;
+  background-color: #1b1c1e;
+  display: flex;
+    flex-direction: column;
 }
 
 .año{
@@ -446,6 +449,13 @@ footer {
   }
   .bsas{
     display: none;
+  }
+  .year_2022{
+    align-items: center;
+    margin-top: 15%;
+  }
+  .año{
+    margin: 3% 0px 0px;
   }
 }
 
