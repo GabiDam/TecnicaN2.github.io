@@ -546,7 +546,7 @@ hr {
 }
 
 .imgHist {
-  height: auto;
+  height: 100%;
   width: 100%;
   margin: 0 auto 5% auto;
   display: flex;
