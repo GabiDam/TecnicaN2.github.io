@@ -1,3 +1,48 @@
+.titulo{
+  text-decoration: underline;
+}
+
+.year_2022{
+  margin-top: 5%;
+  background-color: #1b1c1e;
+  display: flex;
+    flex-direction: column;
+}
+
+.año{
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2%;
+  margin-top: 3%;
+  color: #fff;
+}
+
+.grid{
+  display:flex;
+  justify-content: center;
+}
+
+.card{
+  width: 18rem;
+  margin: 2%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+.card-body{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#github_container{
+  align-items: center;
+  padding-top: 5%;
+}
+
+#github_logo{
+  width: 80%;
+}
+
 body {
   /*  Customiza todo la pagina  */
   background-color: rgb(223, 223, 223);
@@ -10,8 +55,8 @@ body {
 
 main {
   /* Customiza la zona principal */
-  padding-top: 15vh;
-
+  padding: 15vh 0px;
+  background-color: rgb(223, 223, 223);
   /*Zen Antique, */
 }
 
@@ -33,6 +78,9 @@ header {
   top: 0;
   right: 0;
   z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contenedorLogo {
@@ -40,7 +88,7 @@ header {
   margin-left: 5%;
   padding-left: 3vh;
   float: left;
-  padding-top: 2vh;
+  padding-top: 1vh;
   padding-bottom: 2vh;
 }
 
@@ -54,22 +102,7 @@ header {
   /**/
   height: 10vh;
   width: auto;
-
-  padding-left: 3vh;
-  float: right;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-}
-
-.vl {
-  /**/
-  height: 8vh;
-  width: auto;
-  margin-right: 2%;
-  padding-left: 3vh;
-  float: right;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  float:right;
 }
 
 .contenedorcostado {
@@ -174,22 +207,13 @@ footer {
   color: rgb(0, 0, 0);
 }
 
-hr {
-  height: 0.5px;
-  margin-right: 2%;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: rgb(255, 106, 106);
-  border-color: rgb(255, 106, 106);
-}
-
 #copy {
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .contcopy {
   margin-left: 7%;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .Copyright {
@@ -203,7 +227,12 @@ hr {
   bottom: 0;
   margin-left: 5%;
   text-align: center;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
+}
+
+.contfooter ul a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
 .ulfooter {
@@ -215,11 +244,6 @@ hr {
 
 .ulfooter li {
   padding-top: 10px;
-}
-
-.contfooter ul a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
 }
 
 .ulfooter li a {
@@ -269,11 +293,19 @@ hr {
   margin-top: 4vh;
 }
 
+.hr2{
+    height: 0.5px;
+    margin-right: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(255, 106, 106);
+    border-color: rgb(255, 106, 106);
+}
+
 /*Aca termina modificacion de novedades*/
 
 @media only screen and (max-width: 1270px) {
   /**/
-
   .contfooter {
     margin-left: 0;
   }
@@ -283,6 +315,10 @@ hr {
     margin-left: 0;
     padding-right: 5vh;
     padding-left: 5vh;
+  }
+
+  aside{
+    display: none;
   }
 
   hr {
@@ -300,15 +336,13 @@ hr {
   }
 
   .menu-nav {
-    margin-top: 2vh;
+    margin-top: 1vh;
     background-color: rgb(29, 29, 29);
-
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 1vh;
     display: block;
     cursor: pointer;
-
     font-size: 4vh;
   }
 
@@ -346,9 +380,7 @@ hr {
     display: block;
     margin: 0;
     padding: 0;
-
     color: rgb(255, 255, 255);
-
     height: var(--nav-hg-altura);
     animation-name: slide;
     animation-duration: 0.5s;
@@ -387,20 +419,33 @@ hr {
       rgb(143, 45, 42)
     );
   }
-
-  /*actualizate plis*/
-
-  aside {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 1300px) {
-  /**/
-  .localidad {
+  .card{
+    margin: 5%;
+  }
+  .grid{
+    padding: 10% 0px;
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+  }
+  .left_container{
     display: none;
   }
+  .bsas{
+    display: none;
+  }
+  .year_2022{
+    align-items: center;
+    margin-top: 15%;
+  }
+  .año{
+    margin: 3% 0px 0px;
+  }
 }
+
 
 @media only screen and (max-height: 200px) {
   /*monitor de 2 centimetros*/

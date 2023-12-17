@@ -17,6 +17,11 @@ body {
     "Segoe UI Symbol";
 }
 
+main {
+  /*  Customiza el contenido principal  */
+	padding-top: 15vh;
+}
+
 section {
   /*  Customiza el contenido de cada seccion  */
 	padding-top: 0;
@@ -33,9 +38,10 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	color: rgb(0, 0, 0);
-	position: sticky;
+	position: fixed;
+	width: 100%;
 	top: 0;
-  z-index: 2;
+	z-index: 2;
 }
 
 aside {
@@ -57,7 +63,7 @@ footer {
 	/**/
 	width: 100%;
 	height: 20vh;
-	background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 	bottom: 0;
 	color: rgb(0, 0, 0);
 }
@@ -97,6 +103,7 @@ hr {
 .imagenT2 {
 	/*Determina Tamaño del Logo T2*/
 	height: 10vh;
+	width: auto;
 }
 
 .localidad {
@@ -119,10 +126,6 @@ hr {
 	margin-left: 5%;
 	position: fixed;
 	top: 11vh;
-}
-
-.menu-btn{
-  display: none;
 }
 
 .menu-nav {
@@ -543,7 +546,7 @@ hr {
 }
 
 .imgHist {
-  height: 100%;
+  height: auto;
   width: 100%;
   margin: 0 auto 5% auto;
   display: flex;
@@ -632,28 +635,28 @@ hr {
 	@@@@@@@@@@@@@@@@@@@@@@@@@@@
 */
 
-#contactos_link:hover{
-  color: #fff;
-  text-decoration: none;
-}
-
-.contacto{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1%;
-}
-
 .contfooter {
   bottom: 0;
   margin-left: 5%;
   text-align: center;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .contfooter ul a {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
+}
+
+.contacto{
+  text-decoration: none;
+  display:flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2vh 0px 0px 0px;
+}
+
+#contactos_link{
+  text-decoration: none;
 }
 
 .ulfooter {
@@ -691,12 +694,12 @@ hr {
 */
 
 #copy {
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .contcopy {
   margin-left: 7%;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .Copyright {
@@ -865,59 +868,21 @@ CLASES RARAS?
 
 @media only screen and (max-width: 1450px) {
   /**/
+  .localidad {
+    display: none;
+  }
 
   .txtinfo{
     font-size: 1vw;
   }
   .Subtitul2{
     font-size: 1.4vw;
+    
   }
 }
 
 @media only screen and (max-width: 1270px) {
   /**/
-
-  .localidad {
-    display: none;
-  }
-
-  .menu-btn{
-    height: 10em;
-    width: 10em;
-    background-color: #000000;
-    display: flex;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-  }
-  /*Formato de las barras*/
-  .menu_item{
-    background: #ffffff;
-    width: 5.5rem;
-    height: 0.5rem;
-    border-radius: 5px;
-  }
-
-  /*Crea 2 barritas mas, antes y despues de la barra central*/
-  .menu_item::before,
-  .menu_item::after{
-    content: '';
-    position: absolute;
-    background: #ffffff;
-    width: 5.5rem;
-    height: 0.5rem;
-    border-radius: 5px;
-  }
-
-  /*Mover una barra arriba y otra abajo*/
-  .menu_item::before{
-    transform: translateY(250%);
-  }
-  .menu_item::after{
-    transform: translateY(-250%);
-  }
-
-  /*Animación de menu_item*/
 
   .slide {
     height: 40vh;
@@ -1109,13 +1074,97 @@ CLASES RARAS?
     margin: 0;
   }
 
+  .menu-nav {
+    margin-top: 2vh;
+    background-color: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1vh;
+    display: block;
+    cursor: pointer;
+    font-size: 4vh;
+    box-shadow: none;
+  }
+  
+  .menu-nav:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 29);
+  }
 
   .barra {
+    width: 100%;
+    margin-left: 0;
+    position: fixed;
+    top: 12vh;
+  }
+
+  .navigation {
+    background: linear-gradient(
+      0deg,
+      rgb(255, 64, 64),
+      rgb(180, 53, 51),
+      rgb(175, 54, 58),
+      rgb(143, 45, 42)
+    );
+
+    background-color: rgb(252, 55, 55);
+    color: white;
+
+    overflow-y: scroll;
+  }
+
+  .navigation ul {
     display: none;
   }
 
   :root {
     --nav-hg-altura: 37vh;
+  }
+
+  .navigation ul.show {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    color: rgb(255, 255, 255);
+
+    height: var(--nav-hg-altura);
+    animation-name: slide;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes slide {
+    /**/
+    from {
+      height: 0px;
+    }
+    to {
+      height: var(--nav-hg-altura);
+    }
+  }
+
+  .navigation ul li {
+    display: block;
+  }
+
+  .navigation ul li a {
+    padding: 1.45vh;
+    font-size: 4vh;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .navigation ul li a:hover {
+    /**/
+    background: linear-gradient(
+      180deg,
+      rgb(255, 78, 78),
+      rgb(180, 53, 51),
+      rgb(175, 54, 58),
+      rgb(143, 45, 42)
+    );
   }
 
   /*actualizate plis*/

@@ -6,30 +6,34 @@
     <meta charset="UTF-8">
     <meta name=”robots” content=”noindex”>
     <!---  Permite simbolos complejos como emojis  -->
-    <title>Escuela Tecnica N2
-    </title>
+    <title>Proyectos</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!-- Que sea escalable la pagina --->
+    
+    <!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
     <meta name="keywords"
         content="Escuela, Secundaria, T2, Tecnica N2, Munro, Buenos Aires, Vicente Lopez, Tecnica, Educacion, Aprender, IBM, P-tech, Informatica, Maestro mayor de obra">
     <meta name="author"
         content="Fidel Barreiros, Gabriel D’Ambrosio, Joaquín Díaz, Tomas Linares, Tomas Morini, Iván Ratzmann, Iván Rodríguez, Luca Testa">
     <!---  Importar archivos  -->
     <link rel="stylesheet" href="../normalize.css">
-    <link rel="stylesheet" href="novedades.css">
+    <link rel="stylesheet" href="proyectos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!---Importar Javascript-->
     <script src ="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src ="../menuResponsive.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	
-    
-
     <header> <!---Encabezado-->
 
             <a class="contenedorLogo" href="/TecnicaN2.github.io/"> <!---Clases para customizar logo de la escuela-->
-                <img class="imagenlogo" src="../Img/logo.svg" alt="T2">
+                <img class="imagenlogo" src="../Img/logo_texto.svg" alt="T2">
             </a>
 
             <div class="localidad"> <!---Logos del Gob.-->
@@ -46,7 +50,7 @@
                         <a href="/TecnicaN2.github.io/">Inicio</a>
                     </li>
                     <li>
-                        <a href="../inf_general/inf_general.html">Informacion General</a>
+                        <a href="../inf_general/inf_general.html">Información General</a>
                     </li>
                     <li>
                         <a href="../contactos_ubicacion/contactos_ubicacion.html">Contactos y Ubicación</a>
@@ -55,7 +59,7 @@
                         <a href="../inscripciones/inscripciones.html">Inscripciones</a>
                     </li>
                     <li>
-                        <a href="../novedades/novedades.html">Novedades</a>
+                        <a href="../proyectos/proyectos.html">Proyectos</a>
                     </li>
                 </ul>
             </nav>
@@ -63,7 +67,7 @@
 
     </header>
     
-    <aside> <!--ASIDE = CONTENIDO DE LADO\NO IMPORTANTE -->
+    <aside class="left_container"> <!--ASIDE = CONTENIDO DE LADO\NO IMPORTANTE -->
         <!--  Zona donde estaran las redes sociales  -->
         <div class="contenedorcostado">
             <a href="https://www.instagram.com/tecnica2vl/">
@@ -91,35 +95,39 @@
         <div class="banner"></div>
         <!--  Contenido Principal e Importante  -->
         <section>
-            <p class="titulop">Novedades de la Tecnica Nº2 2021</p> 
-                    </section>
-        <section> <!--SECTION = SECCIONES DE LA PAGINA-->
-            <p class="titulo">Arreglos hechos hasta el momento</p> 
-            <p class="fecha">13/11/2021</p>
-            <p class="text"> </p> Hemos Refaccionado aulas y pintamos 7 aulas para que los estudiantes puedan tener un ambiente cómodo donde estudiar, a su vez reparamos las cubiertas de toda la escuela para poder resguardarnos mas del frio en el invierno, Hemos reparado los baños tanto de hombres como de mujeres para un ambiente más cómodo y estamos haciendo reparaciones estructurales para solucionar problemas edilicios.<p>
-                    <p Class="autor">El equipo de la pagina</p>
-
-                    <hr class="hrn"></hr> 
-
-            <p class="titulo">Consejo estudiantil</p>
-            <p class="fecha">13/11/2021</p>
-            <p class="text">El consejo estudiantil nos está brindando desayunos para los estudiantes, tanto para tomar como para comer:
-                <p class="text">Pan con dulce de leche, queso y mermelada (durazno).</p>
-                <p class="text">Galletitas (vainillas).</p>
-                <p class="text">Bebidas calientes: mate cocido, Te, agua caliente para mate.</p>
-                <p class="text">Bebidas frías: Jugo y chocolatada.</p>
-                <p Class="autor">El equipo de la pagina</p>
-
-                <hr class="hrn"></hr> 
-
-            <p class="titulo">IBM en la escuela</p>
-            <p class="fecha">13/11/2021</p>
-            <p class="text">IBM está incorporado en nuestra escuela, brindando cursos apoyando a las materias de informática.</p>
-            <p Class="autor">El equipo de la pagina</p>
-            
+            <h1 class ="titulo">Proyectos de Informática</h1>
+                <div class="year_2022">
+                    <h2 class="año">Año 2022</h2>
+                    <div class ="grid">  
+                        <div class="card">
+                            <img class="card-img-top" src="../Img/museo" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Proyecto de Olimpiadas</h5>
+                            <p class="card-text">Sitio web (HTML, CSS, JavaScript, PHP, Webhost) realizado para participar en las Olimpiadas de Informática 2022.</p>
+                            <a href="https://museoolim.000webhostapp.com" class="btn btn-primary">Visitar sitio</a>
+                            </div>
+                        </div>
+                        <div class="card" id="github_container">
+                            <img class="card-img-top" id="github_logo" src="../Img/github.svg" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Projecto Página Web de la Escuela Secundaria Técnica N°2</h5>
+                            <p class="card-text">Sitio Web (HTML, CSS, JS, Github Pages) realizado por alumnos para la institución, usando Github para controlar el projecto</p>
+                            <a href="https://github.com/GabiDam/TecnicaN2.github.io" class="btn btn-primary">Visitar repositorio</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../Img/juego" alt="Card image cap">
+                            <div class="card-body">
+                            <h5 class="card-title">Juego</h5>
+                            <p class="card-text">Hecho en scratch (programación en bloques) usando de referencia al juego de moviles "Flappy Bird".</p>
+                            <a href="https://scratch.mit.edu/projects/759043034" class="btn btn-primary">Visitar sitio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
     </main>
-    <footer> <!--Pie de Pagina--->⠀⠀⠀⠀
+    <footer> <!--Pie de Pagina--->
         <div class="contfooter">
         
             <ul class="ulfooter"> <!-- SECCION1 --->
@@ -173,11 +181,10 @@
         
         <div id="copy">
             <div class="contcopy">
-                <hr></hr>
-                <small Class="Copyright" >&copy; Copyright 2021, Escuela Técnica N°2//Proyecto llevado acabo por un grupo de 6to2da//integrantes: Fidel Barreiros, Gabriel D'ambrosio, Ivan Ratzmann,Tomas Morini, Ivan Rodriguez, Luca Testa<small> <!-- Añadir Copyright --->
+                <hr class="hr2"></hr>
+                <small Class="Copyright" >&copy; Copyright 2021, Escuela Técnica N°2//Proyecto llevado acabo por un grupo de 6to2da //Integrantes: Fidel Barreiros, Gabriel D'ambrosio, Ivan Ratzmann, Tomas Morini, Ivan Rodriguez, Luca Testa<small> <!-- Añadir Copyright --->
             </div>
         </div>
-
     </footer>     
   
 </body>

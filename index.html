@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+L<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -15,29 +15,26 @@
     <meta name="google-site-verification" content="9BLnSqNxjqVSLMMteUu6D9zkUchiAI_ehjSY3qWlwXY" />
     <!-- Que sea escalable la pagina --->
     <meta name="author"
-        content="Fidel Barreiros, Gabriel D'Ambrosio, Joaquín Díaz, Tomas Linares, Tomas Morini, Iván Ratzmann, Iván Rodríguez, Luca Testa">
+        content="Fidel Barreiros, Gabriel D’Ambrosio, Joaquín Díaz, Tomas Linares, Tomas Morini, Iván Ratzmann, Iván Rodríguez, Luca Testa">
     <!---  Importar archivos  -->
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <!---Importar Javascript-->
     <script src ="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script defer src ="main.js"></script>
+    <script src ="menuResponsive.js"></script>
 </head>
 
 <body><!--Tentacion-->
     <header> <!---Encabezado-->
             <a class="contenedorT2" href="/TecnicaN2.github.io/"> <!---Logo de la Escuela-->
-                <img class="imagenT2" src="Img/logo.svg"  alt="Escuela Técnica N.2">
+                <img class="imagenT2" src="Img/logo_texto.svg"  alt="Logo de la Escuela">
             </a>
             <a class="localidad" href="https://www.gba.gob.ar/"> <!---Logos del Gob.-->
-                <img class="imagenGob" src="https://gba.gob.ar/imagenes/logo_gba_footer_blanco.svg" loading="lazy" alt="Logo del Gobierno de Buenos Aires">
+                <img class="imagenGob" src="https://gba.gob.ar/imagenes/logo_gba_footer_blanco.svg" loading="lazy" alt="Logo delGobierno de Buenos Aires">
             </a>
-            <!--Menu para el celular-->
-            <div class="menu-btn">
-                <div class="menu_item"></div>
-            </div>
         <div class="barra">
             <!--  Barra donde tendrá los links  -->
+            <span class="menu-nav"> ●●● </span> 
             <!-- Botones de Navegacion -->
             <nav class="navigation">
                 <ul>
@@ -45,7 +42,7 @@
                     <li><a href="inf_general/inf_general.html">Información General</a></li>
                     <li><a href="contactos_ubicacion/contactos_ubicacion.html">Contactos y Ubicación</a></li>
                     <li><a href="inscripciones/inscripciones.html">Inscripciones</a></li>
-                    <li><a href="novedades/novedades.html">Novedades</a></li>
+                    <li><a href="proyectos/proyectos.html">Proyectos</a></li>
                 </ul>
             </nav>
         </div>
@@ -165,7 +162,7 @@
         <p>
             También como menciones honorificas tenemos en el 2019 MMO Mención Especial por la Cámara Empresaria de Vicente López y también el mimo año, Informática ganador del 1er puesto en Olimpiadas Nacionales.
         </p>
-        
+        <br></br>
         <img class="imgHist" src="Img/Escuela_Educacion.webp" loading="lazy" alt="Entrada de la Técnica N2">
     </section>
         <!--
@@ -249,9 +246,8 @@
         </div> 
     </main>
     <footer> <!--Pie de Pagina--->
-        <h2 class="contacto">¿Busca contactarnos?, toque <a id="contactos_link" href="/TecnicaN2.github.io/contactos_ubicacion/contactos_ubicacion.html">aquí</a></h2>
         <div class="contfooter">
-        
+            <h2 class="contacto">¿Busca contactarnos?<a id="contactos_link" href="/TecnicaN2.github.io/contactos_ubicacion/contactos_ubicacion.html">Toque aquí</a></h2>
             <ul class="ulfooter"> <!-- CONTACTOS --->
                 <a>Contactos</a>
                 <li>
@@ -307,6 +303,7 @@
                 <small Class="Copyright" >&copy; Copyright 2021, Escuela Técnica N°2</small> <!-- Añadir Copyright y Creditos--->
                 <small class="Copyright">//Proyecto llevado acabo por un grupo de 6to 2da Informática, integrantes: Fidel Barreiros, Gabriel D'ambrosio, Iván Ratzmann, Tomas Morini, Iván Rodriguez, Luca Testa, Joaquín Diaz</small> 
             </div>
+        
         </div>
     </footer>     
 </body>

@@ -25,6 +25,7 @@ section {
   font-size: 20px;
 }
 
+
 header {
   /**/
   background-color: rgb(255, 255, 255);
@@ -229,6 +230,55 @@ td {
   color: white;
 }
 
+.hrt{
+	height: 0.5px;	
+	margin-bottom: 3vh;
+	background-color: rgb(0, 175, 194);
+	border-color: rgb(0, 175, 194);
+}
+
+.title{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+	text-align: center;
+}
+
+.info{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+	text-align: start;
+}
+ 
+td{
+	padding-right: 5vw;
+	padding-left: 5vw;
+}
+
+.ch:hover{
+	color: black;
+}
+
+.ch{
+	text-decoration: none;
+	color: rgb(0, 175, 194);
+}
+
+.Tablalink{
+	background-color: rgb(46, 46, 46);
+	color: rgb(243, 238, 238);
+	text-align: center;
+	padding: 2vw;
+	border: 1px solid rgb(187, 187, 187);
+}
+
+.ig{
+	color: rgb(0, 175, 194);
+	text-decoration: none;
+}
+
+.ig:hover{
+	color: white;
+}
 aside {
   /**/
   width: 5%;
@@ -263,7 +313,7 @@ footer {
   /**/
   width: 100%;
   height: 20vh;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
   bottom: 0;
   color: rgb(0, 0, 0);
 }
@@ -278,12 +328,12 @@ hr {
 }
 
 #copy {
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .contcopy {
   margin-left: 7%;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .Copyright {
@@ -297,7 +347,7 @@ hr {
   bottom: 0;
   margin-left: 5%;
   text-align: center;
-  background-color: rgb(255, 64, 64);
+  background-color: #b92b29;
 }
 
 .ulfooter {
